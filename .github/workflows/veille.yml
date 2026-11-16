@@ -1,0 +1,56 @@
+name: Veille consoles
+
+on:
+  schedule:
+    # Toutes les 30 minutes (à hh:07 et hh:37, heure UTC).
+    # Pour changer : https://crontab.guru  —  ex. "7 * * * *" = toutes les heures.
+    # ⚠️ Plus souvent que 30 min dépasse le quota gratuit d'un repo privé.
+    - cron: "7,37 * * * *"
+  workflow_dispatch:  # bouton « Run workflow » pour lancer à la main
+
+# Jamais deux exécutions en même temps (évite les conflits sur data/).
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+permissions:
+  contents: write  # nécessaire pour enregistrer data/ dans le repo
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Lancer la veille
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          GMAIL_ADRESSE: ${{ secrets.GMAIL_ADRESSE }}
+          GMAIL_MOT_DE_PASSE_APPLI: ${{ secrets.GMAIL_MOT_DE_PASSE_APPLI }}
+        run: python -m veille
+
+      - name: Enregistrer les données dans le repo
+        if: always()
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data watchlist.yaml
+          if git diff --cached --quiet; then
+            echo "Rien de nouveau à enregistrer."
+          else
+            git commit -q -m "data: mise à jour automatique"
+            git pull -q --rebase
+            git push -q
+          fi

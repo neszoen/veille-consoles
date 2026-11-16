@@ -1,0 +1,142 @@
+# =====================================================================
+#  MA WATCHLIST — la liste de mes recherches
+# =====================================================================
+#  Comment modifier ce fichier :
+#   - Chaque recherche commence par un tiret « - nom: ».
+#   - Respecte bien les espaces en début de ligne (2 espaces par niveau).
+#   - Une ligne qui commence par # est un commentaire (ignorée).
+#   - Tous les prix sont en euros, FRAIS DE PORT COMPRIS.
+#
+#  Champs d'une recherche :
+#   nom              : le nom affiché dans les alertes (doit être unique)
+#   requete          : le texte tapé dans le moteur de recherche des sites
+#   inclure          : mots qui DOIVENT être dans le titre de l'annonce.
+#                      "a | b" = l'un OU l'autre (ex : "3000 | 3004")
+#   exclure          : mots qui font rejeter l'annonce (en plus des
+#                      exclusions globales en bas du fichier)
+#   prix_max         : prix maximum (achat + port) pour une console qui marche
+#   prix_max_hs      : (optionnel) prix maximum pour une console HS / pour pièces
+#   mode             : perso    = consoles fonctionnelles uniquement
+#                      revente  = tout, y compris HS, avec calcul de marge
+#                      les_deux = tout, avec score ET marge
+#   prix_revente_ref : (optionnel) prix auquel tu revendrais une console en
+#                      bon état. Sinon : calculé depuis l'historique des prix.
+#   cout_pieces      : (optionnel) coût moyen des pièces pour la réparation
+#                      courante (ajouté au calcul de marge des annonces HS)
+#   actif            : true = recherche active, false = en pause
+#
+#  ⚠️ Les prix ci-dessous sont des ESTIMATIONS de départ (marché français
+#  fin 2026) à ajuster selon ton expérience. L'historique les affinera.
+# =====================================================================
+
+recherches:
+
+  - nom: PSP 3000
+    requete: psp 3000
+    inclure: ["psp", "3000 | 3004 | 3003"]
+    exclure: []
+    prix_max: 60
+    prix_max_hs: 30
+    mode: les_deux
+    prix_revente_ref: 80
+    cout_pieces: 15        # batterie, joystick ou boutons
+    actif: true
+
+  - nom: PSP 1000/2000
+    requete: psp
+    inclure: ["psp", "1000 | 1004 | 2000 | 2004 | fat | slim"]
+    exclure: ["vita", "psp go", "3000", "3004", "street"]
+    prix_max: 45
+    prix_max_hs: 25
+    mode: les_deux
+    prix_revente_ref: 65
+    cout_pieces: 15
+    actif: true
+
+  - nom: Nintendo DS Lite
+    requete: nintendo ds lite
+    inclure: ["ds lite | dslite"]
+    exclure: ["3ds", "dsi", "2ds"]
+    prix_max: 40
+    prix_max_hs: 15
+    mode: les_deux
+    prix_revente_ref: 50
+    cout_pieces: 12        # charnière ou écran supérieur
+    actif: true
+
+  - nom: Game Boy Advance SP
+    requete: game boy advance sp
+    inclure: ["game boy advance sp | gameboy advance sp | gba sp"]
+    exclure: []
+    prix_max: 60
+    prix_max_hs: 25
+    mode: les_deux
+    prix_revente_ref: 80
+    cout_pieces: 15        # coque ou écran
+    actif: true
+
+  - nom: Game Boy Color
+    requete: game boy color
+    inclure: ["game boy color | gameboy color | gbc"]
+    exclure: []
+    prix_max: 45
+    prix_max_hs: 20
+    mode: les_deux
+    prix_revente_ref: 60
+    cout_pieces: 10        # nettoyage contacts, coque
+    actif: true
+
+  - nom: 3DS XL
+    requete: nintendo 3ds xl
+    inclure: ["3ds xl | 3ds ll"]
+    exclure: ["new", "2ds"]
+    prix_max: 100
+    prix_max_hs: 45
+    mode: les_deux
+    prix_revente_ref: 130
+    cout_pieces: 25        # écran ou charnière
+    actif: true
+
+  - nom: New 3DS XL
+    requete: new nintendo 3ds xl
+    inclure: ["new", "3ds xl | 3ds ll"]
+    exclure: ["2ds"]
+    prix_max: 150
+    prix_max_hs: 70
+    mode: perso
+    prix_revente_ref: 190
+    cout_pieces: 30
+    actif: false           # en pause : à activer si ça t'intéresse
+
+  - nom: PS Vita
+    requete: ps vita
+    inclure: ["vita"]
+    exclure: ["tv", "pstv"]
+    prix_max: 100
+    prix_max_hs: 40
+    mode: les_deux
+    prix_revente_ref: 130
+    cout_pieces: 25
+    actif: false           # en pause : à activer si ça t'intéresse
+
+# ---------------------------------------------------------------------
+#  Exclusions valables pour TOUTES les recherches (titre de l'annonce).
+#  Les accents et majuscules ne comptent pas.
+# ---------------------------------------------------------------------
+exclusions_globales:
+  - coque seule
+  - coque de remplacement
+  - boite vide
+  - boite seule
+  - jeu seul
+  - chargeur seul
+  - batterie seule
+  - notice seule
+  - etui seul
+  - housse seule
+  - cable seul
+  - sans console
+  - recherche
+  - echange
+  - sticker
+  - autocollant

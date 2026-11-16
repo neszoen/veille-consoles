@@ -1,0 +1,48 @@
+# =====================================================================
+#  RÉGLAGES GÉNÉRAUX
+# =====================================================================
+#  (La fréquence d'exécution se règle dans .github/workflows/veille.yml)
+
+# --- Calcul de la marge de revente ---
+frais_plateforme_pct: 10    # % prélevé par le site où tu revends
+frais_port_revente: 6       # € que tu paies pour expédier la console revendue
+
+# --- Prix d'achat ---
+frais_port_defaut: 8        # € ajoutés quand le site n'indique pas le port
+code_postal: "75001"        # sert à eBay pour calculer les frais de port
+
+# --- Seuils pour l'emoji 🔥 (très bonne affaire) ---
+seuil_bonne_affaire_pct: 25 # 🔥 si le prix est au moins 25 % sous la médiane
+seuil_marge_eur: 30         # 🔥 si la marge dépasse 30 € ...
+seuil_marge_pct: 50         # ... ET 50 % du prix d'achat
+
+# --- Historique des prix ---
+echantillon_min: 5          # nb d'annonces minimum avant de calculer une médiane
+
+# --- Alertes ---
+alertes_max_par_execution: 15  # au-delà, un simple résumé est envoyé
+echecs_avant_alerte: 3         # « ⚠️ source en panne » après N échecs de suite
+
+# --- Sources (true = activée) ---
+sources:
+  ebay: true          # API officielle : fiable partout
+  vinted: true        # marche depuis ton PC ; depuis GitHub : à vérifier
+  leboncoin: false    # lecture directe : bloquée très vite (même depuis un PC). Préférer
+                      # les alertes e-mail Leboncoin (voir README).
+  leboncoin_email: true  # alertes e-mail Leboncoin lues dans Gmail : marche partout
+  label_emmaus: true  # boutique solidaire : marche partout
+# Une source bloquée n'est pas grave : après 3 échecs tu reçois « ⚠️ source en panne »,
+# puis l'outil ne réessaie plus que toutes les 3 heures (pour ne pas insister).
+pause_source_en_panne_h: 3
+
+vinted:
+  port_estime: 4            # € : le port n'est pas affiché dans les résultats Vinted
+
+leboncoin_email:
+  dossier: INBOX            # dossier Gmail où arrivent les alertes (INBOX = boîte de réception)
+  jours: 3                  # relit les e-mails des 3 derniers jours (les doublons sont ignorés)
+
+ebay:
+  pays_vendeur: FR          # FR = vendeurs en France uniquement ; vide = tous pays
+  inclure_encheres: true    # false = achats immédiats uniquement
+  resultats_par_recherche: 50

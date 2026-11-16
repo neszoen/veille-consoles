@@ -1,0 +1,11 @@
+# Secrets locaux : ne JAMAIS commiter
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+data/*.tmp
+
+# Essais sur ton PC (menu, --simulation)
+.local-data/

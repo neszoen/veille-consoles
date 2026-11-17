@@ -67,7 +67,7 @@ recherches:
     mode: les_deux
     prix_revente_ref: 50
     cout_pieces: 12 # charnière ou écran supérieur
-    actif: true
+    actif: false
 
   - nom: Game Boy Advance SP
     requete: game boy advance sp

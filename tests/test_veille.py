@@ -193,3 +193,42 @@ class TestEbay(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestPrixConseilles(unittest.TestCase):
+    def test_conseils(self):
+        from veille.prix import conseils, statistiques
+        points = [{"p": p, "d": "2026-11-17T05:00+00:00"} for p in (90, 100, 110, 120, 130)]
+        s = statistiques(points)
+        self.assertEqual(s["mediane"], 110)
+        c = conseils(s, PSP, CFG)
+        self.assertEqual(c["prix_revente_ref"], 100)   # 110 × 0,9 = 99 → 100
+        self.assertEqual(c["prix_max"], 75)            # 110 × 0,7 = 77 → 75
+        self.assertEqual(c["prix_max_hs"], 40)         # 100 − 10 % − 6 − 15 − 30 = 39 → 40
+        self.assertFalse(c["hs_garde"])
+
+
+class TestEditionWatchlist(unittest.TestCase):
+    def test_modifier_garde_commentaires(self):
+        import shutil
+        from pathlib import Path
+        from veille.app import watchlist_edit as w
+        from veille.config import charger_watchlist
+        dossier = Path(tempfile.mkdtemp())
+        chemin = dossier / "watchlist.yaml"
+        shutil.copy(Path(__file__).resolve().parent.parent / "watchlist.yaml", chemin)
+        avant = chemin.read_text(encoding="utf-8")
+        w.modifier_champs("PSP 3000", {"prix_max": 77, "actif": False}, chemin)
+        w.enregistrer_recherche({"nom": "GameCube", "requete": "gamecube", "inclure": ["gamecube | game cube"],
+                                 "prix_max": 60, "mode": "perso"}, chemin=chemin)
+        recherches, _ = charger_watchlist(chemin)
+        psp = next(r for r in recherches if r.nom == "PSP 3000")
+        self.assertEqual((psp.prix_max, psp.actif), (77, False))
+        self.assertEqual(recherches[-1].inclure, ["gamecube | game cube"])
+        texte = chemin.read_text(encoding="utf-8")
+        self.assertIn("MA WATCHLIST", texte)  # les commentaires sont gardés
+        w.supprimer_recherche("GameCube", chemin)
+        w.modifier_champs("PSP 3000", {"prix_max": psp.prix_max and 80, "actif": True}, chemin)
+        self.assertEqual(len(avant.splitlines()), len(chemin.read_text(encoding="utf-8").splitlines()))
+        with self.assertRaises(Exception):
+            w.enregistrer_recherche({"nom": "PSP 3000", "prix_max": 10}, chemin=chemin)  # doublon refusé

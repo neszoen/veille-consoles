@@ -76,5 +76,31 @@
   "titre": "Nintendo DS Lite",
   "uid": "vinted:10852336108",
   "url": "https://www.vinted.fr/items/10852336108"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 45,
+   "feu": true,
+   "frais": 5.0,
+   "marge_eur": 7,
+   "marge_pct": 22,
+   "mediane": 57.73,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 115,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 50.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-17T14:28:53+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/02_017c9_G7Aj8uB6mLxGqhRhySKdNK71/310x430/524583e9.webp?s=15122e4ad5fceb1c2b9e2945eb7d129d0f55a38c",
+  "prix_total": 32.0,
+  "recherche": "Nintendo DS Lite",
+  "source": "vinted",
+  "titre": "Ds lite menthe",
+  "uid": "vinted:10854086719",
+  "url": "https://www.vinted.fr/items/10854086719"
  }
 ]

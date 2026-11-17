@@ -1,0 +1,28 @@
+{
+ "initialisees": [
+  "vinted|PSP 3000",
+  "vinted|PSP 1000/2000",
+  "vinted|Nintendo DS Lite",
+  "vinted|Game Boy Advance SP",
+  "vinted|Game Boy Color",
+  "vinted|3DS XL",
+  "label_emmaus|PSP 3000",
+  "label_emmaus|PSP 1000/2000",
+  "label_emmaus|Nintendo DS Lite",
+  "label_emmaus|Game Boy Advance SP",
+  "label_emmaus|Game Boy Color",
+  "label_emmaus|3DS XL"
+ ],
+ "sante": {
+  "label_emmaus": {
+   "alerte": false,
+   "dernier_succes": "2026-11-17T05:02+00:00",
+   "echecs": 0
+  },
+  "vinted": {
+   "alerte": false,
+   "dernier_succes": "2026-11-17T05:02+00:00",
+   "echecs": 0
+  }
+ }
+}

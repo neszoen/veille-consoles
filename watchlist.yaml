@@ -89,7 +89,7 @@ recherches:
     mode: les_deux
     prix_revente_ref: 90
     cout_pieces: 10 # nettoyage contacts, coque
-    actif: true
+    actif: false
 
   - nom: 3DS XL
     requete: nintendo 3ds xl

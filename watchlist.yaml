@@ -28,7 +28,7 @@
 #  ⚠️ Prix ajustés le 17/11/2026 d'après les relevés réels (data/prix.json,
 #  surtout Vinted) :
 #    prix_revente_ref = médiane des annonces − 10 % (prix demandé > prix vendu)
-#    prix_max         = 75 % de la médiane
+#    prix_max         = 70 % de la médiane
 #    prix_max_hs      = prix qui laisse ≈ 30 € de marge après pièces, port
 #                       et frais de plateforme
 #  New 3DS XL et PS Vita (en pause) : pas encore de relevés, estimations.
@@ -40,7 +40,7 @@ recherches:
     requete: psp 3000
     inclure: ["psp", "3000 | 3004 | 3003"]
     exclure: []
-    prix_max: 85
+    prix_max: 80
     prix_max_hs: 40
     mode: les_deux
     prix_revente_ref: 100
@@ -51,7 +51,7 @@ recherches:
     requete: psp
     inclure: ["psp", "1000 | 1004 | 2000 | 2004 | fat | slim"]
     exclure: ["vita", "psp go", "3000", "3004", "street"]
-    prix_max: 70
+    prix_max: 65
     prix_max_hs: 25
     mode: les_deux
     prix_revente_ref: 80
@@ -62,7 +62,7 @@ recherches:
     requete: nintendo ds lite
     inclure: ["ds lite | dslite"]
     exclure: ["3ds", "dsi", "2ds"]
-    prix_max: 45
+    prix_max: 40
     prix_max_hs: 15
     mode: les_deux
     prix_revente_ref: 50
@@ -73,7 +73,7 @@ recherches:
     requete: game boy advance sp
     inclure: ["game boy advance sp | gameboy advance sp | gba sp"]
     exclure: []
-    prix_max: 100
+    prix_max: 95
     prix_max_hs: 55
     mode: les_deux
     prix_revente_ref: 120
@@ -84,7 +84,7 @@ recherches:
     requete: game boy color
     inclure: ["game boy color | gameboy color | gbc"]
     exclure: []
-    prix_max: 75
+    prix_max: 70
     prix_max_hs: 35
     mode: les_deux
     prix_revente_ref: 90
@@ -95,7 +95,7 @@ recherches:
     requete: nintendo 3ds xl
     inclure: ["3ds xl | 3ds ll"]
     exclure: ["new", "2ds"]
-    prix_max: 135
+    prix_max: 125
     prix_max_hs: 85
     mode: les_deux
     prix_revente_ref: 160

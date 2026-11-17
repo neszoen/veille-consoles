@@ -258,5 +258,31 @@
   "titre": "Sony Psp 2004",
   "uid": "vinted:10859490644",
   "url": "https://www.vinted.fr/items/10859490644"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 35,
+   "feu": false,
+   "frais": 10.5,
+   "marge_eur": 10,
+   "marge_pct": 13,
+   "mediane": 120.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 69,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-17T22:36:39+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/05_01ae0_1rRbkfaLiPgwHgiwaT5vQBpY/310x430/feaff5f9.webp?s=7f80ff7fb5dca471b0dfd2f23634a11ec453a93b",
+  "prix_total": 78.2,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Sony psp 3000",
+  "uid": "vinted:10845610591",
+  "url": "https://www.vinted.fr/items/10845610591"
  }
 ]

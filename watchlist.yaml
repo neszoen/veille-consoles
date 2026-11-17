@@ -122,7 +122,7 @@ recherches:
     mode: les_deux
     prix_revente_ref: 130
     cout_pieces: 25
-    actif: false # en pause : à activer si ça t'intéresse
+    actif: true # en pause : à activer si ça t'intéresse
 
 # ---------------------------------------------------------------------
 #  Exclusions valables pour TOUTES les recherches (titre de l'annonce).

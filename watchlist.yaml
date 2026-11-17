@@ -78,7 +78,7 @@ recherches:
     mode: les_deux
     prix_revente_ref: 120
     cout_pieces: 15 # coque ou écran
-    actif: true
+    actif: false
 
   - nom: Game Boy Color
     requete: game boy color

@@ -11,17 +11,25 @@
   "label_emmaus|Nintendo DS Lite",
   "label_emmaus|Game Boy Advance SP",
   "label_emmaus|Game Boy Color",
-  "label_emmaus|3DS XL"
+  "label_emmaus|3DS XL",
+  "leboncoin_email|PSP 3000",
+  "leboncoin_email|PSP 1000/2000",
+  "leboncoin_email|Nintendo DS Lite"
  ],
  "sante": {
   "label_emmaus": {
    "alerte": false,
-   "dernier_succes": "2026-11-17T14:28+00:00",
+   "dernier_succes": "2026-11-17T14:35+00:00",
+   "echecs": 0
+  },
+  "leboncoin_email": {
+   "alerte": false,
+   "dernier_succes": "2026-11-17T14:35+00:00",
    "echecs": 0
   },
   "vinted": {
    "alerte": false,
-   "dernier_succes": "2026-11-17T14:28+00:00",
+   "dernier_succes": "2026-11-17T14:35+00:00",
    "echecs": 0
   }
  }

@@ -19,13 +19,7 @@ if errorlevel 1 (
   copy /y requirements.txt .venv\requirements.installed >nul
 )
 
-rem  Le logiciel s'ouvre dans sa propre fenetre ; cette console se ferme toute seule.
-rem  (Pour l'ancien menu dans le terminal : Veille.bat menu)
-if /i "%~1"=="menu" (
-  ".venv\Scripts\python.exe" -m veille --menu
-  exit /b 0
-)
-start "" ".venv\Scripts\pythonw.exe" -m veille --app
+".venv\Scripts\python.exe" -m veille --menu
 exit /b 0
 
 :sanspython

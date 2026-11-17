@@ -1,9 +1,8 @@
 """Point d'entrée.
 
-  Le plus simple : double-cliquer sur Veille.bat (ouvre le logiciel).
+  Le plus simple : double-cliquer sur Veille.bat (ouvre le menu).
 
-  python -m veille --app            le logiciel (fenêtre avec boutons)
-  python -m veille --menu           l'ancien menu dans le terminal
+  python -m veille --menu           menu interactif
   python -m veille                  exécution normale (utilisée par GitHub Actions)
   python -m veille --simulation     exécution sans rien envoyer (données dans .local-data/)
   python -m veille --demo           démonstration avec de fausses annonces
@@ -31,9 +30,7 @@ def _preparer_console():
 def main():
     _preparer_console()
     p = argparse.ArgumentParser(prog="python -m veille", description="Veille bons plans consoles rétro")
-    p.add_argument("--app", action="store_true", help="ouvre le logiciel (fenêtre)")
-    p.add_argument("--serveur", action="store_true", help="logiciel sans ouvrir de fenêtre")
-    p.add_argument("--menu", action="store_true", help="ancien menu dans le terminal")
+    p.add_argument("--menu", action="store_true", help="menu interactif")
     p.add_argument("--simulation", action="store_true", help="n'envoie rien sur Telegram")
     p.add_argument("--demo", action="store_true", help="démonstration avec de fausses annonces")
     p.add_argument("--tester", metavar="RECHERCHE", help="affiche les annonces trouvées pour une recherche")
@@ -48,9 +45,6 @@ def main():
 
     from . import interface
     try:
-        if args.app or args.serveur:
-            from .app.serveur import lancer
-            return lancer(ouvrir=not args.serveur)
         if args.menu:
             return interface.menu()
         if args.demo:

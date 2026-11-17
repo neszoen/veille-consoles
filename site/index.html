@@ -3,14 +3,34 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="veille-jeton" content="{{JETON}}">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
 <meta name="theme-color" content="#0f1014">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Veille">
 <title>Veille consoles</title>
 <link rel="icon" href="/favicon.ico">
-<link rel="stylesheet" href="/static/app.css">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/app.css">
 </head>
 <body>
-<div class="app">
+<div id="ecran-connexion" class="connexion" hidden>
+  <form class="carte connexion-carte" id="f-connexion">
+    <span class="logo grand-logo" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M7 6h10a5 5 0 0 1 5 5v1.5a4.5 4.5 0 0 1-8.2 2.6l-.5-.6h-2.6l-.5.6A4.5 4.5 0 0 1 2 12.5V11a5 5 0 0 1 5-5Zm0 3.2a.8.8 0 0 0-.8.8v1H5.2a.8.8 0 0 0 0 1.6h1v1a.8.8 0 0 0 1.6 0v-1h1a.8.8 0 0 0 0-1.6h-1v-1a.8.8 0 0 0-.8-.8Zm9.5 0a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2Zm-2 2.4a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2Z"/></svg>
+    </span>
+    <h1>Veille consoles</h1>
+    <p class="second">Espace privé</p>
+    <label class="champ" style="text-align:left">Mot de passe
+      <input type="password" name="mdp" autocomplete="current-password" required autofocus></label>
+    <p class="erreur-connexion" id="erreur-connexion" hidden></p>
+    <button class="btn primaire" type="submit" style="width:100%">Entrer</button>
+  </form>
+</div>
+
+<div class="app" id="app" hidden>
   <aside class="nav">
     <div class="marque">
       <span class="logo" aria-hidden="true">
@@ -22,25 +42,19 @@
       <a href="#accueil" data-page="accueil"><svg viewBox="0 0 24 24"><path d="M4 13h6V4H4v9Zm0 7h6v-5H4v5Zm10 0h6v-9h-6v9Zm0-16v5h6V4h-6Z"/></svg><span>Accueil</span></a>
       <a href="#prix" data-page="prix"><svg viewBox="0 0 24 24"><path d="M4 19h16v2H2V3h2v16Zm3-2V9h3v8H7Zm5 0V5h3v12h-3Zm5 0v-6h3v6h-3Z"/></svg><span>Prix</span></a>
       <a href="#watchlist" data-page="watchlist"><svg viewBox="0 0 24 24"><path d="M4 6h2v2H4V6Zm4 0h12v2H8V6Zm-4 5h2v2H4v-2Zm4 0h12v2H8v-2Zm-4 5h2v2H4v-2Zm4 0h12v2H8v-2Z"/></svg><span>Watchlist</span></a>
-      <a href="#tester" data-page="tester"><svg viewBox="0 0 24 24"><path d="M10 3a7 7 0 0 1 5.6 11.2l5.1 5.1-1.4 1.4-5.1-5.1A7 7 0 1 1 10 3Zm0 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10Z"/></svg><span>Tester</span></a>
       <a href="#comptes" data-page="comptes"><svg viewBox="0 0 24 24"><path d="M12 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 12c4.4 0 8 2 8 4.5V21H4v-2.5C4 16 7.6 14 12 14Z"/></svg><span>Comptes</span></a>
     </nav>
     <div class="nav-bas">
-      <button class="btn-synchro" id="btn-synchro" type="button" title="Envoyer tes modifications sur GitHub">
-        <svg viewBox="0 0 24 24"><path d="M12 4a8 8 0 0 1 7.7 6h-2.1A6 6 0 0 0 7 7.8L9 10H3V4l2.6 2.6A8 8 0 0 1 12 4Zm-7.7 10h2.1A6 6 0 0 0 17 16.2L15 14h6v6l-2.6-2.6A8 8 0 0 1 4.3 14Z"/></svg>
-        <span id="synchro-texte">GitHub</span><b id="synchro-badge" hidden></b>
-      </button>
+      <div class="etat-robot" id="etat-robot"><span class="point"></span><span>Robot…</span></div>
     </div>
   </aside>
-
   <main id="contenu" tabindex="-1"></main>
 </div>
 
 <div id="toasts" aria-live="polite"></div>
 <dialog id="modale"></dialog>
 
-<script>window.JETON = document.querySelector('meta[name="veille-jeton"]').content;</script>
-<script src="/static/graphiques.js"></script>
-<script src="/static/app.js"></script>
+<script src="/graphiques.js"></script>
+<script src="/app.js"></script>
 </body>
 </html>

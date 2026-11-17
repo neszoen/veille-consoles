@@ -22,34 +22,98 @@ GitHub Actions (toutes les 30 min)
 
 ---
 
-## ▶ Lancer le logiciel
+## 🌐 Le site privé (Netlify)
+
+Un site à toi seul, protégé par mot de passe, qui marche **sur PC et téléphone, même PC éteint** :
+
+| Page | Ce qu'on y fait |
+|---|---|
+| 🏠 **Accueil** | Les dernières alertes (photo, prix, marge), l'état des sites, le bouton **« Lancer une veille maintenant »** (démarre le vrai robot sur GitHub). |
+| 📊 **Prix** | La répartition des prix relevés par console, la médiane, et les **prix conseillés** à appliquer en un clic. |
+| 📋 **Watchlist** | Ajouter, modifier, mettre en pause ou supprimer une console, gérer les mots exclus. |
+| 👤 **Comptes** | Telegram, eBay et Gmail : les clés vont directement dans les **secrets GitHub** du robot. |
+
+Le site n'a pas de base de données : il lit et modifie ton dépôt GitHub. Une modification de la
+watchlist est utilisée par le robot à son prochain passage (30 min max, ou tout de suite avec
+« Lancer une veille »).
+
+### Mise en place (10 minutes, une seule fois)
+
+**1. Créer un jeton GitHub pour le site**
+
+1. Va sur <https://github.com/settings/personal-access-tokens/new> (jeton « fine-grained »).
+2. **Token name** : `veille-site` · **Expiration** : 1 an (note la date : il faudra le renouveler).
+3. **Repository access** → *Only select repositories* → `veille-consoles`.
+4. **Permissions** → *Repository permissions* :
+   - **Contents** : Read and write
+   - **Actions** : Read and write
+   - **Secrets** : Read and write
+   - (Metadata : Read-only, mis automatiquement)
+5. **Generate token** et copie-le (`github_pat_…`) : il ne sera plus affiché.
+
+**2. Créer le site sur Netlify**
+
+1. Sur <https://app.netlify.com> : **Add new project → Import an existing project → GitHub**.
+2. Autorise Netlify à voir le dépôt `veille-consoles` et choisis-le.
+3. Laisse les réglages proposés (ils viennent du fichier `netlify.toml`) et clique **Deploy**.
+4. Va dans **Project configuration → Environment variables → Add a variable**, et ajoute :
+
+   | Clé | Valeur |
+   |---|---|
+   | `MOT_DE_PASSE` | ton mot de passe pour entrer sur le site (long : une phrase de 4-5 mots, c'est parfait) |
+   | `GITHUB_TOKEN` | le jeton `github_pat_…` de l'étape 1 |
+   | `GITHUB_REPO` | `ton-pseudo/veille-consoles` |
+
+   Coche **Contains secret values** pour `MOT_DE_PASSE` et `GITHUB_TOKEN`.
+5. **Deploys → Trigger deploy → Deploy project** pour que les variables soient prises en compte.
+6. (Facultatif) **Domain management** : renomme l'adresse en quelque chose de discret,
+   par ex. `veille-7k2p.netlify.app`.
+
+**3. Sur ton téléphone**
+
+Ouvre l'adresse du site, connecte-toi (tu restes connecté 30 jours), puis ajoute-le à l'écran
+d'accueil : *iPhone* → Partager ⬆️ → « Sur l'écran d'accueil » · *Android* → ⋮ → « Ajouter à l'écran d'accueil ».
+
+> 🔒 **Sécurité** : sans le mot de passe, le site ne montre rien (le jeton GitHub reste caché
+> côté Netlify). Le site n'est pas référencé par les moteurs de recherche. Pour changer le mot
+> de passe : modifie `MOT_DE_PASSE` sur Netlify puis redéploie (tous les appareils sont déconnectés).
+>
+> ♻️ Les passages du robot (toutes les 30 min) ne redéploient **pas** le site : seuls les
+> changements dans `site/` ou `netlify/` le font.
+
+---
+
+## ▶ Le menu sur ton PC (facultatif)
 
 **Double-clique sur l'icône « Veille consoles » 🎮 de ton Bureau**
 (ou sur `Veille.bat` dans le dossier du projet).
 
-La première fois, il s'installe tout seul (environ 1 minute). Ensuite, **le logiciel s'ouvre
-dans sa propre fenêtre**, avec des boutons à cliquer :
+La première fois, il s'installe tout seul (environ 1 minute). Ensuite, un menu s'ouvre :
 
-| Écran | Ce qu'on y fait |
-|---|---|
-| 🏠 **Accueil** | Les dernières alertes du robot (photo, prix, marge), l'état des sites, les boutons « Lancer une veille » et « Démonstration ». |
-| 📊 **Prix** | La répartition des prix relevés par console, la médiane, et les **prix conseillés** à appliquer en un clic. |
-| 📋 **Watchlist** | Ajouter, modifier, mettre en pause ou supprimer une console, gérer les mots exclus. Plus besoin d'ouvrir le fichier. |
-| 🔍 **Tester** | Voir tout de suite ce qu'un site renvoie pour une recherche. |
-| 👤 **Comptes** | Telegram, eBay, Gmail et GitHub avec des assistants pas à pas, l'accès depuis le téléphone, le raccourci Bureau. |
+```
+   🎮  VEILLE CONSOLES RÉTRO
+  Ma configuration
+  Telegram    ✔ connecté
+  eBay        ○ à configurer (choix 2)
+  Gmail       ○ à configurer (choix 2)
+  GitHub      ✔ relié (pseudo/veille-consoles)
+  Watchlist   ✔ 6 recherche(s) active(s), 2 en pause
 
-Après une modification, clique sur **Synchroniser** (en bas à gauche) pour l'envoyer à GitHub :
-le robot l'utilisera à son prochain passage. Le logiciel récupère tout seul les nouveautés de
-GitHub à l'ouverture.
+   1  ▶  Voir une démonstration
+   2  ⚙️  Configurer mes comptes (Telegram, eBay, Gmail)   ← assistants pas à pas
+   3  🔍 Tester une recherche sur un site
+   4  🚀 Lancer une veille maintenant
+   5  📋 Voir ma watchlist
+   6  ✏️  Modifier ma watchlist
+   7  🔄 Synchroniser avec GitHub (autre PC)
+   8  🖥  Créer un raccourci sur le Bureau
+   0  🚪 Quitter
+```
 
-**Sur ton téléphone :** Comptes → « Sur mon téléphone » → active l'interrupteur et scanne le
-QR code (le téléphone doit être sur le même Wi-Fi, et le PC allumé avec le logiciel ouvert).
+Tape le chiffre puis Entrée. Les assistants du **choix 2** te guident et vérifient tes clés
+tout seuls : aucune commande à taper.
 
-Le logiciel s'arrête tout seul quelques minutes après la fermeture de la fenêtre.
-
-> L'ancien menu dans le terminal existe toujours : `Veille.bat menu` (ou `./veille.sh menu`).
-
-> Si l'icône a disparu du Bureau, double-clique sur `Veille.bat`, puis Comptes → Raccourci Bureau.
+> Si l'icône a disparu du Bureau, double-clique sur `Veille.bat` puis choisis 8.
 
 ---
 
@@ -248,15 +312,15 @@ il s'ouvre tel que tu l'as laissé. Tape `./veille.sh` si le menu n'est pas affi
    ```
    Une fenêtre de connexion GitHub s'ouvre : connecte-toi.
 4. Ouvre le dossier `Documents\veille-consoles` et double-clique sur **`Veille.bat`**.
-5. Dans le logiciel : **Comptes** → « Créer le raccourci », puis reconfigure tes comptes
+5. Dans le menu : **8** (raccourci sur le Bureau), puis **2** pour reconfigurer tes comptes
    sur ce PC (ou copie le fichier `.env` de l'autre PC, par clé USB par exemple : il n'est
    jamais envoyé sur GitHub).
 
 **Au quotidien (Windows comme Chromebook)** :
 - À l'ouverture, le logiciel **récupère automatiquement** les nouveautés (ce que tu as fait sur
   l'autre PC, et les données du robot).
-- Après avoir modifié ta watchlist, il te propose de **l'envoyer sur GitHub** (« Envoyer au robot »).
-- À tout moment : bouton **Synchroniser** en bas à gauche (récupère puis envoie).
+- Après avoir modifié ta watchlist (choix 6), il te propose de **l'envoyer sur GitHub**.
+- À tout moment : **7 – Synchroniser** (récupère puis envoie).
 
 ### Juste modifier la watchlist, depuis un téléphone
 

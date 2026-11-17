@@ -1,0 +1,11 @@
+{
+  "name": "veille-consoles-site",
+  "private": true,
+  "type": "module",
+  "description": "Site privé de la veille consoles (Netlify)",
+  "dependencies": {
+    "blakejs": "1.2.1",
+    "tweetnacl": "1.0.3",
+    "yaml": "2.9.1"
+  }
+}

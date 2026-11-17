@@ -9,3 +9,7 @@ data/*.tmp
 
 # Essais sur ton PC (menu, --simulation)
 .local-data/
+
+# Site Netlify
+node_modules/
+.netlify/

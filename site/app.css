@@ -34,6 +34,7 @@
   font-size: 15px;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html, body { margin: 0; height: 100%; }
 body { background: var(--bg); color: var(--text); line-height: 1.45; -webkit-font-smoothing: antialiased; }
 a { color: var(--accent); text-decoration: none; }
@@ -274,3 +275,16 @@ dialog .m-pied { display: flex; justify-content: flex-end; gap: 8px; padding: 14
   .g-tuiles { grid-template-columns: 1fr 1fr; }
 }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+/* ── connexion ── */
+.connexion { min-height: 100vh; display: grid; place-items: center; padding: 16px; }
+.connexion-carte { width: min(380px, 100%); display: grid; gap: 14px; text-align: center; padding: 30px 26px; }
+.connexion-carte .grand-logo { width: 54px; height: 54px; border-radius: 15px; margin: 0 auto 4px; }
+.erreur-connexion { color: var(--bad); font-size: .9rem; }
+
+/* ── état du robot ── */
+.etat-robot { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: var(--rayon-s);
+  border: 1px solid var(--border); background: var(--surface-2); color: var(--text-2); font-size: .86rem; }
+.etat-robot .point.tourne { background: var(--accent); animation: pulse 1.2s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: .35; } }
+.rond-attente { width: 16px; height: 16px; flex: none; border: 2px solid var(--accent); border-right-color: transparent; border-radius: 50%; animation: tourne .7s linear infinite; }

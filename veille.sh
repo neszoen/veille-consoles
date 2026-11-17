@@ -21,7 +21,4 @@ if ! cmp -s requirements.txt .venv/requirements.installed; then
   cp requirements.txt .venv/requirements.installed
 fi
 
-if [ "$1" = "menu" ] || [ "$CODESPACES" = "true" ]; then  # Codespaces : pas de fenêtre possible
-  exec .venv/bin/python -m veille --menu
-fi
-exec .venv/bin/python -m veille --app "$@"
+exec .venv/bin/python -m veille --menu "$@"

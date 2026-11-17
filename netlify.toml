@@ -1,0 +1,24 @@
+# Site « Veille consoles » sur Netlify.
+# Rien à construire : les pages sont dans site/, l'API dans netlify/functions/.
+[build]
+  publish = "site"
+  command = "echo 'Rien à construire'"
+  # Le robot enregistre ses données toutes les 30 min : inutile de redéployer le site pour ça.
+  # On ne redéploie que si le site lui-même a changé.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- site/ netlify/ netlify.toml package.json"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    X-Robots-Tag = "noindex, nofollow"
+    Content-Security-Policy = "default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; frame-ancestors 'none'"

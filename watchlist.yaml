@@ -25,8 +25,13 @@
 #                      courante (ajouté au calcul de marge des annonces HS)
 #   actif            : true = recherche active, false = en pause
 #
-#  ⚠️ Les prix ci-dessous sont des ESTIMATIONS de départ (marché français
-#  fin 2026) à ajuster selon ton expérience. L'historique les affinera.
+#  ⚠️ Prix ajustés le 17/11/2026 d'après les relevés réels (data/prix.json,
+#  surtout Vinted) :
+#    prix_revente_ref = médiane des annonces − 10 % (prix demandé > prix vendu)
+#    prix_max         = 75 % de la médiane
+#    prix_max_hs      = prix qui laisse ≈ 30 € de marge après pièces, port
+#                       et frais de plateforme
+#  New 3DS XL et PS Vita (en pause) : pas encore de relevés, estimations.
 # =====================================================================
 
 recherches:
@@ -35,10 +40,10 @@ recherches:
     requete: psp 3000
     inclure: ["psp", "3000 | 3004 | 3003"]
     exclure: []
-    prix_max: 60
-    prix_max_hs: 30
+    prix_max: 85
+    prix_max_hs: 40
     mode: les_deux
-    prix_revente_ref: 80
+    prix_revente_ref: 100
     cout_pieces: 15        # batterie, joystick ou boutons
     actif: true
 
@@ -46,10 +51,10 @@ recherches:
     requete: psp
     inclure: ["psp", "1000 | 1004 | 2000 | 2004 | fat | slim"]
     exclure: ["vita", "psp go", "3000", "3004", "street"]
-    prix_max: 45
+    prix_max: 70
     prix_max_hs: 25
     mode: les_deux
-    prix_revente_ref: 65
+    prix_revente_ref: 80
     cout_pieces: 15
     actif: true
 
@@ -57,7 +62,7 @@ recherches:
     requete: nintendo ds lite
     inclure: ["ds lite | dslite"]
     exclure: ["3ds", "dsi", "2ds"]
-    prix_max: 40
+    prix_max: 45
     prix_max_hs: 15
     mode: les_deux
     prix_revente_ref: 50
@@ -68,10 +73,10 @@ recherches:
     requete: game boy advance sp
     inclure: ["game boy advance sp | gameboy advance sp | gba sp"]
     exclure: []
-    prix_max: 60
-    prix_max_hs: 25
+    prix_max: 100
+    prix_max_hs: 55
     mode: les_deux
-    prix_revente_ref: 80
+    prix_revente_ref: 120
     cout_pieces: 15        # coque ou écran
     actif: true
 
@@ -79,10 +84,10 @@ recherches:
     requete: game boy color
     inclure: ["game boy color | gameboy color | gbc"]
     exclure: []
-    prix_max: 45
-    prix_max_hs: 20
+    prix_max: 75
+    prix_max_hs: 35
     mode: les_deux
-    prix_revente_ref: 60
+    prix_revente_ref: 90
     cout_pieces: 10        # nettoyage contacts, coque
     actif: true
 
@@ -90,10 +95,10 @@ recherches:
     requete: nintendo 3ds xl
     inclure: ["3ds xl | 3ds ll"]
     exclure: ["new", "2ds"]
-    prix_max: 100
-    prix_max_hs: 45
+    prix_max: 135
+    prix_max_hs: 85
     mode: les_deux
-    prix_revente_ref: 130
+    prix_revente_ref: 160
     cout_pieces: 25        # écran ou charnière
     actif: true
 

@@ -41,9 +41,9 @@ recherches:
     inclure: ["psp", "3000 | 3004 | 3003"]
     exclure: []
     prix_max: 80
-    prix_max_hs: 40
+    prix_max_hs: 45
     mode: les_deux
-    prix_revente_ref: 100
+    prix_revente_ref: 105
     cout_pieces: 15 # batterie, joystick ou boutons
     actif: true
 
@@ -51,7 +51,7 @@ recherches:
     requete: psp
     inclure: ["psp", "1000 | 1004 | 2000 | 2004 | fat | slim"]
     exclure: ["vita", "psp go", "3000", "3004", "street"]
-    prix_max: 65
+    prix_max: 60
     prix_max_hs: 25
     mode: les_deux
     prix_revente_ref: 80

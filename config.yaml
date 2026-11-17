@@ -12,7 +12,7 @@ frais_port_defaut: 8        # € ajoutés quand le site n'indique pas le port
 code_postal: "75001"        # sert à eBay pour calculer les frais de port
 
 # --- Seuils pour l'emoji 🔥 (très bonne affaire) ---
-seuil_bonne_affaire_pct: 25 # 🔥 si le prix est au moins 25 % sous la médiane
+seuil_bonne_affaire_pct: 40 # 🔥 si le prix est au moins 40 % sous la médiane (les prix max sont déjà à 70 % de la médiane)
 seuil_marge_eur: 30         # 🔥 si la marge dépasse 30 € ...
 seuil_marge_pct: 50         # ... ET 50 % du prix d'achat
 

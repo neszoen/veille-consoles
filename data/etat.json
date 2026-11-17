@@ -14,22 +14,25 @@
   "label_emmaus|3DS XL",
   "leboncoin_email|PSP 3000",
   "leboncoin_email|PSP 1000/2000",
-  "leboncoin_email|Nintendo DS Lite"
+  "leboncoin_email|Nintendo DS Lite",
+  "vinted|PS Vita",
+  "leboncoin_email|PS Vita",
+  "label_emmaus|PS Vita"
  ],
  "sante": {
   "label_emmaus": {
    "alerte": false,
-   "dernier_succes": "2026-11-17T18:06+00:00",
+   "dernier_succes": "2026-11-17T21:31+00:00",
    "echecs": 0
   },
   "leboncoin_email": {
    "alerte": false,
-   "dernier_succes": "2026-11-17T18:06+00:00",
+   "dernier_succes": "2026-11-17T21:31+00:00",
    "echecs": 0
   },
   "vinted": {
    "alerte": false,
-   "dernier_succes": "2026-11-17T18:06+00:00",
+   "dernier_succes": "2026-11-17T21:31+00:00",
    "echecs": 0
   }
  }

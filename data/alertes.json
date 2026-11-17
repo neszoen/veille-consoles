@@ -206,5 +206,57 @@
   "titre": "Nintendo Ds lite celeste",
   "uid": "vinted:10854162306",
   "url": "https://www.vinted.fr/items/10854162306"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 59,
+   "feu": true,
+   "frais": 8.0,
+   "marge_eur": 30,
+   "marge_pct": 82,
+   "mediane": 88.7,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 61,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 80.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-17T21:31:52+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/01_00bed_a9zfzVE2Q8ngHiqRv7x332fc/310x430/d2b216a9.webp?s=20faaca1d1c3979b303cc9c600352104e91fd413",
+  "prix_total": 36.2,
+  "recherche": "PSP 1000/2000",
+  "source": "vinted",
+  "titre": "Consola PSP 2004 negra leer descripción",
+  "uid": "vinted:10857582472",
+  "url": "https://www.vinted.fr/items/10857582472"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 49,
+   "feu": true,
+   "frais": 8.0,
+   "marge_eur": 19,
+   "marge_pct": 41,
+   "mediane": 91.33,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 52,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 80.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-17T21:31:53+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/05_00532_DEcL27APg3aEEsPtosLeUnSt/310x430/06216f9a.webp?s=5d41080a81a3b8cbdf6a8d9d25e19a00c6776fd6",
+  "prix_total": 46.7,
+  "recherche": "PSP 1000/2000",
+  "source": "vinted",
+  "titre": "Sony Psp 2004",
+  "uid": "vinted:10859490644",
+  "url": "https://www.vinted.fr/items/10859490644"
  }
 ]

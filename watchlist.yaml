@@ -44,7 +44,7 @@ recherches:
     prix_max_hs: 40
     mode: les_deux
     prix_revente_ref: 100
-    cout_pieces: 15        # batterie, joystick ou boutons
+    cout_pieces: 15 # batterie, joystick ou boutons
     actif: true
 
   - nom: PSP 1000/2000
@@ -66,7 +66,7 @@ recherches:
     prix_max_hs: 15
     mode: les_deux
     prix_revente_ref: 50
-    cout_pieces: 12        # charnière ou écran supérieur
+    cout_pieces: 12 # charnière ou écran supérieur
     actif: true
 
   - nom: Game Boy Advance SP
@@ -77,7 +77,7 @@ recherches:
     prix_max_hs: 55
     mode: les_deux
     prix_revente_ref: 120
-    cout_pieces: 15        # coque ou écran
+    cout_pieces: 15 # coque ou écran
     actif: true
 
   - nom: Game Boy Color
@@ -88,7 +88,7 @@ recherches:
     prix_max_hs: 35
     mode: les_deux
     prix_revente_ref: 90
-    cout_pieces: 10        # nettoyage contacts, coque
+    cout_pieces: 10 # nettoyage contacts, coque
     actif: true
 
   - nom: 3DS XL
@@ -99,8 +99,8 @@ recherches:
     prix_max_hs: 85
     mode: les_deux
     prix_revente_ref: 160
-    cout_pieces: 25        # écran ou charnière
-    actif: true
+    cout_pieces: 25 # écran ou charnière
+    actif: false
 
   - nom: New 3DS XL
     requete: new nintendo 3ds xl
@@ -111,7 +111,7 @@ recherches:
     mode: perso
     prix_revente_ref: 190
     cout_pieces: 30
-    actif: false           # en pause : à activer si ça t'intéresse
+    actif: false # en pause : à activer si ça t'intéresse
 
   - nom: PS Vita
     requete: ps vita
@@ -122,7 +122,7 @@ recherches:
     mode: les_deux
     prix_revente_ref: 130
     cout_pieces: 25
-    actif: false           # en pause : à activer si ça t'intéresse
+    actif: false # en pause : à activer si ça t'intéresse
 
 # ---------------------------------------------------------------------
 #  Exclusions valables pour TOUTES les recherches (titre de l'annonce).

@@ -102,6 +102,7 @@ DEFAUTS = {
     "seuil_marge_pct": 50,
     "echantillon_min": 5,
     "alertes_max_par_execution": 15,
+    "descriptions_max_par_source": 20,
     "echecs_avant_alerte": 3,
     "sources": {"ebay": True, "vinted": True, "leboncoin": False, "leboncoin_email": True,
                 "label_emmaus": True},

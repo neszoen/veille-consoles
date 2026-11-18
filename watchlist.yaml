@@ -37,9 +37,9 @@
 recherches:
 
   - nom: PSP 3000
-    requete: psp 3000
-    inclure: ["psp", "3000 | 3004 | 3003"]
-    exclure: []
+    requete: psp           # large : attrape aussi « PSP Brite » (le filtre « inclure » trie)
+    inclure: ["psp", "3000 | 3004 | 3003 | brite"]
+    exclure: ["vita", "psp go", "street"]
     prix_max: 80
     prix_max_hs: 45
     mode: les_deux
@@ -47,15 +47,26 @@ recherches:
     cout_pieces: 15 # batterie, joystick ou boutons
     actif: true
 
-  - nom: PSP 1000/2000
+  - nom: PSP 1000
     requete: psp
-    inclure: ["psp", "1000 | 1004 | 2000 | 2004 | fat | slim"]
-    exclure: ["vita", "psp go", "3000", "3004", "street"]
-    prix_max: 60
+    inclure: ["psp", "1000 | 1004 | fat"]
+    exclure: ["vita", "psp go", "street", "2000", "2004", "3000", "3004", "slim", "brite"]
+    prix_max: 50           # estimation : relevés à reconstruire (ancienne recherche 1000/2000 commune)
+    prix_max_hs: 20
+    mode: les_deux
+    prix_revente_ref: 65
+    cout_pieces: 15        # batterie (souvent morte sur ce modèle)
+    actif: true
+
+  - nom: PSP 2000
+    requete: psp
+    inclure: ["psp", "2000 | 2004 | slim"]
+    exclure: ["vita", "psp go", "street", "1000", "1004", "3000", "3004", "fat", "brite"]
+    prix_max: 65           # estimation : relevés à reconstruire (ancienne recherche 1000/2000 commune)
     prix_max_hs: 25
     mode: les_deux
-    prix_revente_ref: 80
-    cout_pieces: 15
+    prix_revente_ref: 85
+    cout_pieces: 15        # batterie, joystick ou boutons
     actif: true
 
   - nom: Nintendo DS Lite

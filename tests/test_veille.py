@@ -193,3 +193,57 @@ class TestEbay(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestDescription(unittest.TestCase):
+    def test_etat_lu_dans_la_description(self):
+        a = annonce("Sony PSP 3004", description="Console testata e perfettamente funzionante, con caricatore")
+        etat, indice = detecter_etat(a)
+        self.assertEqual(etat, "fonctionnel")
+        self.assertIn("description", indice)
+
+    def test_panne_dans_la_description_l_emporte(self):
+        a = annonce("PSP 3000 testée", description="Ne s'allume plus depuis une chute")
+        self.assertEqual(detecter_etat(a)[0], "hs")
+
+    def test_traductions(self):
+        cas = {"PSP defekt": ("hs", "défectueuse"), "PSP no funciona": ("hs", "ne fonctionne pas"),
+               "PSP werkt niet": ("hs", "ne fonctionne pas"), "PSP nicht getestet": ("non_teste", "non testée"),
+               "PSP sprawna": ("fonctionnel", "fonctionne")}
+        for titre, (etat, traduction) in cas.items():
+            e, indice = detecter_etat(annonce(titre))
+            self.assertEqual(e, etat, titre)
+            self.assertIn(traduction, indice, titre)
+
+    def test_extraire_description(self):
+        from veille.sources.web import extraire_description
+        page = ('<meta property="og:description" content="PSP">'
+                '<script type="application/ld+json">{"@type":"Product","name":"PSP",'
+                '"description":"Console non testée, vendue en l&#39;état"}</script>')
+        self.assertEqual(extraire_description(page), "Console non testée, vendue en l'état")
+        self.assertEqual(extraire_description('<meta name="description" content="Écran rayé mais fonctionne bien">'),
+                         "Écran rayé mais fonctionne bien")
+
+    def test_description_lue_avant_alerte(self):
+        class SourceAvecDescription(Source):
+            nom = "test"
+            def chercher(self, rech):
+                return [annonce("PSP 3004", prix=20, id="d1")]
+            def completer(self, a):
+                a.description = "Ecran noir, pour pieces"
+                return True
+        dossier = tempfile.mkdtemp()
+        tg = Telegram(simulation=True)
+        src = SourceAvecDescription(CFG)
+        executer(dossier_data=dossier, sources=[SourceVide(CFG)], telegram=tg, recherches=[PSP])
+        from veille.stockage import Stockage
+        s = Stockage(dossier); s.marquer_initialisee("test|PSP 3000"); s.sauvegarder()
+        executer(dossier_data=dossier, sources=[src], telegram=tg, recherches=[PSP])
+        etats = [p["e"] for p in Stockage(dossier).historique("PSP 3000")]
+        self.assertEqual(etats, ["hs"])
+
+
+class SourceVide(Source):
+    nom = "vide"
+    def chercher(self, rech):
+        return []

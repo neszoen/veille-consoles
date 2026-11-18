@@ -35,6 +35,7 @@ def executer(simulation: bool = False, dossier_data: Path | None = None,
     log.info("Début : %d recherche(s) active(s), %d source(s).", len(actives), len(sources))
     pretes = []
     for src in sources:
+        src.descriptions_restantes = int(cfg.get("descriptions_max_par_source", 20))
         pret, raison = src.prete()
         if not pret:
             log.warning("Source %s ignorée : %s", src.nom, raison)
@@ -112,6 +113,16 @@ def traiter(src: Source, rech: Recherche, annonces: list[Annonce], exclusions: l
         a.etat, a.indice_etat = detecter_etat(a)
         if a.port is None:
             a.port, a.port_estime = float(cfg["frais_port_defaut"]), True
+        if (not premiere_fois and not a.description and getattr(src, "descriptions_restantes", 0) > 0
+                and a.prix_total <= max(rech.prix_max, rech.prix_max_hs or 0)):
+            # Annonce susceptible d'être alertée : on lit sa description pour mieux connaître l'état.
+            src.descriptions_restantes -= 1
+            try:
+                if src.completer(a):
+                    a.etat, a.indice_etat = detecter_etat(a)
+                    log.debug("  description lue : %s → %s", a.titre, a.etat)
+            except Exception as e:  # la lecture d'une description ne doit jamais tout casser
+                log.debug("  description impossible (%s) : %s", e, a.titre)
         analyser(a, rech, store.historique(rech.nom), cfg)
         store.ajouter_prix(rech.nom, a)
         store.marquer_vue(a.uid, rech.nom)

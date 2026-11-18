@@ -16,16 +16,49 @@ MOTS_HS = [
     "ecran casse", "ecran fissure", "ecran fele", "ecran noir", "ecran hs",
     "ne charge", "charge pas", "ne lit", "lit pas", "ne demarre", "demarre pas",
 ]
-# Mots étrangers (annonces espagnoles, italiennes, allemandes, anglaises sur Vinted),
-# cherchés en mots entiers pour éviter « Rotterdam » ou « rotative ».
-MOTS_HS_EXACTS = [
-    "rota", "roto", "averiada", "averiado", "no funciona", "para piezas", "para reparar",
-    "rotto", "rotta", "guasta", "guasto", "non funziona", "per pezzi", "da riparare",
-    "defekt", "kaputt", "bastler", "fur teile",
-    "broken", "for parts", "not working", "faulty", "spares or repair",
-]
-MOTS_OK_EXACTS = ["testata", "testato", "funzionante", "funziona", "funciona", "getestet",
-                  "funktioniert", "working", "tested"]
+# Mots étrangers (annonces espagnoles, italiennes, allemandes, anglaises, néerlandaises,
+# portugaises, polonaises sur Vinted), cherchés en mots entiers pour éviter « Rotterdam ».
+# Chaque mot est associé à sa traduction, affichée dans l'alerte.
+TRADUCTIONS_HS = {
+    # espagnol
+    "rota": "cassée", "roto": "cassé", "averiada": "en panne", "averiado": "en panne",
+    "no funciona": "ne fonctionne pas", "no enciende": "ne s'allume pas", "para piezas": "pour pièces",
+    "para reparar": "à réparer", "pantalla rota": "écran cassé",
+    # italien
+    "rotto": "cassé", "rotta": "cassée", "guasta": "en panne", "guasto": "en panne",
+    "non funziona": "ne fonctionne pas", "non funzionante": "ne fonctionne pas", "non si accende": "ne s'allume pas",
+    "per pezzi": "pour pièces", "per ricambi": "pour pièces", "da riparare": "à réparer", "schermo rotto": "écran cassé",
+    # allemand
+    "defekt": "défectueuse", "kaputt": "cassée", "bastler": "pour bricoleur", "fur teile": "pour pièces",
+    "funktioniert nicht": "ne fonctionne pas", "geht nicht an": "ne s'allume pas", "als ersatzteil": "pour pièces",
+    # anglais
+    "broken": "cassée", "for parts": "pour pièces", "not working": "ne fonctionne pas", "faulty": "défectueuse",
+    "spares or repair": "pour pièces", "doesn t turn on": "ne s'allume pas", "won t turn on": "ne s'allume pas",
+    "cracked screen": "écran fissuré",
+    # néerlandais
+    "kapot": "cassée", "defect": "défectueuse", "werkt niet": "ne fonctionne pas", "voor onderdelen": "pour pièces",
+    # portugais
+    "avariada": "en panne", "nao funciona": "ne fonctionne pas", "para pecas": "pour pièces", "nao liga": "ne s'allume pas",
+    # polonais
+    "uszkodzona": "endommagée", "uszkodzony": "endommagé", "nie dziala": "ne fonctionne pas", "na czesci": "pour pièces",
+}
+MOTS_HS_EXACTS = list(TRADUCTIONS_HS)
+TRADUCTIONS_NON_TESTE = {
+    "non testata": "non testée", "non testato": "non testé", "non provata": "non testée",
+    "sin probar": "non testée", "no probada": "non testée", "no probado": "non testé",
+    "nicht getestet": "non testée", "ungetestet": "non testée", "untested": "non testée", "not tested": "non testée",
+    "niet getest": "non testée", "nao testada": "non testée", "nie testowana": "non testée",
+}
+TRADUCTIONS_OK = {
+    "testata": "testée", "testato": "testé", "funzionante": "fonctionne", "funziona": "fonctionne",
+    "perfettamente funzionante": "fonctionne parfaitement",
+    "funciona": "fonctionne", "probada": "testée", "funciona perfectamente": "fonctionne parfaitement",
+    "getestet": "testée", "funktioniert": "fonctionne", "voll funktionsfahig": "entièrement fonctionnelle",
+    "working": "fonctionne", "tested": "testée", "fully working": "fonctionne parfaitement", "works": "fonctionne",
+    "werkt": "fonctionne", "getest": "testée", "werkt perfect": "fonctionne parfaitement",
+    "testada": "testée", "sprawna": "fonctionne", "dziala": "fonctionne", "przetestowana": "testée",
+}
+MOTS_OK_EXACTS = list(TRADUCTIONS_OK)
 # Mots qui indiquent que le vendeur n'a pas vérifié (souvent risqué).
 MOTS_NON_TESTE = [
     "non teste", "pas teste", "sans test", "non verifie", "pas verifie",
@@ -46,26 +79,47 @@ LIBELLES_ETAT = {
 }
 
 
-def detecter_etat(annonce: Annonce) -> tuple[str, str]:
-    """Renvoie (etat, indice) à partir du titre, de la description et du site."""
-    texte = normaliser(f"{annonce.titre} {annonce.description}")
+def _chercher_etat(texte: str, annonce: Annonce | None = None) -> tuple[str, str] | None:
+    """Cherche un indice d'état dans un texte normalisé. Renvoie (etat, mot trouvé) ou None."""
     for mot in MOTS_HS:
         if contient(texte, mot, prefixe=True):
             return "hs", mot
     for mot in MOTS_HS_EXACTS:
         if contient(texte, mot):
-            return "hs", mot
-    if annonce.hs_site is True:
+            return "hs", f"{mot} = {TRADUCTIONS_HS[mot]}"
+    if annonce is not None and annonce.hs_site is True:
         return "hs", f"classée « {annonce.etat_site or 'pour pièces'} » par le site"
     for mot in MOTS_NON_TESTE:
         if contient(texte, mot, prefixe=True):
             return "non_teste", mot
+    for mot in TRADUCTIONS_NON_TESTE:
+        if contient(texte, mot):
+            return "non_teste", f"{mot} = {TRADUCTIONS_NON_TESTE[mot]}"
     for mot in MOTS_OK:
         if contient(texte, mot, prefixe=True):
             return "fonctionnel", mot
     for mot in MOTS_OK_EXACTS:
         if contient(texte, mot):
-            return "fonctionnel", mot
+            return "fonctionnel", f"{mot} = {TRADUCTIONS_OK[mot]}"
+    return None
+
+
+def detecter_etat(annonce: Annonce) -> tuple[str, str]:
+    """Renvoie (etat, indice) à partir du titre, de la description et du site.
+
+    Le titre ET la description sont lus ; un signe de panne l'emporte toujours
+    (« testée, mais écran cassé » → HS). Les mots étrangers sont traduits dans l'indice.
+    """
+    titre = normaliser(annonce.titre)
+    description = normaliser(annonce.description)
+    dans_titre = _chercher_etat(titre, annonce)
+    dans_desc = _chercher_etat(description) if description else None
+    if dans_desc:
+        dans_desc = (dans_desc[0], f"{dans_desc[1]}, lu dans la description")
+    for etat in ("hs", "non_teste", "fonctionnel"):
+        for trouve in (dans_titre, dans_desc):
+            if trouve and trouve[0] == etat:
+                return trouve
     if annonce.hs_site is False:
         return "fonctionnel", f"classée « {annonce.etat_site} » par le site"
     return "inconnu", ""

@@ -1,4 +1,8 @@
 """Base des sources « site web » (lecture des pages comme un navigateur, poliment)."""
+import html
+import json
+import logging
+import re
 import time
 
 import requests
@@ -12,6 +16,30 @@ UA_NAVIGATEUR = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 
 SIGNES_BLOCAGE = ("captcha-delivery.com", "geo.captcha-delivery", "cf-chl-", "Just a moment...",
                   "Access denied", "Pardon Our Interruption")
+
+
+log = logging.getLogger("veille")
+
+RE_JSON_LD = re.compile(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', re.S)
+RE_META = re.compile(r'<meta[^>]+(?:property|name)="(?:og:description|description|twitter:description)"[^>]*>', re.I)
+
+
+def extraire_description(page: str) -> str:
+    """Description d'une page d'annonce : données structurées (JSON-LD), sinon balises meta."""
+    for bloc in RE_JSON_LD.findall(page):
+        try:
+            donnees = json.loads(bloc.strip())
+        except ValueError:
+            continue
+        for d in donnees if isinstance(donnees, list) else [donnees]:
+            if isinstance(d, dict) and isinstance(d.get("description"), str) and len(d["description"]) > 10:
+                return html.unescape(d["description"]).strip()
+    textes = []
+    for balise in RE_META.findall(page):
+        contenu = re.search(r'content="([^"]*)"', balise)
+        if contenu:
+            textes.append(html.unescape(contenu.group(1)).strip())
+    return max(textes, key=len, default="")
 
 
 class SourceWeb(Source):
@@ -43,3 +71,23 @@ class SourceWeb(Source):
                 raise ErreurSource(f"réponse inattendue de {self.libelle} (code {r.status_code})")
             return r.text
         raise ErreurSource(f"{self.libelle} ne répond pas correctement")
+
+    def completer(self, annonce) -> bool:
+        if not annonce.url.startswith("http"):
+            return False
+        time.sleep(self.delai * 0.6)
+        try:
+            page = self.telecharger(annonce.url)
+        except SourceBloquee as e:
+            self.descriptions_restantes = 0  # le site refuse les pages d'annonce : on n'insiste pas
+            log.info("[%s] pages d'annonce bloquées, descriptions ignorées pour ce passage (%s)", self.nom, e)
+            return False
+        except ErreurSource as e:
+            log.debug("[%s] description illisible (%s) : %s", self.nom, e, annonce.url)
+            return False
+        description = extraire_description(page)
+        # La balise meta reprend parfois juste le titre : sans intérêt.
+        if len(description) <= len(annonce.titre) + 5:
+            return False
+        annonce.description = description[:3000]
+        return True

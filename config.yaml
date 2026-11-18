@@ -21,6 +21,7 @@ echantillon_min: 5          # nb d'annonces minimum avant de calculer une média
 
 # --- Alertes ---
 alertes_max_par_execution: 15  # au-delà, un simple résumé est envoyé
+descriptions_max_par_source: 20  # annonces dont on lit la description à chaque passage (celles qui pourraient être alertées)
 echecs_avant_alerte: 3         # « ⚠️ source en panne » après N échecs de suite
 
 # --- Sources (true = activée) ---

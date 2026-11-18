@@ -34,3 +34,11 @@ class Source:
 
     def chercher(self, rech: Recherche) -> list[Annonce]:
         raise NotImplementedError
+
+    def completer(self, annonce: Annonce) -> bool:
+        """Va lire la page de l'annonce pour récupérer sa description.
+
+        Renvoie True si une description a été trouvée. Par défaut : rien à faire.
+        Une erreur ici ne doit jamais faire échouer la source.
+        """
+        return False

@@ -362,5 +362,31 @@
   "titre": "console psp-1004 sony",
   "uid": "vinted:10863551419",
   "url": "https://www.vinted.fr/items/10863551419"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 59,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 42,
+   "marge_pct": 90,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 77,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-18T12:56:51+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/05_01ff6_C1v1oqNcxAJWqBVsRiE4UdYn/310x430/29be7206.webp?s=6aee29ebcd63b58f58bfdc502a7aca4ba4cd3e95",
+  "prix_total": 46.7,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "PSP 3004",
+  "uid": "vinted:10860932851",
+  "url": "https://www.vinted.fr/items/10860932851"
  }
 ]

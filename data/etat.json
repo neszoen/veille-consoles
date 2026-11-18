@@ -17,22 +17,28 @@
   "leboncoin_email|Nintendo DS Lite",
   "vinted|PS Vita",
   "leboncoin_email|PS Vita",
-  "label_emmaus|PS Vita"
+  "label_emmaus|PS Vita",
+  "vinted|PSP 1000",
+  "vinted|PSP 2000",
+  "leboncoin_email|PSP 1000",
+  "leboncoin_email|PSP 2000",
+  "label_emmaus|PSP 1000",
+  "label_emmaus|PSP 2000"
  ],
  "sante": {
   "label_emmaus": {
    "alerte": false,
-   "dernier_succes": "2026-11-18T11:13+00:00",
+   "dernier_succes": "2026-11-18T12:56+00:00",
    "echecs": 0
   },
   "leboncoin_email": {
    "alerte": false,
-   "dernier_succes": "2026-11-18T11:13+00:00",
+   "dernier_succes": "2026-11-18T12:56+00:00",
    "echecs": 0
   },
   "vinted": {
    "alerte": false,
-   "dernier_succes": "2026-11-18T11:13+00:00",
+   "dernier_succes": "2026-11-18T12:56+00:00",
    "echecs": 0
   }
  }

@@ -310,5 +310,57 @@
   "titre": "Psp e 1004 2a",
   "uid": "vinted:10862758171",
   "url": "https://www.vinted.fr/items/10862758171"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 52,
+   "feu": true,
+   "frais": 13.0,
+   "marge_eur": 28,
+   "marge_pct": 33,
+   "mediane": 172.7,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 80,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-18T11:13:55+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/05_00a5e_aEJBDqmbTFgjZM4Z725oXWSN/310x430/4203c3db.webp?s=ba75e6c9a21ce319ae2d213d05f0128f29f98039",
+  "prix_total": 83.45,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "Playstation Ps Vita - Carte mémoire 32 Go",
+  "uid": "vinted:10864862572",
+  "url": "https://www.vinted.fr/items/10864862572"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 36,
+   "feu": false,
+   "frais": 8.0,
+   "marge_eur": 9,
+   "marge_pct": 15,
+   "mediane": 88.7,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 71,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 80.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-18T11:13:57+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/04_000b0_7Vp5P1jMLKjbzd1GrXjMzcoH/310x430/42f02b68.webp?s=4da5e282b97da23f348557f1a630e1d58426f1d6",
+  "prix_total": 57.2,
+  "recherche": "PSP 1000/2000",
+  "source": "vinted",
+  "titre": "console psp-1004 sony",
+  "uid": "vinted:10863551419",
+  "url": "https://www.vinted.fr/items/10863551419"
  }
 ]

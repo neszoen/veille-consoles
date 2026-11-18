@@ -466,5 +466,57 @@
   "titre": "Psp-2000",
   "uid": "vinted:10869355040",
   "url": "https://www.vinted.fr/items/10869355040"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 60,
+   "feu": true,
+   "frais": 6.5,
+   "marge_eur": 11,
+   "marge_pct": 27,
+   "mediane": 104.45,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 29,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 65.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-18T21:20:25+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/06_026de_gSJhC9miqgjCuq73MTGgdXEv/310x430/b6109f2c.webp?s=d8b0505dbe21e8e6f121ba62919ece7f21239893",
+  "prix_total": 41.44,
+  "recherche": "PSP 1000",
+  "source": "vinted",
+  "titre": "Psp 1000",
+  "uid": "vinted:10872634117",
+  "url": "https://www.vinted.fr/items/10872634117"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 43,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 26,
+   "marge_pct": 42,
+   "mediane": 109.7,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 84,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-18T21:20:27+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/06_023ef_P39wJRhWmZjbEsM5456coiW4/310x430/06aa6e2e.webp?s=57c6d6d89e85973f0fbe78b2855a842c81a35a21",
+  "prix_total": 62.45,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "PSP 3004",
+  "uid": "vinted:10874214874",
+  "url": "https://www.vinted.fr/items/10874214874"
  }
 ]

@@ -22,17 +22,17 @@
  "sante": {
   "label_emmaus": {
    "alerte": false,
-   "dernier_succes": "2026-11-17T22:36+00:00",
+   "dernier_succes": "2026-11-18T03:50+00:00",
    "echecs": 0
   },
   "leboncoin_email": {
    "alerte": false,
-   "dernier_succes": "2026-11-17T22:36+00:00",
+   "dernier_succes": "2026-11-18T03:50+00:00",
    "echecs": 0
   },
   "vinted": {
    "alerte": false,
-   "dernier_succes": "2026-11-17T22:36+00:00",
+   "dernier_succes": "2026-11-18T03:50+00:00",
    "echecs": 0
   }
  }

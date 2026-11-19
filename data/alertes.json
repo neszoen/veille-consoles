@@ -544,5 +544,83 @@
   "titre": "Psp vita  Bonnières-sur-Seine 78270",
   "uid": "leboncoin:3312459811",
   "url": "https://www.leboncoin.fr/ad/consoles/3312459811"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 74,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 45,
+   "marge_pct": 174,
+   "mediane": 98.68,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 28,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-19T19:37:14+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/06_011a6_Xqw1SQNrrxXMizPKAgetUKm6/310x430/96147db1.webp?s=770fcac06ff386154268ccc7b8c728252cbe0b4e",
+  "prix_total": 25.7,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "Psp 2000 shell",
+  "uid": "vinted:10883860867",
+  "url": "https://www.vinted.fr/items/10883860867"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 49,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 20,
+   "marge_pct": 39,
+   "mediane": 99.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 25,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-19T19:37:15+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/06_00d13_xf7USrKe8U2Qf6HtJTQr3mGw/310x430/007276d2.webp?s=2f6acdc43c98f96322e456cfe71b6135d66746db",
+  "prix_total": 50.9,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "Sony Psp Super Slim",
+  "uid": "vinted:10885891252",
+  "url": "https://www.vinted.fr/items/10885891252"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 38,
+   "feu": false,
+   "frais": 10.5,
+   "marge_eur": 21,
+   "marge_pct": 31,
+   "mediane": 109.7,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 96,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-19T19:37:18+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/05_0104f_U5moH6MaAMMSNGrmaWXPRmhC/310x430/ef072b70.webp?s=422a19b57693482a4b480efbd2f6b63046eb1471",
+  "prix_total": 67.7,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "PSP 3000-Muito pouco uso",
+  "uid": "vinted:10883234244",
+  "url": "https://www.vinted.fr/items/10883234244"
  }
 ]

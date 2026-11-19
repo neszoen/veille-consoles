@@ -518,5 +518,31 @@
   "titre": "PSP 3004",
   "uid": "vinted:10874214874",
   "url": "https://www.vinted.fr/items/10874214874"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 55,
+   "feu": true,
+   "frais": 13.0,
+   "marge_eur": 33,
+   "marge_pct": 42,
+   "mediane": 172.18,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 148,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-19T11:27:05+00:00",
+  "etat": "inconnu",
+  "photo": "https://img8.leboncoin.fr/emailing/search/chip-livraison-2x.png",
+  "prix_total": 78.0,
+  "recherche": "PS Vita",
+  "source": "leboncoin",
+  "titre": "Psp vita  Bonnières-sur-Seine 78270",
+  "uid": "leboncoin:3312459811",
+  "url": "https://www.leboncoin.fr/ad/consoles/3312459811"
  }
 ]

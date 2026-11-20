@@ -757,7 +757,7 @@
   "titre": "Sony playStation Portable Psp 3000",
   "uid": "vinted:10887003453",
   "url": "https://www.vinted.fr/items/10887003453",
-  "verifiee": "2026-11-20T15:01:23+00:00"
+  "verifiee": "2026-11-20T17:31:17+00:00"
  },
  {
   "analyse": {
@@ -784,7 +784,7 @@
   "titre": "psp l-1004 sony",
   "uid": "vinted:10890708101",
   "url": "https://www.vinted.fr/items/10890708101",
-  "verifiee": "2026-11-20T15:01:25+00:00"
+  "verifiee": "2026-11-20T17:31:19+00:00"
  },
  {
   "analyse": {
@@ -838,7 +838,7 @@
   "titre": "PSP-2000 read description",
   "uid": "vinted:10895068173",
   "url": "https://www.vinted.fr/items/10895068173",
-  "verifiee": "2026-11-20T15:01:21+00:00"
+  "verifiee": "2026-11-20T17:31:14+00:00"
  },
  {
   "analyse": {
@@ -866,5 +866,32 @@
   "uid": "vinted:10896598473",
   "url": "https://www.vinted.fr/items/10896598473",
   "verifiee": "2026-11-20T17:01:23+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 43,
+   "feu": true,
+   "frais": 13.0,
+   "marge_eur": 17,
+   "marge_pct": 18,
+   "mediane": 164.8,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 216,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-20T17:31:10+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/05_002cb_7UrZLt9znYnFKXtZUAwvPCon/310x430/8a368ede.webp?s=84840fe649e22a4bfd27e63ab603ccecddee7dbe",
+  "prix_total": 93.95,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "Console Sony PS Vita PCH-2004 nera usata con segni sul retro",
+  "uid": "vinted:10895297994",
+  "url": "https://www.vinted.fr/items/10895297994",
+  "verifiee": "2026-11-20T17:31:12+00:00"
  }
 ]

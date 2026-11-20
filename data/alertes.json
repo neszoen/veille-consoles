@@ -645,7 +645,7 @@
   "titre": "Sony Psp Super Slim",
   "uid": "vinted:10885891252",
   "url": "https://www.vinted.fr/items/10885891252",
-  "verifiee": "2026-11-20T14:31:16+00:00"
+  "verifiee": "2026-11-20T17:01:25+00:00"
  },
  {
   "analyse": {
@@ -730,7 +730,7 @@
   "titre": "PSP 3004 Series (sin bateria)",
   "uid": "vinted:10886927858",
   "url": "https://www.vinted.fr/items/10886927858",
-  "verifiee": "2026-11-20T14:31:18+00:00"
+  "verifiee": "2026-11-20T17:01:28+00:00"
  },
  {
   "analyse": {
@@ -839,5 +839,32 @@
   "uid": "vinted:10895068173",
   "url": "https://www.vinted.fr/items/10895068173",
   "verifiee": "2026-11-20T15:01:21+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 50,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 31,
+   "marge_pct": 55,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 121,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-20T17:01:20+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/03_020e9_ykNFgr4ttAbNAGA9bxRUTv12/310x430/3aec9127.webp?s=f1ead92b92a388d656f677447557a41f45fe3191",
+  "prix_total": 57.2,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Psp 3004 da testare",
+  "uid": "vinted:10896598473",
+  "url": "https://www.vinted.fr/items/10896598473",
+  "verifiee": "2026-11-20T17:01:23+00:00"
  }
 ]

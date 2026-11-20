@@ -78,6 +78,10 @@ d'accueil : *iPhone* → Partager ⬆️ → « Sur l'écran d'accueil » · *An
 > côté Netlify). Le site n'est pas référencé par les moteurs de recherche. Pour changer le mot
 > de passe : modifie `MOT_DE_PASSE` sur Netlify puis redéploie (tous les appareils sont déconnectés).
 >
+> ⏱ Le site **relance aussi le robot toutes les 30 min** (fonction programmée `relance`) :
+> GitHub, seul, retarde souvent ses passages de plusieurs heures. Rien à configurer :
+> elle utilise les mêmes variables que le site.
+>
 > ♻️ Les passages du robot (toutes les 30 min) ne redéploient **pas** le site : seuls les
 > changements dans `site/` ou `netlify/` le font.
 

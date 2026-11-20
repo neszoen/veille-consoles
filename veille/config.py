@@ -103,7 +103,7 @@ DEFAUTS = {
     "echantillon_min": 5,
     "alertes_max_par_execution": 15,
     "descriptions_max_par_source": 20,
-    "verifier_vendues_max_par_source": 15,
+    "verifier_vendues_max_par_source": 30,
     "verifier_vendues_jours": 30,
     "verifier_vendues_intervalle_h": 2,
     "echecs_avant_alerte": 3,

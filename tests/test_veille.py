@@ -287,3 +287,13 @@ class TestVendues(unittest.TestCase):
         vus.clear()
         verifier_alertes(store, [SourceTest(CFG)], CFG, {})
         self.assertEqual(vus, [])  # revérifiée seulement après l'intervalle (2 h)
+
+
+class TestVinted(unittest.TestCase):
+    def test_vendue_dans_les_donnees_echappees(self):
+        from veille.sources.vinted import VintedSource
+        from veille.sources.web import page_dit_vendue
+        m = VintedSource.marqueurs_vendu
+        self.assertTrue(page_dit_vendue('self.__next_f.push([1,"{\\"id\\":1,\\"is_closed\\":true}"])', m))
+        self.assertTrue(page_dit_vendue('{"item_closing_action": "sold"}', m))
+        self.assertFalse(page_dit_vendue('{"is_closed":false,"is_reserved":false}', m))

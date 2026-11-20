@@ -30,7 +30,10 @@ def _nombre(texte: str | None) -> float | None:
 class VintedSource(SourceWeb):
     nom = "vinted"
     libelle = "Vinted"
-    marqueurs_vendu = ("cet article a été vendu", "cet article n'est plus disponible")
+    # Une annonce vendue reste en ligne avec un badge « Vendu » ; ses données le disent.
+    # (Les autres articles affichés sur la page sont en vente : ils ne déclenchent rien.)
+    marqueurs_vendu = ('"is_closed":true', '"item_closing_action":"sold"', '"is_reserved":true',
+                       "cet article a été vendu", "cet article n'est plus disponible")
 
     def chercher(self, rech: Recherche) -> list[Annonce]:
         page = self.telecharger("https://www.vinted.fr/catalog",

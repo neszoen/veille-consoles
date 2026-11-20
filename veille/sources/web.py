@@ -69,8 +69,11 @@ def page_dit_vendue(page: str, marqueurs=()) -> bool:
             dispo = str((offre or {}).get("availability", "")).lower()
             if any(m in dispo for m in INDISPONIBLE):
                 return True
-    texte = html.unescape(page).lower()
-    return any(m.lower() in texte for m in marqueurs)
+    # Les pages modernes contiennent leurs données en JSON, souvent échappé (\\"cle\\":valeur) :
+    # on retire les échappements et les espaces avant de chercher.
+    texte = html.unescape(page).replace('\\"', '"').lower()
+    compact = re.sub(r"\s+", "", texte)
+    return any(m.lower() in texte or re.sub(r"\s+", "", m.lower()) in compact for m in marqueurs)
 
 
 class SourceWeb(Source):

@@ -426,13 +426,16 @@
   },
   "date_alerte": "2026-11-18T16:14:25+00:00",
   "etat": "hs",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/04_01cc5_MMpJRXZ8acXSvWfKx6egVG4M/310x430/b18e1d89.webp?s=bfc004f6e01cbea189c603e7f5658a1c61f9d4eb",
   "prix_total": 36.2,
   "recherche": "PSP 3000",
   "source": "vinted",
   "titre": "Psp 3004 Blanca para piezas o reparar",
   "uid": "vinted:10868141406",
-  "url": "https://www.vinted.fr/items/10868141406"
+  "url": "https://www.vinted.fr/items/10868141406",
+  "vendue": "2026-11-20T10:01:12+00:00",
+  "verifiee": "2026-11-20T10:01:12+00:00"
  },
  {
   "analyse": {
@@ -452,13 +455,16 @@
   },
   "date_alerte": "2026-11-18T16:14:26+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "retiree",
   "photo": "https://images1.vinted.net/t/01_023d6_4fkrs9qM6VYHojwvLLk9ro7W/310x430/fedcd149.webp?s=515d6370fc50c69868eb295faa19e3da225115d7",
   "prix_total": 78.19,
   "recherche": "PSP 3000",
   "source": "vinted",
   "titre": "Sony PlayStation Portable Psp 3000",
   "uid": "vinted:10867365659",
-  "url": "https://www.vinted.fr/items/10867365659"
+  "url": "https://www.vinted.fr/items/10867365659",
+  "vendue": "2026-11-20T10:01:14+00:00",
+  "verifiee": "2026-11-20T10:01:14+00:00"
  },
  {
   "analyse": {
@@ -478,13 +484,16 @@
   },
   "date_alerte": "2026-11-18T16:14:28+00:00",
   "etat": "inconnu",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/01_01c40_TH8hJTutMgCXjyfErgBkvZbR/310x430/d9565557.webp?s=e8a19fa8638c407876dfa2b1d853d7e16fca23a3",
   "prix_total": 62.45,
   "recherche": "PSP 2000",
   "source": "vinted",
   "titre": "Psp-2000",
   "uid": "vinted:10869355040",
-  "url": "https://www.vinted.fr/items/10869355040"
+  "url": "https://www.vinted.fr/items/10869355040",
+  "vendue": "2026-11-20T10:01:16+00:00",
+  "verifiee": "2026-11-20T10:01:16+00:00"
  },
  {
   "analyse": {
@@ -504,13 +513,16 @@
   },
   "date_alerte": "2026-11-18T21:20:25+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "retiree",
   "photo": "https://images1.vinted.net/t/06_026de_gSJhC9miqgjCuq73MTGgdXEv/310x430/b6109f2c.webp?s=d8b0505dbe21e8e6f121ba62919ece7f21239893",
   "prix_total": 41.44,
   "recherche": "PSP 1000",
   "source": "vinted",
   "titre": "Psp 1000",
   "uid": "vinted:10872634117",
-  "url": "https://www.vinted.fr/items/10872634117"
+  "url": "https://www.vinted.fr/items/10872634117",
+  "vendue": "2026-11-20T10:01:18+00:00",
+  "verifiee": "2026-11-20T10:01:18+00:00"
  },
  {
   "analyse": {
@@ -530,13 +542,16 @@
   },
   "date_alerte": "2026-11-18T21:20:27+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "retiree",
   "photo": "https://images1.vinted.net/t/06_023ef_P39wJRhWmZjbEsM5456coiW4/310x430/06aa6e2e.webp?s=57c6d6d89e85973f0fbe78b2855a842c81a35a21",
   "prix_total": 62.45,
   "recherche": "PSP 3000",
   "source": "vinted",
   "titre": "PSP 3004",
   "uid": "vinted:10874214874",
-  "url": "https://www.vinted.fr/items/10874214874"
+  "url": "https://www.vinted.fr/items/10874214874",
+  "vendue": "2026-11-20T10:01:20+00:00",
+  "verifiee": "2026-11-20T10:01:20+00:00"
  },
  {
   "analyse": {
@@ -582,13 +597,16 @@
   },
   "date_alerte": "2026-11-19T19:37:14+00:00",
   "etat": "inconnu",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/06_011a6_Xqw1SQNrrxXMizPKAgetUKm6/310x430/96147db1.webp?s=770fcac06ff386154268ccc7b8c728252cbe0b4e",
   "prix_total": 25.7,
   "recherche": "PSP 2000",
   "source": "vinted",
   "titre": "Psp 2000 shell",
   "uid": "vinted:10883860867",
-  "url": "https://www.vinted.fr/items/10883860867"
+  "url": "https://www.vinted.fr/items/10883860867",
+  "vendue": "2026-11-20T10:01:23+00:00",
+  "verifiee": "2026-11-20T10:01:23+00:00"
  },
  {
   "analyse": {
@@ -614,7 +632,8 @@
   "source": "vinted",
   "titre": "Sony Psp Super Slim",
   "uid": "vinted:10885891252",
-  "url": "https://www.vinted.fr/items/10885891252"
+  "url": "https://www.vinted.fr/items/10885891252",
+  "verifiee": "2026-11-20T10:01:25+00:00"
  },
  {
   "analyse": {
@@ -634,13 +653,16 @@
   },
   "date_alerte": "2026-11-19T19:37:18+00:00",
   "etat": "inconnu",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/05_0104f_U5moH6MaAMMSNGrmaWXPRmhC/310x430/ef072b70.webp?s=422a19b57693482a4b480efbd2f6b63046eb1471",
   "prix_total": 67.7,
   "recherche": "PSP 3000",
   "source": "vinted",
   "titre": "PSP 3000-Muito pouco uso",
   "uid": "vinted:10883234244",
-  "url": "https://www.vinted.fr/items/10883234244"
+  "url": "https://www.vinted.fr/items/10883234244",
+  "vendue": "2026-11-20T10:01:28+00:00",
+  "verifiee": "2026-11-20T10:01:28+00:00"
  },
  {
   "analyse": {
@@ -660,13 +682,16 @@
   },
   "date_alerte": "2026-11-20T01:26:35+00:00",
   "etat": "inconnu",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/06_00531_s7Ka5QpiGXtW4aamC2qRXuc3/310x430/58cc9c2a.webp?s=c1e1a09a91928ddfda010c9585de3a9e27efe2da",
   "prix_total": 67.7,
   "recherche": "PS Vita",
   "source": "vinted",
   "titre": "SD Sony PSvita vita play station 64Gb + 8",
   "uid": "vinted:10888550391",
-  "url": "https://www.vinted.fr/items/10888550391"
+  "url": "https://www.vinted.fr/items/10888550391",
+  "vendue": "2026-11-20T10:01:30+00:00",
+  "verifiee": "2026-11-20T10:01:30+00:00"
  },
  {
   "analyse": {
@@ -692,7 +717,8 @@
   "source": "vinted",
   "titre": "PSP 3004 Series (sin bateria)",
   "uid": "vinted:10886927858",
-  "url": "https://www.vinted.fr/items/10886927858"
+  "url": "https://www.vinted.fr/items/10886927858",
+  "verifiee": "2026-11-20T10:01:33+00:00"
  },
  {
   "analyse": {
@@ -718,7 +744,8 @@
   "source": "vinted",
   "titre": "Sony playStation Portable Psp 3000",
   "uid": "vinted:10887003453",
-  "url": "https://www.vinted.fr/items/10887003453"
+  "url": "https://www.vinted.fr/items/10887003453",
+  "verifiee": "2026-11-20T10:01:35+00:00"
  },
  {
   "analyse": {
@@ -744,6 +771,7 @@
   "source": "vinted",
   "titre": "psp l-1004 sony",
   "uid": "vinted:10890708101",
-  "url": "https://www.vinted.fr/items/10890708101"
+  "url": "https://www.vinted.fr/items/10890708101",
+  "verifiee": "2026-11-20T10:01:37+00:00"
  }
 ]

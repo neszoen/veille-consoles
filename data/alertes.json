@@ -306,7 +306,7 @@
   "titre": "Sony psp 3000",
   "uid": "vinted:10845610591",
   "url": "https://www.vinted.fr/items/10845610591",
-  "verifiee": "2026-11-20T19:01:20+00:00"
+  "verifiee": "2026-11-20T21:31:21+00:00"
  },
  {
   "analyse": {
@@ -333,7 +333,7 @@
   "titre": "Psp e 1004 2a",
   "uid": "vinted:10862758171",
   "url": "https://www.vinted.fr/items/10862758171",
-  "verifiee": "2026-11-20T19:01:22+00:00"
+  "verifiee": "2026-11-20T21:31:24+00:00"
  },
  {
   "analyse": {
@@ -360,7 +360,7 @@
   "titre": "Playstation Ps Vita - Carte mémoire 32 Go",
   "uid": "vinted:10864862572",
   "url": "https://www.vinted.fr/items/10864862572",
-  "verifiee": "2026-11-20T19:01:25+00:00"
+  "verifiee": "2026-11-20T21:31:26+00:00"
  },
  {
   "analyse": {
@@ -862,6 +862,7 @@
   },
   "date_alerte": "2026-11-20T17:01:20+00:00",
   "etat": "inconnu",
+  "motif_vendue": "retiree",
   "photo": "https://images1.vinted.net/t/03_020e9_ykNFgr4ttAbNAGA9bxRUTv12/310x430/3aec9127.webp?s=f1ead92b92a388d656f677447557a41f45fe3191",
   "prix_total": 57.2,
   "recherche": "PSP 3000",
@@ -869,7 +870,8 @@
   "titre": "Psp 3004 da testare",
   "uid": "vinted:10896598473",
   "url": "https://www.vinted.fr/items/10896598473",
-  "verifiee": "2026-11-20T19:31:15+00:00"
+  "vendue": "2026-11-20T21:31:28+00:00",
+  "verifiee": "2026-11-20T21:31:28+00:00"
  },
  {
   "analyse": {
@@ -980,5 +982,32 @@
   "uid": "vinted:10899749068",
   "url": "https://www.vinted.fr/items/10899749068",
   "verifiee": "2026-11-20T21:01:21+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 45,
+   "feu": true,
+   "frais": 13.0,
+   "marge_eur": 22,
+   "marge_pct": 25,
+   "mediane": 162.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 228,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-20T21:31:16+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/02_024b4_qu4MiYpBcpqDwZuy1UhFmJvn/310x430/f0f7123b.webp?s=4d149fe51c371d09279a3d61ed0efd6799015dde",
+  "prix_total": 88.7,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "PS vita",
+  "uid": "vinted:10900086672",
+  "url": "https://www.vinted.fr/items/10900086672",
+  "verifiee": "2026-11-20T21:31:19+00:00"
  }
 ]

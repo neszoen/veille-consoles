@@ -4,6 +4,7 @@ import json
 import logging
 import re
 import time
+from urllib.parse import urlparse
 
 import requests
 
@@ -42,7 +43,38 @@ def extraire_description(page: str) -> str:
     return max(textes, key=len, default="")
 
 
+INDISPONIBLE = ("soldout", "outofstock", "discontinued")
+
+
+def _produits_json_ld(page: str):
+    for bloc in RE_JSON_LD.findall(page):
+        try:
+            donnees = json.loads(bloc.strip())
+        except ValueError:
+            continue
+        for d in donnees if isinstance(donnees, list) else [donnees]:
+            if isinstance(d, dict) and "Product" in str(d.get("@type", "")):
+                yield d
+
+
+def page_dit_vendue(page: str, marqueurs=()) -> bool:
+    """Vrai si la page indique que l'annonce n'est plus en vente.
+
+    On se fie d'abord aux données structurées du produit principal (« availability »),
+    puis à quelques phrases propres au site.
+    """
+    for produit in _produits_json_ld(page):
+        offres = produit.get("offers") or {}
+        for offre in offres if isinstance(offres, list) else [offres]:
+            dispo = str((offre or {}).get("availability", "")).lower()
+            if any(m in dispo for m in INDISPONIBLE):
+                return True
+    texte = html.unescape(page).lower()
+    return any(m.lower() in texte for m in marqueurs)
+
+
 class SourceWeb(Source):
+    marqueurs_vendu: tuple = ()  # textes propres au site qui signalent une annonce vendue
     delai = 3.0  # 3 à 4 s entre deux pages d'un même site (quelques pages par demi-heure)
 
     def __init__(self, cfg, session=None):
@@ -91,3 +123,29 @@ class SourceWeb(Source):
             return False
         annonce.description = description[:3000]
         return True
+
+    def verifier(self, alerte: dict) -> str | None:
+        url = alerte.get("url", "")
+        if not url.startswith("http"):
+            return None
+        time.sleep(self.delai * 0.6)
+        try:
+            r = self.session.get(url, timeout=25, allow_redirects=True)
+        except requests.RequestException:
+            return None
+        if r.status_code in (404, 410):
+            return "retiree"
+        debut = r.text[:6000]
+        if r.status_code in (401, 403) or (len(r.text) < 20000 and any(s in debut for s in SIGNES_BLOCAGE)):
+            raise SourceBloquee(f"{self.libelle} bloque l'accès (code {r.status_code})")
+        if r.status_code != 200:
+            return None
+        if page_dit_vendue(r.text, self.marqueurs_vendu):
+            return "vendue"
+        # Annonce supprimée : le site renvoie souvent vers le catalogue ou l'accueil.
+        if r.history:
+            ident = str(alerte.get("uid", "")).split(":", 1)[-1]
+            depart, arrivee = urlparse(url).path.rstrip("/"), urlparse(r.url).path.rstrip("/")
+            if arrivee != depart and not (ident and ident in arrivee):
+                return "retiree"
+        return "disponible"

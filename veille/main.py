@@ -71,6 +71,10 @@ def executer(simulation: bool = False, dossier_data: Path | None = None,
             for a in reste:
                 store.marquer_alertee(a)
 
+    # Annonces déjà alertées : vendues ou retirées depuis ? (le site les masque)
+    from .disponibilite import verifier_alertes
+    verifier_alertes(store, pretes, cfg, bilan)
+
     store.sauvegarder()
     log.info("Fin : %(annonces)d annonces lues, %(nouvelles)d nouvelles, %(alertes)d alertes envoyées, "
              "sources OK %(sources_ok)d / en échec %(sources_ko)d.", bilan)

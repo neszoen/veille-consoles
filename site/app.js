@@ -165,6 +165,7 @@
     if (an.feu) badges.push('<span class="badge feu">🔥 Bonne affaire</span>');
     badges.push(`<span class="badge ${etatCls}">${a.etat === "hs" ? "🔧 " : ""}${etatLib}</span>`);
     if (an.lot) badges.push('<span class="badge">📦 Lot</span>');
+    if (a.vendue) badges.unshift(`<span class="badge bad">${a.motif_vendue === "retiree" ? "Retirée" : "Vendue"} · ${depuis(a.vendue)}</span>`);
     const chiffres = [];
     if (an.montrer_marge && an.marge_eur != null)
       chiffres.push(`<span>Marge <b class="${an.marge_eur >= 0 ? "plus" : "moins"}">${an.marge_eur >= 0 ? "+" : ""}${an.marge_eur} €</b></span>`);
@@ -184,13 +185,16 @@
 
   // ───────────── page Accueil ─────────────
   let filtreAlertes = "toutes";
+  let voirVendues = false;
   async function pageAccueil() {
     const r = await chargerResume();
     const il30 = Date.now() - 30 * 86400000;
     const alertes30 = r.alertes.filter((a) => new Date(a.date_alerte).getTime() > il30);
+    const vendues30 = (r.vendues || []).filter((a) => new Date(a.date_alerte).getTime() > il30).length;
     const feux = alertes30.filter((a) => a.analyse?.feu).length;
     const recherches = [...new Set(r.alertes.map((a) => a.recherche))];
-    const liste = r.alertes.filter((a) => filtreAlertes === "toutes" || (filtreAlertes === "feu" ? a.analyse?.feu : a.recherche === filtreAlertes));
+    const source = voirVendues ? r.vendues || [] : r.alertes;
+    const liste = source.filter((a) => filtreAlertes === "toutes" || (filtreAlertes === "feu" ? a.analyse?.feu : a.recherche === filtreAlertes));
     const derniere = r.executions[0];
     const enCours = derniere && derniere.statut !== "completed";
     const sansTelegram = r.comptes && !r.comptes.telegram;
@@ -203,16 +207,17 @@
       ${r.watchlist.erreur ? `<div class="alerte-bandeau bad"><span>⚠️</span><p>${echap(r.watchlist.erreur)}</p></div>` : ""}
       ${derniere && derniere.statut === "completed" && derniere.resultat !== "success" ? `<div class="alerte-bandeau bad"><span>⚠️</span><p>Le dernier passage du robot a échoué.</p><a class="btn petit" href="${echap(lienSur(derniere.url))}" target="_blank" rel="noopener">Voir le détail</a></div>` : ""}
       <section class="grille g-tuiles">
-        <div class="carte tuile"><div class="etiquette">Alertes (30 jours)</div><div class="valeur">${alertes30.length}</div><div class="sous">${feux} très bonne(s) affaire(s) 🔥</div></div>
+        <div class="carte tuile"><div class="etiquette">Alertes encore en vente</div><div class="valeur">${alertes30.length}</div><div class="sous">${feux} 🔥 · ${vendues30} déjà vendue(s) (30 j)</div></div>
         <div class="carte tuile"><div class="etiquette">Annonces analysées</div><div class="valeur">${r.nb_vues.toLocaleString("fr-FR")}</div><div class="sous">depuis le début</div></div>
         <div class="carte tuile"><div class="etiquette">Recherches actives</div><div class="valeur">${r.watchlist.actives}</div><div class="sous">${r.watchlist.total - r.watchlist.actives} en pause</div></div>
         <div class="carte tuile"><div class="etiquette">Dernier passage du robot</div><div class="valeur" style="font-size:1.35rem;padding-top:6px">${enCours ? "en cours…" : depuis(derniere?.fin)}</div><div class="sous">toutes les 30 min sur GitHub</div></div>
       </section>
       <section>
-        <div class="titre-section"><h2>Dernières alertes</h2>
+        <div class="titre-section"><h2>${voirVendues ? "Annonces vendues ou retirées" : "Dernières alertes"}</h2>
           <div class="puces" id="filtres">
             <button class="puce" data-f="toutes">Toutes</button><button class="puce" data-f="feu">🔥 Bonnes affaires</button>
             ${recherches.map((n) => `<button class="puce" data-f="${echap(n)}">${echap(n)}</button>`).join("")}
+            ${r.nb_vendues ? `<button class="puce ${voirVendues ? "actif" : ""}" id="b-vendues">${voirVendues ? "↩ Annonces en vente" : `Vendues (${r.nb_vendues})`}</button>` : ""}
           </div></div>
         ${liste.length ? `<div class="grille g-annonces">${liste.map(carteAnnonce).join("")}</div>`
           : `<div class="carte vide"><div class="grand">🕹️</div><p><b>Aucune alerte pour l'instant.</b></p>
@@ -227,6 +232,8 @@
       b.onclick = () => { filtreAlertes = b.dataset.f; pageAccueil(); };
     });
     $("#b-veille").onclick = (e) => lancerRobot(e.currentTarget);
+    const bv = $("#b-vendues");
+    if (bv) bv.onclick = () => { voirVendues = !voirVendues; filtreAlertes = "toutes"; pageAccueil(); };
     if (enCours) suivreRobot();
   }
 

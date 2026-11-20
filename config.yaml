@@ -22,6 +22,8 @@ echantillon_min: 5          # nb d'annonces minimum avant de calculer une média
 # --- Alertes ---
 alertes_max_par_execution: 15  # au-delà, un simple résumé est envoyé
 descriptions_max_par_source: 20  # annonces dont on lit la description à chaque passage (celles qui pourraient être alertées)
+verifier_vendues_max_par_source: 15  # alertes revérifiées par site et par passage (vendue ou retirée ?)
+verifier_vendues_intervalle_h: 2     # une même annonce est revérifiée au plus toutes les 2 h, pendant 30 jours
 echecs_avant_alerte: 3         # « ⚠️ source en panne » après N échecs de suite
 
 # --- Sources (true = activée) ---

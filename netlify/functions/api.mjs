@@ -257,7 +257,11 @@ const ROUTES = {
       watchlist: { actives: wl.recherches.filter((r) => r.actif).length, total: wl.recherches.length, erreur: wl.erreur || null },
       sources: Object.entries(cfg.sources).map(([nom, actif]) => ({ nom, libelle: LIBELLES[nom] || nom, actif: !!actif,
         echecs: sante[nom]?.echecs || 0, dernier_succes: sante[nom]?.dernier_succes || null })),
-      alertes: [...alertes].sort((a, b) => (b.date_alerte || "").localeCompare(a.date_alerte || "")).slice(0, 60),
+      ...(() => {
+        const triees = [...alertes].sort((a, b) => (b.date_alerte || "").localeCompare(a.date_alerte || ""));
+        const vendues = triees.filter((a) => a.vendue);
+        return { alertes: triees.filter((a) => !a.vendue).slice(0, 60), vendues: vendues.slice(0, 30), nb_vendues: vendues.length };
+      })(),
       nb_vues: Object.keys(vues).length,
       executions: runs,
     };

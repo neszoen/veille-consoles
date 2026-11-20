@@ -30,6 +30,7 @@ def _nombre(texte: str | None) -> float | None:
 class VintedSource(SourceWeb):
     nom = "vinted"
     libelle = "Vinted"
+    marqueurs_vendu = ("cet article a été vendu", "cet article n'est plus disponible")
 
     def chercher(self, rech: Recherche) -> list[Annonce]:
         page = self.telecharger("https://www.vinted.fr/catalog",

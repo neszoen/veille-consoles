@@ -14,6 +14,7 @@ log = logging.getLogger("veille")
 
 URL_JETON = "https://api.ebay.com/identity/v1/oauth2/token"
 URL_RECHERCHE = "https://api.ebay.com/buy/browse/v1/item_summary/search"
+URL_ARTICLE = "https://api.ebay.com/buy/browse/v1/item/"
 ETAT_POUR_PIECES = "7000"  # code eBay « Pour pièces ou ne fonctionne pas »
 
 
@@ -86,6 +87,22 @@ class EbaySource(Source):
             raise ErreurSource(f"réponse eBay inattendue (code {r.status_code}) : {r.text[:200]}")
         items = r.json().get("itemSummaries", []) or []
         return [a for a in (self._convertir(it) for it in items) if a]
+
+    def verifier(self, alerte: dict) -> str | None:
+        ident = str(alerte.get("uid", "")).split(":", 1)[-1]
+        if not ident:
+            return None
+        try:
+            r = self.session.get(URL_ARTICLE + quote(ident, safe=""), timeout=20,
+                                 headers={"Authorization": f"Bearer {self.jeton()}", "X-EBAY-C-MARKETPLACE-ID": "EBAY_FR"})
+        except (requests.RequestException, ErreurSource):
+            return None
+        if r.status_code == 404:
+            return "vendue"  # annonce terminée : vendue ou retirée par le vendeur
+        if r.status_code != 200:
+            return None
+        dispo = [d.get("estimatedAvailabilityStatus") for d in r.json().get("estimatedAvailabilities", []) or []]
+        return "vendue" if dispo and all(x == "OUT_OF_STOCK" for x in dispo) else "disponible"
 
     @staticmethod
     def _convertir(it: dict) -> Annonce | None:

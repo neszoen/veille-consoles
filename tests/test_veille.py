@@ -247,3 +247,43 @@ class SourceVide(Source):
     nom = "vide"
     def chercher(self, rech):
         return []
+
+
+class TestVendues(unittest.TestCase):
+    def test_page_dit_vendue(self):
+        from veille.sources.web import page_dit_vendue
+        vendue = ('<script type="application/ld+json">{"@type":"Product","name":"PSP",'
+                  '"offers":{"@type":"Offer","availability":"https://schema.org/SoldOut"}}</script>')
+        dispo = vendue.replace("SoldOut", "InStock")
+        self.assertTrue(page_dit_vendue(vendue))
+        self.assertFalse(page_dit_vendue(dispo))
+        self.assertTrue(page_dit_vendue("<p>Cet article a été vendu</p>", ("cet article a été vendu",)))
+
+    def test_verification_marque_les_vendues(self):
+        from datetime import timedelta
+        from veille.disponibilite import verifier_alertes
+        from veille.stockage import Stockage, maintenant
+        dossier = tempfile.mkdtemp()
+        store = Stockage(dossier)
+        hier = (maintenant() - timedelta(days=1)).isoformat(timespec="seconds")
+        vieux = (maintenant() - timedelta(days=40)).isoformat(timespec="seconds")
+        store.alertes = [{"uid": "test:1", "source": "test", "url": "https://x.fr/1", "date_alerte": hier},
+                         {"uid": "test:2", "source": "test", "url": "https://x.fr/2", "date_alerte": hier},
+                         {"uid": "test:3", "source": "test", "url": "https://x.fr/3", "date_alerte": vieux}]
+        vus = []
+
+        class SourceTest(Source):
+            nom = "test"
+            def verifier(self, alerte):
+                vus.append(alerte["uid"])
+                return "vendue" if alerte["uid"] == "test:1" else "disponible"
+
+        bilan = {}
+        verifier_alertes(store, [SourceTest(CFG)], CFG, bilan)
+        self.assertEqual(sorted(vus), ["test:1", "test:2"])  # la vieille alerte n'est plus vérifiée
+        self.assertTrue(store.alertes[0].get("vendue"))
+        self.assertFalse(store.alertes[1].get("vendue"))
+        self.assertEqual(bilan["vendues"], 1)
+        vus.clear()
+        verifier_alertes(store, [SourceTest(CFG)], CFG, {})
+        self.assertEqual(vus, [])  # revérifiée seulement après l'intervalle (2 h)

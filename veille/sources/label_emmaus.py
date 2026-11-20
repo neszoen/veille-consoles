@@ -18,6 +18,7 @@ MARQUEUR = 'class="product-card catalogue-card"'
 class LabelEmmausSource(SourceWeb):
     nom = "label_emmaus"
     libelle = "Label Emmaüs"
+    marqueurs_vendu = ("ce produit a été vendu", "ce produit n'est plus disponible")
 
     def chercher(self, rech: Recherche) -> list[Annonce]:
         page = self.telecharger(f"{BASE}/fr/catalogue/", {"q": rech.requete, "tri": "recent"})

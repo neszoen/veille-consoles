@@ -42,3 +42,11 @@ class Source:
         Une erreur ici ne doit jamais faire échouer la source.
         """
         return False
+
+    def verifier(self, alerte: dict) -> str | None:
+        """L'annonce est-elle toujours en vente ?
+
+        Renvoie « disponible », « vendue », « retiree », ou None si on ne sait pas
+        (site qui ne permet pas de vérifier, erreur passagère…).
+        """
+        return None

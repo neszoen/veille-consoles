@@ -53,7 +53,7 @@
   "titre": "Console Sony PSP 1004 nera funzionante con alimentatore sigillato, Memory Stick, senza batteria",
   "uid": "vinted:10849130374",
   "url": "https://www.vinted.fr/items/10849130374",
-  "verifiee": "2026-11-20T18:31:17+00:00"
+  "verifiee": "2026-11-20T21:01:26+00:00"
  },
  {
   "analyse": {
@@ -80,7 +80,7 @@
   "titre": "Nintendo DS Lite",
   "uid": "vinted:10852336108",
   "url": "https://www.vinted.fr/items/10852336108",
-  "verifiee": "2026-11-20T18:31:19+00:00"
+  "verifiee": "2026-11-20T21:01:28+00:00"
  },
  {
   "analyse": {
@@ -107,7 +107,7 @@
   "titre": "Ds lite menthe",
   "uid": "vinted:10854086719",
   "url": "https://www.vinted.fr/items/10854086719",
-  "verifiee": "2026-11-20T19:01:15+00:00"
+  "verifiee": "2026-11-20T21:01:31+00:00"
  },
  {
   "analyse": {
@@ -192,7 +192,7 @@
   "titre": "Nintendo ds lite et sacoche Nintendo",
   "uid": "vinted:10857172859",
   "url": "https://www.vinted.fr/items/10857172859",
-  "verifiee": "2026-11-20T19:01:18+00:00"
+  "verifiee": "2026-11-20T21:01:33+00:00"
  },
  {
   "analyse": {
@@ -806,6 +806,7 @@
   },
   "date_alerte": "2026-11-20T11:31:14+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/05_0163f_synqNewThmTY1tUsXZ6sjwAb/310x430/bc00de2a.webp?s=5f851e7ea7ec63919f36b24cccfbe5d7e9abb424",
   "prix_total": 62.45,
   "recherche": "PSP 2000",
@@ -813,7 +814,8 @@
   "titre": "Sony PSP 2000 Nera",
   "uid": "vinted:10892190718",
   "url": "https://www.vinted.fr/items/10892190718",
-  "verifiee": "2026-11-20T18:31:14+00:00"
+  "vendue": "2026-11-20T21:01:23+00:00",
+  "verifiee": "2026-11-20T21:01:23+00:00"
  },
  {
   "analyse": {
@@ -951,5 +953,32 @@
   "uid": "vinted:10898982741",
   "url": "https://www.vinted.fr/items/10898982741",
   "verifiee": "2026-11-20T20:01:23+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 53,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 37,
+   "marge_pct": 70,
+   "mediane": 109.7,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 126,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-20T21:01:18+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/01_01199_qCjtsvmPvb5THR78CuQdrma7/310x430/3b4ff441.webp?s=51500846121c2113026e0634cc864691a3411343",
+  "prix_total": 51.95,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Psp 3004 da testare",
+  "uid": "vinted:10899749068",
+  "url": "https://www.vinted.fr/items/10899749068",
+  "verifiee": "2026-11-20T21:01:21+00:00"
  }
 ]

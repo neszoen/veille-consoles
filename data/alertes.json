@@ -750,6 +750,7 @@
   },
   "date_alerte": "2026-11-20T01:26:38+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "retiree",
   "photo": "https://images1.vinted.net/t/01_013a0_uok2UafK8hYVuzuTcP8cwJKU/310x430/483b798e.webp?s=764d2d60c907a34103df771f6e37c059c472ab22",
   "prix_total": 78.19,
   "recherche": "PSP 3000",
@@ -757,7 +758,8 @@
   "titre": "Sony playStation Portable Psp 3000",
   "uid": "vinted:10887003453",
   "url": "https://www.vinted.fr/items/10887003453",
-  "verifiee": "2026-11-20T17:31:17+00:00"
+  "vendue": "2026-11-20T20:01:28+00:00",
+  "verifiee": "2026-11-20T20:01:28+00:00"
  },
  {
   "analyse": {
@@ -784,7 +786,7 @@
   "titre": "psp l-1004 sony",
   "uid": "vinted:10890708101",
   "url": "https://www.vinted.fr/items/10890708101",
-  "verifiee": "2026-11-20T17:31:19+00:00"
+  "verifiee": "2026-11-20T20:01:30+00:00"
  },
  {
   "analyse": {
@@ -838,7 +840,7 @@
   "titre": "PSP-2000 read description",
   "uid": "vinted:10895068173",
   "url": "https://www.vinted.fr/items/10895068173",
-  "verifiee": "2026-11-20T17:31:14+00:00"
+  "verifiee": "2026-11-20T20:01:26+00:00"
  },
  {
   "analyse": {
@@ -912,6 +914,7 @@
   },
   "date_alerte": "2026-11-20T17:45:18+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/01_00a05_6Xjnok2ehrb26mGigjhqjN81/310x430/142a5524.webp?s=3dea75f8e69257c80c93f7bff4264a04b77509ed",
   "prix_total": 78.2,
   "recherche": "PSP 3000",
@@ -919,6 +922,34 @@
   "titre": "Sony PSP 3004 noire + carte mémoire 32 Go",
   "uid": "vinted:10897271363",
   "url": "https://www.vinted.fr/items/10897271363",
-  "verifiee": "2026-11-20T17:45:21+00:00"
+  "vendue": "2026-11-20T20:01:33+00:00",
+  "verifiee": "2026-11-20T20:01:33+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 30,
+   "feu": false,
+   "frais": 10.5,
+   "marge_eur": 10,
+   "marge_pct": 13,
+   "mediane": 112.33,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 124,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-20T20:01:21+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/03_00df2_TYhvELARH9bk9PEhyiFVsqzo/310x430/3bb11873.webp?s=4289c2fb2d1f6222ade1047157f128988477abbb",
+  "prix_total": 78.19,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Sony PlayStation Portable Psp 3000",
+  "uid": "vinted:10898982741",
+  "url": "https://www.vinted.fr/items/10898982741",
+  "verifiee": "2026-11-20T20:01:23+00:00"
  }
 ]

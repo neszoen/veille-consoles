@@ -645,7 +645,7 @@
   "titre": "Sony Psp Super Slim",
   "uid": "vinted:10885891252",
   "url": "https://www.vinted.fr/items/10885891252",
-  "verifiee": "2026-11-21T13:01:15+00:00"
+  "verifiee": "2026-11-21T15:15:58+00:00"
  },
  {
   "analyse": {
@@ -846,7 +846,7 @@
   "titre": "PSP-2000 read description",
   "uid": "vinted:10895068173",
   "url": "https://www.vinted.fr/items/10895068173",
-  "verifiee": "2026-11-21T13:01:25+00:00"
+  "verifiee": "2026-11-21T15:16:03+00:00"
  },
  {
   "analyse": {
@@ -960,7 +960,7 @@
   "titre": "Sony PlayStation Portable Psp 3000",
   "uid": "vinted:10898982741",
   "url": "https://www.vinted.fr/items/10898982741",
-  "verifiee": "2026-11-21T13:01:23+00:00"
+  "verifiee": "2026-11-21T15:16:00+00:00"
  },
  {
   "analyse": {
@@ -1181,7 +1181,7 @@
   "titre": "Sony Playstation Portable PSP-3000 White - Read description!",
   "uid": "vinted:10906420942",
   "url": "https://www.vinted.fr/items/10906420942",
-  "verifiee": "2026-11-21T13:01:13+00:00"
+  "verifiee": "2026-11-21T15:15:55+00:00"
  },
  {
   "analyse": {
@@ -1371,5 +1371,32 @@
   "uid": "vinted:10908077593",
   "url": "https://www.vinted.fr/items/10908077593",
   "verifiee": "2026-11-21T15:01:23+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 47,
+   "feu": true,
+   "frais": 6.5,
+   "marge_eur": 6,
+   "marge_pct": 12,
+   "mediane": 88.7,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 88,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 65.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-21T15:15:50+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/01_002be_a4yAxqubxnQXwAKRt4bN1VxB/310x430/a468aa46.webp?s=6ddf6db056cbca95582a7f95692d9f7f670f2f6a",
+  "prix_total": 46.7,
+  "recherche": "PSP 1000",
+  "source": "vinted",
+  "titre": "PSP 1000",
+  "uid": "vinted:10908843543",
+  "url": "https://www.vinted.fr/items/10908843543",
+  "verifiee": "2026-11-21T15:15:53+00:00"
  }
 ]

@@ -1257,6 +1257,7 @@
   },
   "date_alerte": "2026-11-21T14:01:12+00:00",
   "etat": "inconnu",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/03_0175f_qZCE2i7U7D8SbptGvYMWpcUY/310x430/207a174d.webp?s=b644b9527f565aca30e8b37590ad5f169f90af41",
   "prix_total": 46.7,
   "recherche": "PSP 1000",
@@ -1264,7 +1265,8 @@
   "titre": "PSP - 1004 e 1 jogo",
   "uid": "vinted:10907356601",
   "url": "https://www.vinted.fr/items/10907356601",
-  "verifiee": "2026-11-21T14:01:15+00:00"
+  "vendue": "2026-11-21T16:31:12+00:00",
+  "verifiee": "2026-11-21T16:31:12+00:00"
  },
  {
   "analyse": {
@@ -1400,5 +1402,32 @@
   "uid": "vinted:10908843543",
   "url": "https://www.vinted.fr/items/10908843543",
   "verifiee": "2026-11-21T15:15:53+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 32,
+   "feu": false,
+   "frais": 10.5,
+   "marge_eur": 10,
+   "marge_pct": 13,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 149,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-21T16:31:07+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/05_00be8_YFmXV9GxzPEwYNW3M1AcfBeU/310x430/00a30c79.webp?s=1f850bd9c40e65e2872a8f2397599d5b6ee59749",
+  "prix_total": 78.2,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Psp 3004 negra leer",
+  "uid": "vinted:10910205412",
+  "url": "https://www.vinted.fr/items/10910205412",
+  "verifiee": "2026-11-21T16:31:10+00:00"
  }
 ]

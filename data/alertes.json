@@ -46,6 +46,7 @@
   },
   "date_alerte": "2026-11-17T14:16:35+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/02_00d38_qeqkUMRia1a4AJDpnLxykn26/310x430/bb7e01b4.webp?s=6944c168e9aa7aa0ae126fee6db3792d02449936",
   "prix_total": 49.33,
   "recherche": "PSP 1000/2000",
@@ -53,7 +54,8 @@
   "titre": "Console Sony PSP 1004 nera funzionante con alimentatore sigillato, Memory Stick, senza batteria",
   "uid": "vinted:10849130374",
   "url": "https://www.vinted.fr/items/10849130374",
-  "verifiee": "2026-11-21T17:31:23+00:00"
+  "vendue": "2026-11-21T20:01:24+00:00",
+  "verifiee": "2026-11-21T20:01:24+00:00"
  },
  {
   "analyse": {
@@ -80,7 +82,7 @@
   "titre": "Nintendo DS Lite",
   "uid": "vinted:10852336108",
   "url": "https://www.vinted.fr/items/10852336108",
-  "verifiee": "2026-11-21T17:31:25+00:00"
+  "verifiee": "2026-11-21T20:01:26+00:00"
  },
  {
   "analyse": {
@@ -107,7 +109,7 @@
   "titre": "Ds lite menthe",
   "uid": "vinted:10854086719",
   "url": "https://www.vinted.fr/items/10854086719",
-  "verifiee": "2026-11-21T17:31:28+00:00"
+  "verifiee": "2026-11-21T20:01:29+00:00"
  },
  {
   "analyse": {
@@ -185,6 +187,7 @@
   },
   "date_alerte": "2026-11-17T18:06:29+00:00",
   "etat": "inconnu",
+  "motif_vendue": "retiree",
   "photo": "https://images1.vinted.net/t/02_016e8_DqgEdNY5y9UeWxrEsMqWGUqX/310x430/5703df0a.webp?s=9bd31504bdc296e1e57f4c4acf1d0163b5becc31",
   "prix_total": 30.95,
   "recherche": "Nintendo DS Lite",
@@ -192,7 +195,8 @@
   "titre": "Nintendo ds lite et sacoche Nintendo",
   "uid": "vinted:10857172859",
   "url": "https://www.vinted.fr/items/10857172859",
-  "verifiee": "2026-11-21T17:31:30+00:00"
+  "vendue": "2026-11-21T20:01:31+00:00",
+  "verifiee": "2026-11-21T20:01:31+00:00"
  },
  {
   "analyse": {
@@ -306,7 +310,7 @@
   "titre": "Sony psp 3000",
   "uid": "vinted:10845610591",
   "url": "https://www.vinted.fr/items/10845610591",
-  "verifiee": "2026-11-21T17:31:33+00:00"
+  "verifiee": "2026-11-21T20:01:33+00:00"
  },
  {
   "analyse": {
@@ -333,7 +337,7 @@
   "titre": "Psp e 1004 2a",
   "uid": "vinted:10862758171",
   "url": "https://www.vinted.fr/items/10862758171",
-  "verifiee": "2026-11-21T17:31:35+00:00"
+  "verifiee": "2026-11-21T20:01:36+00:00"
  },
  {
   "analyse": {
@@ -360,7 +364,7 @@
   "titre": "Playstation Ps Vita - Carte mémoire 32 Go",
   "uid": "vinted:10864862572",
   "url": "https://www.vinted.fr/items/10864862572",
-  "verifiee": "2026-11-21T17:31:38+00:00"
+  "verifiee": "2026-11-21T20:01:38+00:00"
  },
  {
   "analyse": {
@@ -987,7 +991,7 @@
   "titre": "Psp 3004 da testare",
   "uid": "vinted:10899749068",
   "url": "https://www.vinted.fr/items/10899749068",
-  "verifiee": "2026-11-21T17:31:20+00:00"
+  "verifiee": "2026-11-21T20:01:21+00:00"
  },
  {
   "analyse": {
@@ -1101,7 +1105,7 @@
   "titre": "psp-1004 della sony",
   "uid": "vinted:10901998455",
   "url": "https://www.vinted.fr/items/10901998455",
-  "verifiee": "2026-11-21T17:31:40+00:00"
+  "verifiee": "2026-11-21T20:01:41+00:00"
  },
  {
   "analyse": {
@@ -1295,7 +1299,7 @@
   "titre": "🎮 Modding Console Portatili Nintendo DS/3DS e Sony PSP/PS Vita – Personalizzazione e Assistenza",
   "uid": "vinted:10908109113",
   "url": "https://www.vinted.fr/items/10908109113",
-  "verifiee": "2026-11-21T17:31:08+00:00"
+  "verifiee": "2026-11-21T20:01:16+00:00"
  },
  {
   "analyse": {
@@ -1351,7 +1355,7 @@
   "titre": "Psp 2000 negra",
   "uid": "vinted:10908112575",
   "url": "https://www.vinted.fr/items/10908112575",
-  "verifiee": "2026-11-21T17:31:13+00:00"
+  "verifiee": "2026-11-21T20:01:19+00:00"
  },
  {
   "analyse": {
@@ -1520,5 +1524,32 @@
   "url": "https://www.vinted.fr/items/10912421261",
   "vendue": "2026-11-21T19:31:07+00:00",
   "verifiee": "2026-11-21T19:31:07+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 42,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 13,
+   "marge_pct": 23,
+   "mediane": 98.15,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 77,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-21T20:01:11+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/06_01f32_o2TPm8dk5GjfCkUvGCN8dGLi/310x430/59ac26ec.webp?s=74cbfe7db363011e5b425d1bdb5f5c7000add039",
+  "prix_total": 57.2,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "PSP-2004 Ice Silver",
+  "uid": "vinted:10912926626",
+  "url": "https://www.vinted.fr/items/10912926626",
+  "verifiee": "2026-11-21T20:01:14+00:00"
  }
 ]

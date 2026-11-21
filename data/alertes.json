@@ -645,7 +645,7 @@
   "titre": "Sony Psp Super Slim",
   "uid": "vinted:10885891252",
   "url": "https://www.vinted.fr/items/10885891252",
-  "verifiee": "2026-11-21T00:31:15+00:00"
+  "verifiee": "2026-11-21T03:01:20+00:00"
  },
  {
   "analyse": {
@@ -730,7 +730,7 @@
   "titre": "PSP 3004 Series (sin bateria)",
   "uid": "vinted:10886927858",
   "url": "https://www.vinted.fr/items/10886927858",
-  "verifiee": "2026-11-21T00:31:18+00:00"
+  "verifiee": "2026-11-21T03:01:22+00:00"
  },
  {
   "analyse": {
@@ -842,7 +842,7 @@
   "titre": "PSP-2000 read description",
   "uid": "vinted:10895068173",
   "url": "https://www.vinted.fr/items/10895068173",
-  "verifiee": "2026-11-21T01:01:15+00:00"
+  "verifiee": "2026-11-21T03:01:30+00:00"
  },
  {
   "analyse": {
@@ -898,7 +898,7 @@
   "titre": "Console Sony PS Vita PCH-2004 nera usata con segni sul retro",
   "uid": "vinted:10895297994",
   "url": "https://www.vinted.fr/items/10895297994",
-  "verifiee": "2026-11-21T00:31:20+00:00"
+  "verifiee": "2026-11-21T03:01:25+00:00"
  },
  {
   "analyse": {
@@ -954,7 +954,7 @@
   "titre": "Sony PlayStation Portable Psp 3000",
   "uid": "vinted:10898982741",
   "url": "https://www.vinted.fr/items/10898982741",
-  "verifiee": "2026-11-21T01:01:12+00:00"
+  "verifiee": "2026-11-21T03:01:27+00:00"
  },
  {
   "analyse": {
@@ -1069,5 +1069,32 @@
   "url": "https://www.vinted.fr/items/10900486472",
   "vendue": "2026-11-21T01:01:10+00:00",
   "verifiee": "2026-11-21T01:01:10+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 57,
+   "feu": true,
+   "frais": 6.5,
+   "marge_eur": 11,
+   "marge_pct": 27,
+   "mediane": 96.56,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 70,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 65.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-21T03:01:15+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/06_01486_MnVLP22BWpAiEfLhE3duhKFJ/310x430/9f38ceea.webp?s=1ae8da722742f2624832e37cd93d0cbdb59dbd7b",
+  "prix_total": 41.45,
+  "recherche": "PSP 1000",
+  "source": "vinted",
+  "titre": "psp-1004 della sony",
+  "uid": "vinted:10901998455",
+  "url": "https://www.vinted.fr/items/10901998455",
+  "verifiee": "2026-11-21T03:01:17+00:00"
  }
 ]

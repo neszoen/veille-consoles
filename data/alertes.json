@@ -1510,12 +1510,15 @@
   },
   "date_alerte": "2026-11-21T19:01:19+00:00",
   "etat": "inconnu",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/05_00f73_cVYhzbvrQfBeKuBpgEgt41nZ/310x430/f961da57.webp?s=0efc1910642a73216b9541d68c7b2a9dd52232ba",
   "prix_total": 41.45,
   "recherche": "PSP 2000",
   "source": "vinted",
   "titre": "Consola Sony PSP Slim 2004 preta + 2 jogos + carregador",
   "uid": "vinted:10912421261",
-  "url": "https://www.vinted.fr/items/10912421261"
+  "url": "https://www.vinted.fr/items/10912421261",
+  "vendue": "2026-11-21T19:31:07+00:00",
+  "verifiee": "2026-11-21T19:31:07+00:00"
  }
 ]

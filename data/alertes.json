@@ -1436,7 +1436,7 @@
   "titre": "Psp 3004 negra leer",
   "uid": "vinted:10910205412",
   "url": "https://www.vinted.fr/items/10910205412",
-  "verifiee": "2026-11-21T16:31:10+00:00"
+  "verifiee": "2026-11-21T18:31:17+00:00"
  },
  {
   "analyse": {
@@ -1464,5 +1464,32 @@
   "uid": "vinted:10911510536",
   "url": "https://www.vinted.fr/items/10911510536",
   "verifiee": "2026-11-21T18:01:16+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 33,
+   "feu": false,
+   "frais": 10.5,
+   "marge_eur": 11,
+   "marge_pct": 15,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 156,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-21T18:31:12+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/05_005f1_cByQx73cJiNfiQm2RdhKjGKo/310x430/9d40f167.webp?s=3cd367c3923809ced85ce00dc75f5068ea55f3f7",
+  "prix_total": 77.15,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Sony PSP 3000",
+  "uid": "vinted:10912063695",
+  "url": "https://www.vinted.fr/items/10912063695",
+  "verifiee": "2026-11-21T18:31:14+00:00"
  }
 ]

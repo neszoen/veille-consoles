@@ -779,6 +779,7 @@
   },
   "date_alerte": "2026-11-20T09:06:32+00:00",
   "etat": "inconnu",
+  "motif_vendue": "retiree",
   "photo": "https://images1.vinted.net/t/01_00346_FhJg1YW3axU45fwaNbE5HVw9/310x430/45ff3924.webp?s=e18780dfbcd56a8d70485f26942de8742a9a133b",
   "prix_total": 46.7,
   "recherche": "PSP 1000",
@@ -786,7 +787,8 @@
   "titre": "psp l-1004 sony",
   "uid": "vinted:10890708101",
   "url": "https://www.vinted.fr/items/10890708101",
-  "verifiee": "2026-11-21T01:01:17+00:00"
+  "vendue": "2026-11-21T03:31:05+00:00",
+  "verifiee": "2026-11-21T03:31:05+00:00"
  },
  {
   "analyse": {

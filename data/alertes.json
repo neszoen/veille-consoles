@@ -645,7 +645,7 @@
   "titre": "Sony Psp Super Slim",
   "uid": "vinted:10885891252",
   "url": "https://www.vinted.fr/items/10885891252",
-  "verifiee": "2026-11-20T22:01:14+00:00"
+  "verifiee": "2026-11-21T00:31:15+00:00"
  },
  {
   "analyse": {
@@ -730,7 +730,7 @@
   "titre": "PSP 3004 Series (sin bateria)",
   "uid": "vinted:10886927858",
   "url": "https://www.vinted.fr/items/10886927858",
-  "verifiee": "2026-11-20T22:01:16+00:00"
+  "verifiee": "2026-11-21T00:31:18+00:00"
  },
  {
   "analyse": {
@@ -898,7 +898,7 @@
   "titre": "Console Sony PS Vita PCH-2004 nera usata con segni sul retro",
   "uid": "vinted:10895297994",
   "url": "https://www.vinted.fr/items/10895297994",
-  "verifiee": "2026-11-20T22:01:19+00:00"
+  "verifiee": "2026-11-21T00:31:20+00:00"
  },
  {
   "analyse": {
@@ -1030,6 +1030,7 @@
   },
   "date_alerte": "2026-11-20T22:31:10+00:00",
   "etat": "inconnu",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/03_00050_3QqJxzw28XCvzRJUteWHeExf/310x430/4d546036.webp?s=d500730163fea3594b0dbcb306ea5d68b97ab950",
   "prix_total": 30.95,
   "recherche": "PS Vita",
@@ -1037,7 +1038,8 @@
   "titre": "PS Vita (gesperrt)",
   "uid": "vinted:10900629122",
   "url": "https://www.vinted.fr/items/10900629122",
-  "verifiee": "2026-11-20T22:31:13+00:00"
+  "vendue": "2026-11-21T00:31:23+00:00",
+  "verifiee": "2026-11-21T00:31:23+00:00"
  },
  {
   "analyse": {

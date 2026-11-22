@@ -988,6 +988,7 @@
   },
   "date_alerte": "2026-11-20T21:01:18+00:00",
   "etat": "inconnu",
+  "motif_vendue": "retiree",
   "photo": "https://images1.vinted.net/t/01_01199_qCjtsvmPvb5THR78CuQdrma7/310x430/3b4ff441.webp?s=51500846121c2113026e0634cc864691a3411343",
   "prix_total": 51.95,
   "recherche": "PSP 3000",
@@ -995,7 +996,8 @@
   "titre": "Psp 3004 da testare",
   "uid": "vinted:10899749068",
   "url": "https://www.vinted.fr/items/10899749068",
-  "verifiee": "2026-11-22T11:31:10+00:00"
+  "vendue": "2026-11-22T14:31:08+00:00",
+  "verifiee": "2026-11-22T14:31:08+00:00"
  },
  {
   "analyse": {
@@ -1444,7 +1446,7 @@
   "titre": "Psp 3004 negra leer",
   "uid": "vinted:10910205412",
   "url": "https://www.vinted.fr/items/10910205412",
-  "verifiee": "2026-11-22T12:01:15+00:00"
+  "verifiee": "2026-11-22T14:31:11+00:00"
  },
  {
   "analyse": {

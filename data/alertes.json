@@ -1303,7 +1303,7 @@
   "titre": "🎮 Modding Console Portatili Nintendo DS/3DS e Sony PSP/PS Vita – Personalizzazione e Assistenza",
   "uid": "vinted:10908109113",
   "url": "https://www.vinted.fr/items/10908109113",
-  "verifiee": "2026-11-22T11:01:17+00:00"
+  "verifiee": "2026-11-22T13:01:30+00:00"
  },
  {
   "analyse": {
@@ -1674,7 +1674,7 @@
   "titre": "PSP-3000/4 Sony",
   "uid": "vinted:10914932018",
   "url": "https://www.vinted.fr/items/10914932018",
-  "verifiee": "2026-11-22T11:01:15+00:00"
+  "verifiee": "2026-11-22T13:01:27+00:00"
  },
  {
   "analyse": {
@@ -1731,5 +1731,59 @@
   "url": "https://www.vinted.fr/items/10918510405",
   "vendue": "2026-11-22T11:01:13+00:00",
   "verifiee": "2026-11-22T11:01:13+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 37,
+   "feu": false,
+   "frais": 8.5,
+   "marge_eur": 8,
+   "marge_pct": 13,
+   "mediane": 99.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 90,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-22T13:01:18+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/02_0066a_VGTFCwSBcKmeA6VtY6FDryUn/310x430/aa47dda1.webp?s=1f4795007660bcfda6bb05b6a24fe3080cd465b7",
+  "prix_total": 62.45,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "Console psp 2004 silver con giochi",
+  "uid": "vinted:10921900162",
+  "url": "https://www.vinted.fr/items/10921900162",
+  "verifiee": "2026-11-22T13:01:22+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 35,
+   "feu": false,
+   "frais": 10.5,
+   "marge_eur": 16,
+   "marge_pct": 21,
+   "mediane": 112.33,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 174,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-22T13:01:19+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/04_02056_c8BC15rHtsKNr6RNBwPghLs2/310x430/bbd0ca5e.webp?s=526ae3035299b0d12b7c95ff10efaa466d255f57",
+  "prix_total": 72.95,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Sony PSP 3000 Nera",
+  "uid": "vinted:10921815277",
+  "url": "https://www.vinted.fr/items/10921815277",
+  "verifiee": "2026-11-22T13:01:25+00:00"
  }
 ]

@@ -1897,5 +1897,32 @@
   "uid": "vinted:10927441918",
   "url": "https://www.vinted.fr/items/10927441918",
   "verifiee": "2026-11-22T17:01:18+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 59,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 42,
+   "marge_pct": 90,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 181,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-22T17:31:06+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/05_02708_CCDSeYyKkbxmJFaexJerwdxo/310x430/26f2ce50.webp?s=4509a2495585f8b61aa04a7f97992baf0200b424",
+  "prix_total": 46.7,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Sony PSP 3004 Piano Black con caricabatterie (senza batteria e sportellino)",
+  "uid": "vinted:10927616101",
+  "url": "https://www.vinted.fr/items/10927616101",
+  "verifiee": "2026-11-22T17:31:09+00:00"
  }
 ]

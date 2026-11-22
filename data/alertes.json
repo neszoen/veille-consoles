@@ -111,7 +111,7 @@
   "titre": "Ds lite menthe",
   "uid": "vinted:10854086719",
   "url": "https://www.vinted.fr/items/10854086719",
-  "verifiee": "2026-11-22T13:31:15+00:00"
+  "verifiee": "2026-11-22T15:31:38+00:00"
  },
  {
   "analyse": {
@@ -312,7 +312,7 @@
   "titre": "Sony psp 3000",
   "uid": "vinted:10845610591",
   "url": "https://www.vinted.fr/items/10845610591",
-  "verifiee": "2026-11-22T13:31:17+00:00"
+  "verifiee": "2026-11-22T15:31:41+00:00"
  },
  {
   "analyse": {
@@ -1305,7 +1305,7 @@
   "titre": "🎮 Modding Console Portatili Nintendo DS/3DS e Sony PSP/PS Vita – Personalizzazione e Assistenza",
   "uid": "vinted:10908109113",
   "url": "https://www.vinted.fr/items/10908109113",
-  "verifiee": "2026-11-22T13:01:30+00:00"
+  "verifiee": "2026-11-22T15:31:32+00:00"
  },
  {
   "analyse": {
@@ -1361,7 +1361,7 @@
   "titre": "Psp 2000 negra",
   "uid": "vinted:10908112575",
   "url": "https://www.vinted.fr/items/10908112575",
-  "verifiee": "2026-11-22T13:31:12+00:00"
+  "verifiee": "2026-11-22T15:31:35+00:00"
  },
  {
   "analyse": {
@@ -1676,7 +1676,7 @@
   "titre": "PSP-3000/4 Sony",
   "uid": "vinted:10914932018",
   "url": "https://www.vinted.fr/items/10914932018",
-  "verifiee": "2026-11-22T13:01:27+00:00"
+  "verifiee": "2026-11-22T15:31:30+00:00"
  },
  {
   "analyse": {
@@ -1752,6 +1752,7 @@
   },
   "date_alerte": "2026-11-22T13:01:18+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/02_0066a_VGTFCwSBcKmeA6VtY6FDryUn/310x430/aa47dda1.webp?s=1f4795007660bcfda6bb05b6a24fe3080cd465b7",
   "prix_total": 62.45,
   "recherche": "PSP 2000",
@@ -1759,7 +1760,8 @@
   "titre": "Console psp 2004 silver con giochi",
   "uid": "vinted:10921900162",
   "url": "https://www.vinted.fr/items/10921900162",
-  "verifiee": "2026-11-22T13:01:22+00:00"
+  "vendue": "2026-11-22T15:31:25+00:00",
+  "verifiee": "2026-11-22T15:31:25+00:00"
  },
  {
   "analyse": {
@@ -1786,6 +1788,60 @@
   "titre": "Sony PSP 3000 Nera",
   "uid": "vinted:10921815277",
   "url": "https://www.vinted.fr/items/10921815277",
-  "verifiee": "2026-11-22T13:01:25+00:00"
+  "verifiee": "2026-11-22T15:31:27+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 78,
+   "feu": true,
+   "frais": 13.0,
+   "marge_eur": 75,
+   "marge_pct": 207,
+   "mediane": 162.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 333,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-22T15:31:15+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/01_014f9_EJjScqZ7r4pf4VWzZF69APCP/310x430/050391b0.webp?s=476525522440e2a4ad233f345e0997cb52b59c3e",
+  "prix_total": 36.2,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "Ps vita",
+  "uid": "vinted:10923464041",
+  "url": "https://www.vinted.fr/items/10923464041",
+  "verifiee": "2026-11-22T15:31:20+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 48,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 19,
+   "marge_pct": 36,
+   "mediane": 99.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 96,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-22T15:31:17+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/06_01658_f6GHz9CRvfTM9SbU6sU4KAbv/310x430/44684b75.webp?s=1467534bb1286f4ebae13d056b83a244f5292442",
+  "prix_total": 51.95,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "PSP sony 2004+ 8 juegos originales+accesorios",
+  "uid": "vinted:10924030806",
+  "url": "https://www.vinted.fr/items/10924030806",
+  "verifiee": "2026-11-22T15:31:22+00:00"
  }
 ]

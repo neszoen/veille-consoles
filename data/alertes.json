@@ -1448,7 +1448,7 @@
   "titre": "Psp 3004 negra leer",
   "uid": "vinted:10910205412",
   "url": "https://www.vinted.fr/items/10910205412",
-  "verifiee": "2026-11-22T17:01:20+00:00"
+  "verifiee": "2026-11-22T19:31:13+00:00"
  },
  {
   "analyse": {
@@ -1893,6 +1893,7 @@
   },
   "date_alerte": "2026-11-22T17:01:15+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/01_01543_h1MGvR7HzCohv1kBjADo2mPH/310x430/4a643edb.webp?s=017fe377f48aff61ba6d53e75aa9a8dd6a3e60af",
   "prix_total": 41.45,
   "recherche": "PS Vita",
@@ -1900,7 +1901,8 @@
   "titre": "Ps vita",
   "uid": "vinted:10927441918",
   "url": "https://www.vinted.fr/items/10927441918",
-  "verifiee": "2026-11-22T17:01:18+00:00"
+  "vendue": "2026-11-22T19:31:10+00:00",
+  "verifiee": "2026-11-22T19:31:10+00:00"
  },
  {
   "analyse": {

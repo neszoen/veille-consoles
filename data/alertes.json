@@ -1700,5 +1700,31 @@
   "uid": "vinted:10916819638",
   "url": "https://www.vinted.fr/items/10916819638",
   "verifiee": "2026-11-22T08:31:33+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 41,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 21,
+   "marge_pct": 31,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 169,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-22T10:31:23+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/05_02688_cPau2zzg4vpHniv13bCUHWxr/310x430/04266899.webp?s=74579e28496e3e7c8a5b884195174f0da78512a0",
+  "prix_total": 67.7,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "PSP Sony 3004",
+  "uid": "vinted:10918510405",
+  "url": "https://www.vinted.fr/items/10918510405"
  }
 ]

@@ -2390,5 +2390,57 @@
   "uid": "vinted:10944523569",
   "url": "https://www.vinted.fr/items/10944523569",
   "verifiee": "2026-11-23T19:31:19+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 41,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 13,
+   "marge_pct": 23,
+   "mediane": 97.1,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 139,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-23T21:31:26+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/01_01fd5_859sYmcXJbPsL4KpKM7ZrTR2/310x430/9fbe14e4.webp?s=69b7c624200aae252d4839882549bc981db3e298",
+  "prix_total": 57.2,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "Lot consoles Sony PSP 2004 + Nintendo DS Lite + 6 jeux (À tester)",
+  "uid": "vinted:10946238208",
+  "url": "https://www.vinted.fr/items/10946238208"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 39,
+   "feu": false,
+   "frais": 13.0,
+   "marge_eur": 12,
+   "marge_pct": 12,
+   "mediane": 162.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 437,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-23T21:31:27+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/01_0191b_hKWvjEDXomNdtci7ae5zFoJT/310x430/bd5f9be6.webp?s=18a2c264c1bc6d88a989b582a0156cd51f7bda2b",
+  "prix_total": 99.2,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "Ps vita lite",
+  "uid": "vinted:10946053803",
+  "url": "https://www.vinted.fr/items/10946053803"
  }
 ]

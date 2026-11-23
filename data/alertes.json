@@ -111,7 +111,7 @@
   "titre": "Ds lite menthe",
   "uid": "vinted:10854086719",
   "url": "https://www.vinted.fr/items/10854086719",
-  "verifiee": "2026-11-23T01:31:18+00:00"
+  "verifiee": "2026-11-23T04:01:15+00:00"
  },
  {
   "analyse": {
@@ -312,7 +312,7 @@
   "titre": "Sony psp 3000",
   "uid": "vinted:10845610591",
   "url": "https://www.vinted.fr/items/10845610591",
-  "verifiee": "2026-11-23T01:31:21+00:00"
+  "verifiee": "2026-11-23T04:01:18+00:00"
  },
  {
   "analyse": {
@@ -1680,7 +1680,7 @@
   "titre": "PSP-3000/4 Sony",
   "uid": "vinted:10914932018",
   "url": "https://www.vinted.fr/items/10914932018",
-  "verifiee": "2026-11-23T01:31:16+00:00"
+  "verifiee": "2026-11-23T04:01:13+00:00"
  },
  {
   "analyse": {
@@ -1792,7 +1792,7 @@
   "titre": "Sony PSP 3000 Nera",
   "uid": "vinted:10921815277",
   "url": "https://www.vinted.fr/items/10921815277",
-  "verifiee": "2026-11-23T01:31:13+00:00"
+  "verifiee": "2026-11-23T04:01:11+00:00"
  },
  {
   "analyse": {
@@ -1955,6 +1955,7 @@
   },
   "date_alerte": "2026-11-23T01:31:09+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/05_0260d_jPjwMq4PvQpAvrPF3ttNQrUF/310x430/9cc36181.webp?s=5c8968816f4ab5b13e0b39cff32a2bd7adef30a9",
   "prix_total": 99.2,
   "recherche": "PS Vita",
@@ -1962,6 +1963,7 @@
   "titre": "PS VITA",
   "uid": "vinted:10934425601",
   "url": "https://www.vinted.fr/items/10934425601",
-  "verifiee": "2026-11-23T01:31:11+00:00"
+  "vendue": "2026-11-23T04:01:08+00:00",
+  "verifiee": "2026-11-23T04:01:08+00:00"
  }
 ]

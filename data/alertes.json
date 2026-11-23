@@ -1684,7 +1684,7 @@
   "titre": "PSP-3000/4 Sony",
   "uid": "vinted:10914932018",
   "url": "https://www.vinted.fr/items/10914932018",
-  "verifiee": "2026-11-23T16:31:23+00:00"
+  "verifiee": "2026-11-23T18:31:40+00:00"
  },
  {
   "analyse": {
@@ -1796,7 +1796,7 @@
   "titre": "Sony PSP 3000 Nera",
   "uid": "vinted:10921815277",
   "url": "https://www.vinted.fr/items/10921815277",
-  "verifiee": "2026-11-23T16:01:29+00:00"
+  "verifiee": "2026-11-23T18:31:35+00:00"
  },
  {
   "analyse": {
@@ -2024,7 +2024,7 @@
   "titre": "psp-1004 sony",
   "uid": "vinted:10935930554",
   "url": "https://www.vinted.fr/items/10935930554",
-  "verifiee": "2026-11-23T16:01:26+00:00"
+  "verifiee": "2026-11-23T18:31:33+00:00"
  },
  {
   "analyse": {
@@ -2196,7 +2196,7 @@
   "titre": "Sony PSP-2004 Nera (Piano Black)  (Senza Batteria)",
   "uid": "vinted:10940405225",
   "url": "https://www.vinted.fr/items/10940405225",
-  "verifiee": "2026-11-23T16:01:18+00:00"
+  "verifiee": "2026-11-23T18:31:30+00:00"
  },
  {
   "analyse": {
@@ -2245,6 +2245,7 @@
   },
   "date_alerte": "2026-11-23T16:31:16+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/06_011c0_3DHLtiYUvZtzAvJFiR9grfby/310x430/b287d796.webp?s=172963b5e59a14da1e9b563a414f0dfbfffdb5f3",
   "prix_total": 36.2,
   "recherche": "PSP 2000",
@@ -2252,7 +2253,8 @@
   "titre": "Psp 2000",
   "uid": "vinted:10941416697",
   "url": "https://www.vinted.fr/items/10941416697",
-  "verifiee": "2026-11-23T16:31:18+00:00"
+  "vendue": "2026-11-23T18:31:38+00:00",
+  "verifiee": "2026-11-23T18:31:38+00:00"
  },
  {
   "analyse": {
@@ -2280,5 +2282,59 @@
   "uid": "vinted:10941663997",
   "url": "https://www.vinted.fr/items/10941663997",
   "verifiee": "2026-11-23T17:01:22+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 74,
+   "feu": true,
+   "frais": 13.0,
+   "marge_eur": 70,
+   "marge_pct": 168,
+   "mediane": 162.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 423,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-23T18:31:21+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/05_00206_eZUEtGkRdctuBmqDsV5PiwP1/310x430/c1e8e93b.webp?s=f828e8804f751232d1d168ac705a3361925818ed",
+  "prix_total": 41.45,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "Sony PlayStation Vita PS Vita AR Play Cards Complete Set of 6",
+  "uid": "vinted:10924299563",
+  "url": "https://www.vinted.fr/items/10924299563",
+  "verifiee": "2026-11-23T18:31:25+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 42,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 13,
+   "marge_pct": 23,
+   "mediane": 98.15,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 130,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-23T18:31:23+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/05_0164e_vHQsbtDCnqZKBpzw85ZJ47B7/310x430/69fbc638.webp?s=65b3b0a4e87e78071e44fc7c5e7a53d444fbd7a5",
+  "prix_total": 57.19,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "Psp Slim",
+  "uid": "vinted:10942935461",
+  "url": "https://www.vinted.fr/items/10942935461",
+  "verifiee": "2026-11-23T18:31:28+00:00"
  }
 ]

@@ -1796,7 +1796,7 @@
   "titre": "Sony PSP 3000 Nera",
   "uid": "vinted:10921815277",
   "url": "https://www.vinted.fr/items/10921815277",
-  "verifiee": "2026-11-23T10:31:10+00:00"
+  "verifiee": "2026-11-23T13:01:23+00:00"
  },
  {
   "analyse": {
@@ -2024,7 +2024,7 @@
   "titre": "psp-1004 sony",
   "uid": "vinted:10935930554",
   "url": "https://www.vinted.fr/items/10935930554",
-  "verifiee": "2026-11-23T10:31:08+00:00"
+  "verifiee": "2026-11-23T13:01:21+00:00"
  },
  {
   "analyse": {
@@ -2108,5 +2108,32 @@
   "uid": "vinted:10938470810",
   "url": "https://www.vinted.fr/items/10938470810",
   "verifiee": "2026-11-23T12:13:12+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 45,
+   "feu": true,
+   "frais": 13.0,
+   "marge_eur": 22,
+   "marge_pct": 25,
+   "mediane": 162.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 395,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-23T13:01:15+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/01_00a7e_BsEETH9ZCyHX1niauSK8y9u7/310x430/f2d10050.webp?s=e1d8f51cec69b4c07866edc7489ddf36c0c713d6",
+  "prix_total": 88.7,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "PS VITA",
+  "uid": "vinted:10939102435",
+  "url": "https://www.vinted.fr/items/10939102435",
+  "verifiee": "2026-11-23T13:01:18+00:00"
  }
 ]

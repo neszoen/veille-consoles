@@ -111,7 +111,7 @@
   "titre": "Ds lite menthe",
   "uid": "vinted:10854086719",
   "url": "https://www.vinted.fr/items/10854086719",
-  "verifiee": "2026-11-23T16:31:25+00:00"
+  "verifiee": "2026-11-23T19:01:24+00:00"
  },
  {
   "analyse": {
@@ -312,7 +312,7 @@
   "titre": "Sony psp 3000",
   "uid": "vinted:10845610591",
   "url": "https://www.vinted.fr/items/10845610591",
-  "verifiee": "2026-11-23T16:31:28+00:00"
+  "verifiee": "2026-11-23T19:01:26+00:00"
  },
  {
   "analyse": {
@@ -339,7 +339,7 @@
   "titre": "Psp e 1004 2a",
   "uid": "vinted:10862758171",
   "url": "https://www.vinted.fr/items/10862758171",
-  "verifiee": "2026-11-23T16:31:33+00:00"
+  "verifiee": "2026-11-23T19:01:31+00:00"
  },
  {
   "analyse": {
@@ -1881,7 +1881,7 @@
   "titre": "PSP 2004 Nera Funzionante con Memory Stick 4GB e Gioco",
   "uid": "vinted:10923257848",
   "url": "https://www.vinted.fr/items/10923257848",
-  "verifiee": "2026-11-23T16:31:30+00:00"
+  "verifiee": "2026-11-23T19:01:29+00:00"
  },
  {
   "analyse": {
@@ -2336,5 +2336,32 @@
   "uid": "vinted:10942935461",
   "url": "https://www.vinted.fr/items/10942935461",
   "verifiee": "2026-11-23T18:31:28+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 59,
+   "feu": true,
+   "frais": 6.5,
+   "marge_eur": 16,
+   "marge_pct": 45,
+   "mediane": 88.7,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 159,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 65.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-23T19:01:19+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/03_01e74_9jMiHE8aQNjHXEh7xrfcdrjc/310x430/161ffdf0.webp?s=d04272212bafaabf3103e13ad387034f8c3e6b92",
+  "prix_total": 36.2,
+  "recherche": "PSP 1000",
+  "source": "vinted",
+  "titre": "PSP 1004",
+  "uid": "vinted:10943799165",
+  "url": "https://www.vinted.fr/items/10943799165",
+  "verifiee": "2026-11-23T19:01:21+00:00"
  }
 ]

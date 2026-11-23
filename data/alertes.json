@@ -111,7 +111,7 @@
   "titre": "Ds lite menthe",
   "uid": "vinted:10854086719",
   "url": "https://www.vinted.fr/items/10854086719",
-  "verifiee": "2026-11-23T06:31:10+00:00"
+  "verifiee": "2026-11-23T09:01:20+00:00"
  },
  {
   "analyse": {
@@ -312,7 +312,7 @@
   "titre": "Sony psp 3000",
   "uid": "vinted:10845610591",
   "url": "https://www.vinted.fr/items/10845610591",
-  "verifiee": "2026-11-23T06:31:13+00:00"
+  "verifiee": "2026-11-23T09:01:22+00:00"
  },
  {
   "analyse": {
@@ -2021,5 +2021,32 @@
   "uid": "vinted:10935930554",
   "url": "https://www.vinted.fr/items/10935930554",
   "verifiee": "2026-11-23T08:01:16+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 78,
+   "feu": true,
+   "frais": 13.0,
+   "marge_eur": 75,
+   "marge_pct": 207,
+   "mediane": 162.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 375,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-23T09:01:15+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/06_0104d_JLZ42NbdTZF9ZYAZ1vYjSNwt/310x430/876796a6.webp?s=2c0bc240bf8e2a1b729ef937bce98404c5efd9a2",
+  "prix_total": 36.2,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "Lot 2 nintendo Ds et 1 Ps Vita + jeux",
+  "uid": "vinted:10936366221",
+  "url": "https://www.vinted.fr/items/10936366221",
+  "verifiee": "2026-11-23T09:01:17+00:00"
  }
 ]

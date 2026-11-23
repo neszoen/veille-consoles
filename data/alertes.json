@@ -1796,7 +1796,7 @@
   "titre": "Sony PSP 3000 Nera",
   "uid": "vinted:10921815277",
   "url": "https://www.vinted.fr/items/10921815277",
-  "verifiee": "2026-11-23T13:01:23+00:00"
+  "verifiee": "2026-11-23T16:01:29+00:00"
  },
  {
   "analyse": {
@@ -2024,7 +2024,7 @@
   "titre": "psp-1004 sony",
   "uid": "vinted:10935930554",
   "url": "https://www.vinted.fr/items/10935930554",
-  "verifiee": "2026-11-23T13:01:21+00:00"
+  "verifiee": "2026-11-23T16:01:26+00:00"
  },
  {
   "analyse": {
@@ -2131,6 +2131,7 @@
   },
   "date_alerte": "2026-11-23T13:01:15+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/01_00a7e_BsEETH9ZCyHX1niauSK8y9u7/310x430/f2d10050.webp?s=e1d8f51cec69b4c07866edc7489ddf36c0c713d6",
   "prix_total": 88.7,
   "recherche": "PS Vita",
@@ -2138,7 +2139,8 @@
   "titre": "PS VITA",
   "uid": "vinted:10939102435",
   "url": "https://www.vinted.fr/items/10939102435",
-  "verifiee": "2026-11-23T13:01:18+00:00"
+  "vendue": "2026-11-23T16:01:23+00:00",
+  "verifiee": "2026-11-23T16:01:23+00:00"
  },
  {
   "analyse": {
@@ -2191,7 +2193,8 @@
   "source": "vinted",
   "titre": "Sony PSP-2004 Nera (Piano Black)  (Senza Batteria)",
   "uid": "vinted:10940405225",
-  "url": "https://www.vinted.fr/items/10940405225"
+  "url": "https://www.vinted.fr/items/10940405225",
+  "verifiee": "2026-11-23T16:01:18+00:00"
  },
  {
   "analyse": {
@@ -2211,12 +2214,15 @@
   },
   "date_alerte": "2026-11-23T15:31:26+00:00",
   "etat": "inconnu",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/05_009a7_6UxLPeP7wgA2VCUWCg1iVeUi/310x430/06a76980.webp?s=ea4d164f92b570e66565c2471509feb5f333b4ac",
   "prix_total": 45.65,
   "recherche": "PSP 2000",
   "source": "vinted",
   "titre": "Sony PSP 2004 Slim & Lite",
   "uid": "vinted:10940564656",
-  "url": "https://www.vinted.fr/items/10940564656"
+  "url": "https://www.vinted.fr/items/10940564656",
+  "vendue": "2026-11-23T16:01:21+00:00",
+  "verifiee": "2026-11-23T16:01:21+00:00"
  }
 ]

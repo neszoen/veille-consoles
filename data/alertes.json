@@ -2192,5 +2192,31 @@
   "titre": "Sony PSP-2004 Nera (Piano Black)  (Senza Batteria)",
   "uid": "vinted:10940405225",
   "url": "https://www.vinted.fr/items/10940405225"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 53,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 25,
+   "marge_pct": 54,
+   "mediane": 98.15,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 127,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-23T15:31:26+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/05_009a7_6UxLPeP7wgA2VCUWCg1iVeUi/310x430/06a76980.webp?s=ea4d164f92b570e66565c2471509feb5f333b4ac",
+  "prix_total": 45.65,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "Sony PSP 2004 Slim & Lite",
+  "uid": "vinted:10940564656",
+  "url": "https://www.vinted.fr/items/10940564656"
  }
 ]

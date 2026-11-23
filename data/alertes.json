@@ -1994,5 +1994,32 @@
   "uid": "vinted:10935238307",
   "url": "https://www.vinted.fr/items/10935238307",
   "verifiee": "2026-11-23T07:01:32+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 53,
+   "feu": true,
+   "frais": 6.5,
+   "marge_eur": 11,
+   "marge_pct": 27,
+   "mediane": 88.7,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 135,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 65.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-23T08:01:14+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/06_004bc_QFzAxjXoBK7rYLXypsEqY93R/310x430/0d12546c.webp?s=430268832f3d92745b486c431ed6c0e2aa681f11",
+  "prix_total": 41.45,
+  "recherche": "PSP 1000",
+  "source": "vinted",
+  "titre": "psp-1004 sony",
+  "uid": "vinted:10935930554",
+  "url": "https://www.vinted.fr/items/10935930554",
+  "verifiee": "2026-11-23T08:01:16+00:00"
  }
 ]

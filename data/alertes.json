@@ -2674,5 +2674,32 @@
   "uid": "vinted:10953200452",
   "url": "https://www.vinted.fr/items/10953200452",
   "verifiee": "2026-11-24T14:01:28+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 42,
+   "feu": true,
+   "frais": 13.0,
+   "marge_eur": 17,
+   "marge_pct": 18,
+   "mediane": 162.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 474,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-24T15:31:20+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/05_00468_zRd1Ef1qM6qvjxhjCW6Y3KTN/310x430/a4931e94.webp?s=0fb4e2194502f35e31162d6852355ac330f8b051",
+  "prix_total": 93.95,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "Ps vita",
+  "uid": "vinted:10954047561",
+  "url": "https://www.vinted.fr/items/10954047561",
+  "verifiee": "2026-11-24T15:31:23+00:00"
  }
 ]

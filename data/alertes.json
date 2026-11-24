@@ -2794,5 +2794,31 @@
   "uid": "vinted:10956529072",
   "url": "https://www.vinted.fr/items/10956529072",
   "verifiee": "2026-11-24T18:31:32+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 64,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 34,
+   "marge_pct": 95,
+   "mediane": 99.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 161,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-24T19:31:17+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/04_017cc_VxMCLiuTL2LUTpdTREdfwb9F/310x430/10fdcea8.webp?s=6e3fcac65109752a16b1cb6db0277e17a70223d1",
+  "prix_total": 36.2,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "Psp 2000",
+  "uid": "vinted:10957468658",
+  "url": "https://www.vinted.fr/items/10957468658"
  }
 ]

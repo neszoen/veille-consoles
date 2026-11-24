@@ -2564,5 +2564,59 @@
   "uid": "vinted:10947166542",
   "url": "https://www.vinted.fr/items/10947166542",
   "verifiee": "2026-11-24T11:31:31+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 65,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 32,
+   "marge_pct": 77,
+   "mediane": 119.15,
+   "montrer_marge": true,
+   "montrer_score": false,
+   "nb_historique": 219,
+   "pieces": 15.0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-24T12:31:18+00:00",
+  "etat": "hs",
+  "photo": "https://images1.vinted.net/t/06_014c9_gFkxkFEGRVnCtvZ29TeMy8VF/310x430/d7d889e3.webp?s=f93f0f7ee858689ce74a73062785fac16419fab2",
+  "prix_total": 41.45,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Psp 3000 blanca no enciende",
+  "uid": "vinted:10951970726",
+  "url": "https://www.vinted.fr/items/10951970726",
+  "verifiee": "2026-11-24T12:31:22+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 43,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 21,
+   "marge_pct": 31,
+   "mediane": 119.15,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 219,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-24T12:31:20+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/01_0080b_yqq7DkCNvAcCPL52LiCHUzHh/310x430/9b5ff34c.webp?s=2a1802e5f3e759956dede75551df51703cc29e6c",
+  "prix_total": 67.7,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Psp-3004 + 14 spelletjes",
+  "uid": "vinted:10951627031",
+  "url": "https://www.vinted.fr/items/10951627031",
+  "verifiee": "2026-11-24T12:31:25+00:00"
  }
 ]

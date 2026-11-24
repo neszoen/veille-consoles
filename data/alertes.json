@@ -2709,5 +2709,31 @@
   "uid": "vinted:10954047561",
   "url": "https://www.vinted.fr/items/10954047561",
   "verifiee": "2026-11-24T15:31:23+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 48,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 19,
+   "marge_pct": 36,
+   "mediane": 99.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 157,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-24T17:01:23+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/04_00354_o6aF5wM4N1UvaK8jwRCZeH4b/310x430/8e872a06.webp?s=d7e2a5058948fb38533c2d8f46808cc8ce4af692",
+  "prix_total": 51.95,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "Lot psp 2004",
+  "uid": "vinted:10955428340",
+  "url": "https://www.vinted.fr/items/10955428340"
  }
 ]

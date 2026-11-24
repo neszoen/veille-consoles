@@ -28,18 +28,20 @@
  "sante": {
   "label_emmaus": {
    "alerte": false,
-   "dernier_succes": "2026-11-24T12:31+00:00",
+   "dernier_succes": "2026-11-24T13:01+00:00",
    "echecs": 0
   },
   "leboncoin_email": {
    "alerte": false,
-   "dernier_succes": "2026-11-24T12:31+00:00",
+   "dernier_succes": "2026-11-24T13:01+00:00",
    "echecs": 0
   },
   "vinted": {
    "alerte": false,
+   "date": "2026-11-24T13:01+00:00",
    "dernier_succes": "2026-11-24T12:31+00:00",
-   "echecs": 0
+   "derniere_erreur": "réponse inattendue de Vinted (code 500)",
+   "echecs": 1
   }
  }
 }

@@ -2961,5 +2961,32 @@
   "uid": "vinted:10962375561",
   "url": "https://www.vinted.fr/items/10962375561",
   "verifiee": "2026-11-25T08:01:18+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 42,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 13,
+   "marge_pct": 23,
+   "mediane": 99.19,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 167,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-25T08:31:11+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/06_026a7_QQmsK7GTeK6yV1BAtS2Vfs3t/310x430/77211e5b.webp?s=da6de16a590cab754a9a0b10bcf037bc3a0a84f5",
+  "prix_total": 57.2,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "console noire PSP-2004 sans batterie et sans chargeur",
+  "uid": "vinted:10962542090",
+  "url": "https://www.vinted.fr/items/10962542090",
+  "verifiee": "2026-11-25T08:31:13+00:00"
  }
 ]

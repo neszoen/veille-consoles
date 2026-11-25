@@ -3243,5 +3243,32 @@
   "uid": "vinted:10971215637",
   "url": "https://www.vinted.fr/items/10971215637",
   "verifiee": "2026-11-25T20:31:11+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 42,
+   "feu": true,
+   "frais": 13.0,
+   "marge_eur": 17,
+   "marge_pct": 18,
+   "mediane": 162.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 492,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-25T21:01:19+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/06_01b93_pGrwA3GTCdbm6kaXXi7DspHt/310x430/f0b62a9f.webp?s=df83bb4fc562b7dc7e42d457a61501b97b61230f",
+  "prix_total": 93.95,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "PS Vita 2000 + Cargador",
+  "uid": "vinted:10971971149",
+  "url": "https://www.vinted.fr/items/10971971149",
+  "verifiee": "2026-11-25T21:01:22+00:00"
  }
 ]

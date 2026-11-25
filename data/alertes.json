@@ -111,7 +111,7 @@
   "titre": "Ds lite menthe",
   "uid": "vinted:10854086719",
   "url": "https://www.vinted.fr/items/10854086719",
-  "verifiee": "2026-11-25T19:31:33+00:00"
+  "verifiee": "2026-11-25T22:01:24+00:00"
  },
  {
   "analyse": {
@@ -312,7 +312,7 @@
   "titre": "Sony psp 3000",
   "uid": "vinted:10845610591",
   "url": "https://www.vinted.fr/items/10845610591",
-  "verifiee": "2026-11-25T19:31:36+00:00"
+  "verifiee": "2026-11-25T22:01:27+00:00"
  },
  {
   "analyse": {
@@ -339,7 +339,7 @@
   "titre": "Psp e 1004 2a",
   "uid": "vinted:10862758171",
   "url": "https://www.vinted.fr/items/10862758171",
-  "verifiee": "2026-11-25T19:31:41+00:00"
+  "verifiee": "2026-11-25T22:01:32+00:00"
  },
  {
   "analyse": {
@@ -1883,7 +1883,7 @@
   "titre": "PSP 2004 Nera Funzionante con Memory Stick 4GB e Gioco",
   "uid": "vinted:10923257848",
   "url": "https://www.vinted.fr/items/10923257848",
-  "verifiee": "2026-11-25T19:31:38+00:00"
+  "verifiee": "2026-11-25T22:01:29+00:00"
  },
  {
   "analyse": {
@@ -2428,7 +2428,7 @@
   "titre": "Lot consoles Sony PSP 2004 + Nintendo DS Lite + 6 jeux (À tester)",
   "uid": "vinted:10946238208",
   "url": "https://www.vinted.fr/items/10946238208",
-  "verifiee": "2026-11-25T19:31:31+00:00"
+  "verifiee": "2026-11-25T22:01:22+00:00"
  },
  {
   "analyse": {
@@ -3190,7 +3190,7 @@
   "titre": "Psp 1004 fat",
   "uid": "vinted:10970748036",
   "url": "https://www.vinted.fr/items/10970748036",
-  "verifiee": "2026-11-25T19:31:26+00:00"
+  "verifiee": "2026-11-25T22:01:19+00:00"
  },
  {
   "analyse": {
@@ -3272,5 +3272,32 @@
   "uid": "vinted:10971971149",
   "url": "https://www.vinted.fr/items/10971971149",
   "verifiee": "2026-11-25T21:01:22+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 37,
+   "feu": false,
+   "frais": 10.5,
+   "marge_eur": 16,
+   "marge_pct": 21,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 261,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-25T22:01:14+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/01_00849_1BKfPV3cFpU1rQdKAYPjay2N/310x430/64a4a78e.webp?s=d8ecc78c1152241cdf85a3a1e5a1c342fa52ebe3",
+  "prix_total": 72.95,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "PSP 3004 Slim & Lite black",
+  "uid": "vinted:10972446973",
+  "url": "https://www.vinted.fr/items/10972446973",
+  "verifiee": "2026-11-25T22:01:17+00:00"
  }
 ]

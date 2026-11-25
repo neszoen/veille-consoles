@@ -111,7 +111,7 @@
   "titre": "Ds lite menthe",
   "uid": "vinted:10854086719",
   "url": "https://www.vinted.fr/items/10854086719",
-  "verifiee": "2026-11-25T06:31:19+00:00"
+  "verifiee": "2026-11-25T09:31:15+00:00"
  },
  {
   "analyse": {
@@ -312,7 +312,7 @@
   "titre": "Sony psp 3000",
   "uid": "vinted:10845610591",
   "url": "https://www.vinted.fr/items/10845610591",
-  "verifiee": "2026-11-25T06:31:22+00:00"
+  "verifiee": "2026-11-25T09:31:17+00:00"
  },
  {
   "analyse": {
@@ -339,7 +339,7 @@
   "titre": "Psp e 1004 2a",
   "uid": "vinted:10862758171",
   "url": "https://www.vinted.fr/items/10862758171",
-  "verifiee": "2026-11-25T06:31:27+00:00"
+  "verifiee": "2026-11-25T09:31:22+00:00"
  },
  {
   "analyse": {
@@ -366,7 +366,7 @@
   "titre": "Playstation Ps Vita - Carte mémoire 32 Go",
   "uid": "vinted:10864862572",
   "url": "https://www.vinted.fr/items/10864862572",
-  "verifiee": "2026-11-25T06:31:29+00:00"
+  "verifiee": "2026-11-25T09:31:25+00:00"
  },
  {
   "analyse": {
@@ -854,7 +854,7 @@
   "titre": "PSP-2000 read description",
   "uid": "vinted:10895068173",
   "url": "https://www.vinted.fr/items/10895068173",
-  "verifiee": "2026-11-25T06:31:39+00:00"
+  "verifiee": "2026-11-25T09:31:34+00:00"
  },
  {
   "analyse": {
@@ -1197,7 +1197,7 @@
   "titre": "Sony Playstation Portable PSP-3000 White - Read description!",
   "uid": "vinted:10906420942",
   "url": "https://www.vinted.fr/items/10906420942",
-  "verifiee": "2026-11-25T06:31:37+00:00"
+  "verifiee": "2026-11-25T09:31:32+00:00"
  },
  {
   "analyse": {
@@ -1711,7 +1711,7 @@
   "titre": "Sony PlayStation portable Psp 3000",
   "uid": "vinted:10916819638",
   "url": "https://www.vinted.fr/items/10916819638",
-  "verifiee": "2026-11-25T06:31:32+00:00"
+  "verifiee": "2026-11-25T09:31:27+00:00"
  },
  {
   "analyse": {
@@ -1881,7 +1881,7 @@
   "titre": "PSP 2004 Nera Funzionante con Memory Stick 4GB e Gioco",
   "uid": "vinted:10923257848",
   "url": "https://www.vinted.fr/items/10923257848",
-  "verifiee": "2026-11-25T06:31:24+00:00"
+  "verifiee": "2026-11-25T09:31:20+00:00"
  },
  {
   "analyse": {
@@ -2426,7 +2426,7 @@
   "titre": "Lot consoles Sony PSP 2004 + Nintendo DS Lite + 6 jeux (À tester)",
   "uid": "vinted:10946238208",
   "url": "https://www.vinted.fr/items/10946238208",
-  "verifiee": "2026-11-25T06:31:17+00:00"
+  "verifiee": "2026-11-25T09:31:12+00:00"
  },
  {
   "analyse": {
@@ -2569,7 +2569,7 @@
   "titre": "psp 1004",
   "uid": "vinted:10947166542",
   "url": "https://www.vinted.fr/items/10947166542",
-  "verifiee": "2026-11-25T06:31:34+00:00"
+  "verifiee": "2026-11-25T09:31:30+00:00"
  },
  {
   "analyse": {
@@ -2795,7 +2795,7 @@
   "titre": "Psp 3000",
   "uid": "vinted:10956529072",
   "url": "https://www.vinted.fr/items/10956529072",
-  "verifiee": "2026-11-25T06:31:14+00:00"
+  "verifiee": "2026-11-25T09:31:10+00:00"
  },
  {
   "analyse": {
@@ -2899,6 +2899,7 @@
   },
   "date_alerte": "2026-11-25T07:01:15+00:00",
   "etat": "hs",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/04_016ce_HEnQM76vBAg9DfqQ7AjG7LyN/310x430/1341556f.webp?s=ada2bf1a48efe97de9655c0bcfdb330ec4278419",
   "prix_total": 41.45,
   "recherche": "PSP 3000",
@@ -2906,7 +2907,8 @@
   "titre": "Sony PSP-3000 Negra – Consola PlayStation Portable",
   "uid": "vinted:10941939743",
   "url": "https://www.vinted.fr/items/10941939743",
-  "verifiee": "2026-11-25T07:01:19+00:00"
+  "vendue": "2026-11-25T09:31:37+00:00",
+  "verifiee": "2026-11-25T09:31:37+00:00"
  },
  {
   "analyse": {
@@ -2926,6 +2928,7 @@
   },
   "date_alerte": "2026-11-25T07:01:16+00:00",
   "etat": "inconnu",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/02_00148_kQ5M29vmb5GBjw3J1N7zrFzt/310x430/acd2fd71.webp?s=46ff41dccbf4f638c5b492cc1f486b48ddc064c7",
   "prix_total": 99.2,
   "recherche": "PS Vita",
@@ -2933,7 +2936,8 @@
   "titre": "Sony PS Vita Schwarz – Handheld Konsole – PlayStation Vita",
   "uid": "vinted:10962106056",
   "url": "https://www.vinted.fr/items/10962106056",
-  "verifiee": "2026-11-25T07:01:21+00:00"
+  "vendue": "2026-11-25T09:31:39+00:00",
+  "verifiee": "2026-11-25T09:31:39+00:00"
  },
  {
   "analyse": {

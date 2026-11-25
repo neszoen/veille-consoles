@@ -3080,7 +3080,7 @@
   "titre": "Psp 3004 funzionante con schermo rotto",
   "uid": "vinted:10965916225",
   "url": "https://www.vinted.fr/items/10965916225",
-  "verifiee": "2026-11-25T19:01:27+00:00"
+  "verifiee": "2026-11-25T21:31:13+00:00"
  },
  {
   "analyse": {
@@ -3134,7 +3134,7 @@
   "titre": "PSP 2004",
   "uid": "vinted:10969538526",
   "url": "https://www.vinted.fr/items/10969538526",
-  "verifiee": "2026-11-25T19:01:22+00:00"
+  "verifiee": "2026-11-25T21:31:07+00:00"
  },
  {
   "analyse": {
@@ -3154,6 +3154,7 @@
   },
   "date_alerte": "2026-11-25T19:01:19+00:00",
   "etat": "inconnu",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/01_01f7f_daiojkSH9H5oAbk3Vu6Sff6x/310x430/2d3c4026.webp?s=46dd39de7099cad6e4169317303735de774e812f",
   "prix_total": 67.7,
   "recherche": "PSP 3000",
@@ -3161,7 +3162,8 @@
   "titre": "Psp Roja 3000",
   "uid": "vinted:10970357414",
   "url": "https://www.vinted.fr/items/10970357414",
-  "verifiee": "2026-11-25T19:01:25+00:00"
+  "vendue": "2026-11-25T21:31:10+00:00",
+  "verifiee": "2026-11-25T21:31:10+00:00"
  },
  {
   "analyse": {

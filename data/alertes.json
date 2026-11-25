@@ -2788,6 +2788,7 @@
   },
   "date_alerte": "2026-11-24T18:31:30+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/03_003f8_hXqoHuvCkdRT1VPRK6HRUcsS/310x430/d3dba0b9.webp?s=17701a9753a46103fb31282b98a5c97032bf1562",
   "prix_total": 78.2,
   "recherche": "PSP 3000",
@@ -2795,7 +2796,8 @@
   "titre": "Psp 3000",
   "uid": "vinted:10956529072",
   "url": "https://www.vinted.fr/items/10956529072",
-  "verifiee": "2026-11-25T11:31:15+00:00"
+  "vendue": "2026-11-25T14:01:36+00:00",
+  "verifiee": "2026-11-25T14:01:36+00:00"
  },
  {
   "analyse": {
@@ -3011,6 +3013,7 @@
   },
   "date_alerte": "2026-11-25T11:31:10+00:00",
   "etat": "inconnu",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/01_00757_Z7tL68wgnuWCb1JWK4hftjD3/310x430/fcb02594.webp?s=627cd4f036d25c25114f13120ee5ff21c22defb9",
   "prix_total": 25.7,
   "recherche": "PSP 3000",
@@ -3018,7 +3021,8 @@
   "titre": "psp 3004",
   "uid": "vinted:10964264286",
   "url": "https://www.vinted.fr/items/10964264286",
-  "verifiee": "2026-11-25T11:31:12+00:00"
+  "vendue": "2026-11-25T14:01:33+00:00",
+  "verifiee": "2026-11-25T14:01:33+00:00"
  },
  {
   "analyse": {
@@ -3046,5 +3050,32 @@
   "uid": "vinted:10964742636",
   "url": "https://www.vinted.fr/items/10964742636",
   "verifiee": "2026-11-25T12:31:18+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 71,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 39,
+   "marge_pct": 116,
+   "mediane": 116.53,
+   "montrer_marge": true,
+   "montrer_score": false,
+   "nb_historique": 248,
+   "pieces": 15.0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-25T14:01:28+00:00",
+  "etat": "hs",
+  "photo": "https://images1.vinted.net/t/03_017b1_rvWwDovyrCJ5KRhoVmErqEzH/310x430/be707400.webp?s=bdcf5c4f15c198d6d72449c224e5f55a1d8eae62",
+  "prix_total": 34.1,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Psp 3004 funzionante con schermo rotto",
+  "uid": "vinted:10965916225",
+  "url": "https://www.vinted.fr/items/10965916225",
+  "verifiee": "2026-11-25T14:01:30+00:00"
  }
 ]

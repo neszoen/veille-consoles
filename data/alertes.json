@@ -3080,7 +3080,7 @@
   "titre": "Psp 3004 funzionante con schermo rotto",
   "uid": "vinted:10965916225",
   "url": "https://www.vinted.fr/items/10965916225",
-  "verifiee": "2026-11-25T21:31:13+00:00"
+  "verifiee": "2026-11-26T00:01:21+00:00"
  },
  {
   "analyse": {
@@ -3134,7 +3134,7 @@
   "titre": "PSP 2004",
   "uid": "vinted:10969538526",
   "url": "https://www.vinted.fr/items/10969538526",
-  "verifiee": "2026-11-25T21:31:07+00:00"
+  "verifiee": "2026-11-26T00:01:19+00:00"
  },
  {
   "analyse": {
@@ -3301,5 +3301,32 @@
   "uid": "vinted:10972446973",
   "url": "https://www.vinted.fr/items/10972446973",
   "verifiee": "2026-11-25T22:01:17+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 46,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 26,
+   "marge_pct": 42,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 262,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-26T00:01:14+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/03_00589_p8uaumhUfmXKSSkvdYxXD43N/310x430/11818dd7.webp?s=1741a15eaab800907e171db8e3119d17553fce61",
+  "prix_total": 62.45,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Console Sony PSP 3000 Pearl White (Bianca) - Usata / Da rivedere esteticamente",
+  "uid": "vinted:10973337190",
+  "url": "https://www.vinted.fr/items/10973337190",
+  "verifiee": "2026-11-26T00:01:16+00:00"
  }
 ]

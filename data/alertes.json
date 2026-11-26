@@ -854,7 +854,7 @@
   "titre": "PSP-2000 read description",
   "uid": "vinted:10895068173",
   "url": "https://www.vinted.fr/items/10895068173",
-  "verifiee": "2026-11-26T12:31:52+00:00"
+  "verifiee": "2026-11-26T15:01:35+00:00"
  },
  {
   "analyse": {
@@ -1224,7 +1224,7 @@
   "titre": "Sony Psp 2004",
   "uid": "vinted:10906868630",
   "url": "https://www.vinted.fr/items/10906868630",
-  "verifiee": "2026-11-26T12:32:02+00:00"
+  "verifiee": "2026-11-26T15:01:45+00:00"
  },
  {
   "analyse": {
@@ -1686,7 +1686,7 @@
   "titre": "PSP-3000/4 Sony",
   "uid": "vinted:10914932018",
   "url": "https://www.vinted.fr/items/10914932018",
-  "verifiee": "2026-11-26T12:32:11+00:00"
+  "verifiee": "2026-11-26T15:01:55+00:00"
  },
  {
   "analyse": {
@@ -1800,7 +1800,7 @@
   "titre": "Sony PSP 3000 Nera",
   "uid": "vinted:10921815277",
   "url": "https://www.vinted.fr/items/10921815277",
-  "verifiee": "2026-11-26T12:32:09+00:00"
+  "verifiee": "2026-11-26T15:01:52+00:00"
  },
  {
   "analyse": {
@@ -2202,7 +2202,7 @@
   "titre": "Sony PSP-2004 Nera (Piano Black)  (Senza Batteria)",
   "uid": "vinted:10940405225",
   "url": "https://www.vinted.fr/items/10940405225",
-  "verifiee": "2026-11-26T12:32:06+00:00"
+  "verifiee": "2026-11-26T15:01:50+00:00"
  },
  {
   "analyse": {
@@ -2345,7 +2345,7 @@
   "titre": "Psp Slim",
   "uid": "vinted:10942935461",
   "url": "https://www.vinted.fr/items/10942935461",
-  "verifiee": "2026-11-26T12:32:04+00:00"
+  "verifiee": "2026-11-26T15:01:47+00:00"
  },
  {
   "analyse": {
@@ -2745,7 +2745,7 @@
   "titre": "Lot psp 2004",
   "uid": "vinted:10955428340",
   "url": "https://www.vinted.fr/items/10955428340",
-  "verifiee": "2026-11-26T12:31:57+00:00"
+  "verifiee": "2026-11-26T15:01:40+00:00"
  },
  {
   "analyse": {
@@ -2772,7 +2772,7 @@
   "titre": "ps vita slim",
   "uid": "vinted:10956283511",
   "url": "https://www.vinted.fr/items/10956283511",
-  "verifiee": "2026-11-26T12:32:14+00:00"
+  "verifiee": "2026-11-26T15:01:58+00:00"
  },
  {
   "analyse": {
@@ -2970,7 +2970,7 @@
   "titre": "Psp 1004",
   "uid": "vinted:10962375561",
   "url": "https://www.vinted.fr/items/10962375561",
-  "verifiee": "2026-11-26T12:31:54+00:00"
+  "verifiee": "2026-11-26T15:01:37+00:00"
  },
  {
   "analyse": {
@@ -2997,7 +2997,7 @@
   "titre": "console noire PSP-2004 sans batterie et sans chargeur",
   "uid": "vinted:10962542090",
   "url": "https://www.vinted.fr/items/10962542090",
-  "verifiee": "2026-11-26T12:32:16+00:00"
+  "verifiee": "2026-11-26T15:02:00+00:00"
  },
  {
   "analyse": {
@@ -3109,7 +3109,7 @@
   "titre": "Psp 3004 negra leer",
   "uid": "vinted:10967102768",
   "url": "https://www.vinted.fr/items/10967102768",
-  "verifiee": "2026-11-26T12:31:59+00:00"
+  "verifiee": "2026-11-26T15:01:42+00:00"
  },
  {
   "analyse": {
@@ -3136,7 +3136,7 @@
   "titre": "PSP 2004",
   "uid": "vinted:10969538526",
   "url": "https://www.vinted.fr/items/10969538526",
-  "verifiee": "2026-11-26T12:32:21+00:00"
+  "verifiee": "2026-11-26T15:02:05+00:00"
  },
  {
   "analyse": {
@@ -3335,7 +3335,7 @@
   "titre": "Console Sony PSP 3000 Pearl White (Bianca) - Usata / Da rivedere esteticamente",
   "uid": "vinted:10973337190",
   "url": "https://www.vinted.fr/items/10973337190",
-  "verifiee": "2026-11-26T12:32:19+00:00"
+  "verifiee": "2026-11-26T15:02:03+00:00"
  },
  {
   "analyse": {
@@ -3392,5 +3392,32 @@
   "url": "https://www.vinted.fr/items/10973989496",
   "vendue": "2026-11-26T08:31:13+00:00",
   "verifiee": "2026-11-26T08:31:13+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 42,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 13,
+   "marge_pct": 23,
+   "mediane": 99.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 198,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-26T15:01:30+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/03_001f2_NvFvt2LwLH9eSHmRHwpQcUgi/310x430/c35f4f33.webp?s=cd9b3151db7b6548eb6f2f37e7ae337cd5aeb040",
+  "prix_total": 57.2,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "Console Sony psp slim lite 2000 play station portable con gioco Dragon Ball Z: Shin Budokai nera",
+  "uid": "vinted:10979090284",
+  "url": "https://www.vinted.fr/items/10979090284",
+  "verifiee": "2026-11-26T15:01:32+00:00"
  }
 ]

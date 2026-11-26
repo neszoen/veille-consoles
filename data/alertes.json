@@ -3332,5 +3332,31 @@
   "uid": "vinted:10973337190",
   "url": "https://www.vinted.fr/items/10973337190",
   "verifiee": "2026-11-26T02:31:08+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 32,
+   "feu": false,
+   "frais": 10.5,
+   "marge_eur": 10,
+   "marge_pct": 13,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 263,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-26T03:01:23+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/05_01d9c_xMjuWTkDuxVLN2bt8J5hGgeN/310x430/e0d5c09d.webp?s=fd1b908dda5f8938845f85eebbe35021bbfeffd3",
+  "prix_total": 78.19,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Sony PlayStation Portable Psp 3000",
+  "uid": "vinted:10974013429",
+  "url": "https://www.vinted.fr/items/10974013429"
  }
 ]

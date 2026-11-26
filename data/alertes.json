@@ -111,7 +111,7 @@
   "titre": "Ds lite menthe",
   "uid": "vinted:10854086719",
   "url": "https://www.vinted.fr/items/10854086719",
-  "verifiee": "2026-11-26T00:31:15+00:00"
+  "verifiee": "2026-11-26T03:31:29+00:00"
  },
  {
   "analyse": {
@@ -312,7 +312,7 @@
   "titre": "Sony psp 3000",
   "uid": "vinted:10845610591",
   "url": "https://www.vinted.fr/items/10845610591",
-  "verifiee": "2026-11-26T00:31:17+00:00"
+  "verifiee": "2026-11-26T03:31:32+00:00"
  },
  {
   "analyse": {
@@ -339,7 +339,7 @@
   "titre": "Psp e 1004 2a",
   "uid": "vinted:10862758171",
   "url": "https://www.vinted.fr/items/10862758171",
-  "verifiee": "2026-11-26T00:31:22+00:00"
+  "verifiee": "2026-11-26T03:31:37+00:00"
  },
  {
   "analyse": {
@@ -366,7 +366,7 @@
   "titre": "Playstation Ps Vita - Carte mémoire 32 Go",
   "uid": "vinted:10864862572",
   "url": "https://www.vinted.fr/items/10864862572",
-  "verifiee": "2026-11-26T01:31:13+00:00"
+  "verifiee": "2026-11-26T03:31:39+00:00"
  },
  {
   "analyse": {
@@ -1706,6 +1706,7 @@
   },
   "date_alerte": "2026-11-22T03:31:09+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "retiree",
   "photo": "https://images1.vinted.net/t/01_00440_gMpZUMw4oc3vS67iQ8BiUmVf/310x430/45244c58.webp?s=75d8a710866ca9cca3969d8a46200400b15667b3",
   "prix_total": 78.19,
   "recherche": "PSP 3000",
@@ -1713,7 +1714,8 @@
   "titre": "Sony PlayStation portable Psp 3000",
   "uid": "vinted:10916819638",
   "url": "https://www.vinted.fr/items/10916819638",
-  "verifiee": "2026-11-26T01:31:16+00:00"
+  "vendue": "2026-11-26T03:31:41+00:00",
+  "verifiee": "2026-11-26T03:31:41+00:00"
  },
  {
   "analyse": {
@@ -1883,7 +1885,7 @@
   "titre": "PSP 2004 Nera Funzionante con Memory Stick 4GB e Gioco",
   "uid": "vinted:10923257848",
   "url": "https://www.vinted.fr/items/10923257848",
-  "verifiee": "2026-11-26T00:31:20+00:00"
+  "verifiee": "2026-11-26T03:31:34+00:00"
  },
  {
   "analyse": {
@@ -2428,7 +2430,7 @@
   "titre": "Lot consoles Sony PSP 2004 + Nintendo DS Lite + 6 jeux (À tester)",
   "uid": "vinted:10946238208",
   "url": "https://www.vinted.fr/items/10946238208",
-  "verifiee": "2026-11-26T00:31:12+00:00"
+  "verifiee": "2026-11-26T03:31:27+00:00"
  },
  {
   "analyse": {
@@ -3190,7 +3192,7 @@
   "titre": "Psp 1004 fat",
   "uid": "vinted:10970748036",
   "url": "https://www.vinted.fr/items/10970748036",
-  "verifiee": "2026-11-26T00:31:10+00:00"
+  "verifiee": "2026-11-26T03:31:24+00:00"
  },
  {
   "analyse": {
@@ -3357,6 +3359,34 @@
   "source": "vinted",
   "titre": "Sony PlayStation Portable Psp 3000",
   "uid": "vinted:10974013429",
-  "url": "https://www.vinted.fr/items/10974013429"
+  "url": "https://www.vinted.fr/items/10974013429",
+  "verifiee": "2026-11-26T03:31:19+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 40,
+   "feu": true,
+   "frais": 13.0,
+   "marge_eur": 13,
+   "marge_pct": 14,
+   "mediane": 162.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 492,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-26T03:31:17+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/02_00aee_T2b3cKcnsogJMADE9BeuVKQD/310x430/84a40d44.webp?s=21636686e79a30b69b839eef03d9dcfaa75a6ff5",
+  "prix_total": 97.63,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "Console PS Vita PCH-1004 nera funzionante, legge i giochi, senza alimentatore e senza accessori",
+  "uid": "vinted:10973989496",
+  "url": "https://www.vinted.fr/items/10973989496",
+  "verifiee": "2026-11-26T03:31:22+00:00"
  }
 ]

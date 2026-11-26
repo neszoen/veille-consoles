@@ -3421,5 +3421,59 @@
   "uid": "vinted:10979090284",
   "url": "https://www.vinted.fr/items/10979090284",
   "verifiee": "2026-11-26T15:01:32+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 50,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 31,
+   "marge_pct": 55,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 269,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-26T16:01:21+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/03_0007c_WnNoDRGXzdKhzRACWHouN7Gj/310x430/f9ba4604.webp?s=d05c574ab36cd26095534a91aa1f72fd838948c0",
+  "prix_total": 57.2,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "PSP 3004 black",
+  "uid": "vinted:10980053815",
+  "url": "https://www.vinted.fr/items/10980053815",
+  "verifiee": "2026-11-26T16:01:25+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 37,
+   "feu": false,
+   "frais": 10.5,
+   "marge_eur": 16,
+   "marge_pct": 21,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 270,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-26T16:01:23+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/05_00733_VFntvygf9Y4iotRqFasi9bqU/310x430/189eee3f.webp?s=a2b0c7bef3d786c03c3eedff60acd71337b99a8e",
+  "prix_total": 72.95,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Psp slim 3004 + chargeur + housse",
+  "uid": "vinted:10979887284",
+  "url": "https://www.vinted.fr/items/10979887284",
+  "verifiee": "2026-11-26T16:01:28+00:00"
  }
 ]

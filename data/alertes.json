@@ -3200,7 +3200,7 @@
   "titre": "Psp 1004 fat",
   "uid": "vinted:10970748036",
   "url": "https://www.vinted.fr/items/10970748036",
-  "verifiee": "2026-11-27T19:31:24+00:00"
+  "verifiee": "2026-11-27T22:01:31+00:00"
  },
  {
   "analyse": {
@@ -3370,7 +3370,7 @@
   "titre": "Sony PlayStation Portable Psp 3000",
   "uid": "vinted:10974013429",
   "url": "https://www.vinted.fr/items/10974013429",
-  "verifiee": "2026-11-27T19:31:22+00:00"
+  "verifiee": "2026-11-27T22:01:28+00:00"
  },
  {
   "analyse": {
@@ -3670,6 +3670,7 @@
   },
   "date_alerte": "2026-11-27T12:31:13+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/04_00c8d_HCQSMyesFQGJmJSiwFHNr2XJ/310x430/5e97ee88.webp?s=ea38e60c8d0c68975f5c37a6dfa2366ab58d9cdb",
   "prix_total": 72.95,
   "recherche": "PSP 3000",
@@ -3677,7 +3678,8 @@
   "titre": "Console Sony PSP 3000 Blanche + Chargeur + 4 Jeux (GTA Vice City Stories, NFS, Sims 2, PES 6)",
   "uid": "vinted:10988574417",
   "url": "https://www.vinted.fr/items/10988574417",
-  "verifiee": "2026-11-27T19:31:19+00:00"
+  "vendue": "2026-11-27T22:01:26+00:00",
+  "verifiee": "2026-11-27T22:01:26+00:00"
  },
  {
   "analyse": {
@@ -3704,7 +3706,7 @@
   "titre": "Psp 2000",
   "uid": "vinted:10989905834",
   "url": "https://www.vinted.fr/items/10989905834",
-  "verifiee": "2026-11-27T19:31:16+00:00"
+  "verifiee": "2026-11-27T22:01:23+00:00"
  },
  {
   "analyse": {
@@ -3780,6 +3782,7 @@
   },
   "date_alerte": "2026-11-27T19:31:11+00:00",
   "etat": "inconnu",
+  "motif_vendue": "retiree",
   "photo": "https://images1.vinted.net/t/06_0195e_fcKbD2cQ1ps4QyxR99SjyHug/310x430/0492c1f0.webp?s=e5adeb9b0b67bbc4d29f4588d030b24af1de1f29",
   "prix_total": 46.7,
   "recherche": "PS Vita",
@@ -3787,7 +3790,8 @@
   "titre": "Playstation vita",
   "uid": "vinted:10993393765",
   "url": "https://www.vinted.fr/items/10993393765",
-  "verifiee": "2026-11-27T19:31:14+00:00"
+  "vendue": "2026-11-27T22:01:21+00:00",
+  "verifiee": "2026-11-27T22:01:21+00:00"
  },
  {
   "analyse": {
@@ -3815,5 +3819,32 @@
   "uid": "vinted:10921800831",
   "url": "https://www.vinted.fr/items/10921800831",
   "verifiee": "2026-11-27T21:31:14+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 68,
+   "feu": true,
+   "frais": 13.0,
+   "marge_eur": 59,
+   "marge_pct": 114,
+   "mediane": 162.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 492,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-27T22:01:16+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/06_02229_37BCxNbFPm1qkg6gWg24X8p4/310x430/13baac94.webp?s=468aedf1f768a9469dfcd828196b593a8f22ce3e",
+  "prix_total": 51.95,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "PS vita",
+  "uid": "vinted:10995077920",
+  "url": "https://www.vinted.fr/items/10995077920",
+  "verifiee": "2026-11-27T22:01:19+00:00"
  }
 ]

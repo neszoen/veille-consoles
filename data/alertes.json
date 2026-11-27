@@ -3788,5 +3788,32 @@
   "uid": "vinted:10993393765",
   "url": "https://www.vinted.fr/items/10993393765",
   "verifiee": "2026-11-27T19:31:14+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 37,
+   "feu": false,
+   "frais": 10.5,
+   "marge_eur": 16,
+   "marge_pct": 21,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 303,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-27T21:31:11+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/04_00e2b_GJbjt3UxVXdWB7d2QZSV1M7M/310x430/e4341c94.webp?s=16a88db60829cafaf54e5a5346bee9d84164c392",
+  "prix_total": 72.95,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Sony PSP 3004 Rosa - Totalmente Funcional (Com Carregador / Sem Bateria)",
+  "uid": "vinted:10921800831",
+  "url": "https://www.vinted.fr/items/10921800831",
+  "verifiee": "2026-11-27T21:31:14+00:00"
  }
 ]

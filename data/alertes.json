@@ -3533,5 +3533,57 @@
   "uid": "vinted:10982911967",
   "url": "https://www.vinted.fr/items/10982911967",
   "verifiee": "2026-11-27T06:01:18+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 62,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 32,
+   "marge_pct": 86,
+   "mediane": 99.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 206,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-27T06:31:20+00:00",
+  "etat": "inconnu",
+  "photo": "https://img8.leboncoin.fr/emailing/search/chip-livraison-2x.png",
+  "prix_total": 38.0,
+  "recherche": "PSP 2000",
+  "source": "leboncoin",
+  "titre": "Console Sony PSP 2000 (PSP-...  Porcheville 78440",
+  "uid": "leboncoin:3318477931",
+  "url": "https://www.leboncoin.fr/ad/consoles/3318477931"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 57,
+   "feu": true,
+   "frais": 6.5,
+   "marge_eur": 14,
+   "marge_pct": 38,
+   "mediane": 88.7,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 242,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 65.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-27T06:31:22+00:00",
+  "etat": "inconnu",
+  "photo": "https://img8.leboncoin.fr/emailing/search/chip-livraison-2x.png",
+  "prix_total": 38.0,
+  "recherche": "PSP 1000",
+  "source": "leboncoin",
+  "titre": "Sony PSP 1000 (PSP-1004) Noire  Porcheville 78440",
+  "uid": "leboncoin:3318468491",
+  "url": "https://www.leboncoin.fr/ad/consoles/3318468491"
  }
 ]

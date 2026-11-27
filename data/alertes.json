@@ -856,7 +856,7 @@
   "titre": "PSP-2000 read description",
   "uid": "vinted:10895068173",
   "url": "https://www.vinted.fr/items/10895068173",
-  "verifiee": "2026-11-27T18:50:34+00:00"
+  "verifiee": "2026-11-27T21:01:23+00:00"
  },
  {
   "analyse": {
@@ -1226,7 +1226,7 @@
   "titre": "Sony Psp 2004",
   "uid": "vinted:10906868630",
   "url": "https://www.vinted.fr/items/10906868630",
-  "verifiee": "2026-11-27T18:50:43+00:00"
+  "verifiee": "2026-11-27T21:01:33+00:00"
  },
  {
   "analyse": {
@@ -1688,7 +1688,7 @@
   "titre": "PSP-3000/4 Sony",
   "uid": "vinted:10914932018",
   "url": "https://www.vinted.fr/items/10914932018",
-  "verifiee": "2026-11-27T18:50:51+00:00"
+  "verifiee": "2026-11-27T21:01:41+00:00"
  },
  {
   "analyse": {
@@ -1802,7 +1802,7 @@
   "titre": "Sony PSP 3000 Nera",
   "uid": "vinted:10921815277",
   "url": "https://www.vinted.fr/items/10921815277",
-  "verifiee": "2026-11-27T18:50:48+00:00"
+  "verifiee": "2026-11-27T21:01:39+00:00"
  },
  {
   "analyse": {
@@ -2204,7 +2204,7 @@
   "titre": "Sony PSP-2004 Nera (Piano Black)  (Senza Batteria)",
   "uid": "vinted:10940405225",
   "url": "https://www.vinted.fr/items/10940405225",
-  "verifiee": "2026-11-27T18:50:46+00:00"
+  "verifiee": "2026-11-27T21:01:36+00:00"
  },
  {
   "analyse": {
@@ -2751,7 +2751,7 @@
   "titre": "Lot psp 2004",
   "uid": "vinted:10955428340",
   "url": "https://www.vinted.fr/items/10955428340",
-  "verifiee": "2026-11-27T18:50:38+00:00"
+  "verifiee": "2026-11-27T21:01:28+00:00"
  },
  {
   "analyse": {
@@ -2778,7 +2778,7 @@
   "titre": "ps vita slim",
   "uid": "vinted:10956283511",
   "url": "https://www.vinted.fr/items/10956283511",
-  "verifiee": "2026-11-27T18:50:53+00:00"
+  "verifiee": "2026-11-27T21:01:44+00:00"
  },
  {
   "analyse": {
@@ -2976,7 +2976,7 @@
   "titre": "Psp 1004",
   "uid": "vinted:10962375561",
   "url": "https://www.vinted.fr/items/10962375561",
-  "verifiee": "2026-11-27T18:50:36+00:00"
+  "verifiee": "2026-11-27T21:01:26+00:00"
  },
  {
   "analyse": {
@@ -3003,7 +3003,7 @@
   "titre": "console noire PSP-2004 sans batterie et sans chargeur",
   "uid": "vinted:10962542090",
   "url": "https://www.vinted.fr/items/10962542090",
-  "verifiee": "2026-11-27T18:50:55+00:00"
+  "verifiee": "2026-11-27T21:01:46+00:00"
  },
  {
   "analyse": {
@@ -3117,7 +3117,7 @@
   "titre": "Psp 3004 negra leer",
   "uid": "vinted:10967102768",
   "url": "https://www.vinted.fr/items/10967102768",
-  "verifiee": "2026-11-27T18:50:41+00:00"
+  "verifiee": "2026-11-27T21:01:31+00:00"
  },
  {
   "analyse": {
@@ -3144,7 +3144,7 @@
   "titre": "PSP 2004",
   "uid": "vinted:10969538526",
   "url": "https://www.vinted.fr/items/10969538526",
-  "verifiee": "2026-11-27T18:51:00+00:00"
+  "verifiee": "2026-11-27T21:01:51+00:00"
  },
  {
   "analyse": {
@@ -3343,7 +3343,7 @@
   "titre": "Console Sony PSP 3000 Pearl White (Bianca) - Usata / Da rivedere esteticamente",
   "uid": "vinted:10973337190",
   "url": "https://www.vinted.fr/items/10973337190",
-  "verifiee": "2026-11-27T18:50:58+00:00"
+  "verifiee": "2026-11-27T21:01:49+00:00"
  },
  {
   "analyse": {
@@ -3731,7 +3731,7 @@
   "titre": "psp 3000",
   "uid": "vinted:10990969333",
   "url": "https://www.vinted.fr/items/10990969333",
-  "verifiee": "2026-11-27T18:50:31+00:00"
+  "verifiee": "2026-11-27T21:01:20+00:00"
  },
  {
   "analyse": {
@@ -3751,6 +3751,7 @@
   },
   "date_alerte": "2026-11-27T18:50:26+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/06_02318_13heNvqQh9kxkRobSVN7Zzvr/310x430/68120185.webp?s=ac59d9b92945aea3f676e28110d2af5a603dd862",
   "prix_total": 62.45,
   "recherche": "PSP 2000",
@@ -3758,7 +3759,8 @@
   "titre": "Console Sony PSP-2004 noire avec chargeur, housse et 11 jeux",
   "uid": "vinted:10993080379",
   "url": "https://www.vinted.fr/items/10993080379",
-  "verifiee": "2026-11-27T18:50:29+00:00"
+  "vendue": "2026-11-27T21:01:18+00:00",
+  "verifiee": "2026-11-27T21:01:18+00:00"
  },
  {
   "analyse": {

@@ -3200,7 +3200,7 @@
   "titre": "Psp 1004 fat",
   "uid": "vinted:10970748036",
   "url": "https://www.vinted.fr/items/10970748036",
-  "verifiee": "2026-11-27T12:31:21+00:00"
+  "verifiee": "2026-11-27T14:31:35+00:00"
  },
  {
   "analyse": {
@@ -3370,7 +3370,7 @@
   "titre": "Sony PlayStation Portable Psp 3000",
   "uid": "vinted:10974013429",
   "url": "https://www.vinted.fr/items/10974013429",
-  "verifiee": "2026-11-27T12:31:18+00:00"
+  "verifiee": "2026-11-27T14:31:32+00:00"
  },
  {
   "analyse": {
@@ -3677,6 +3677,33 @@
   "titre": "Console Sony PSP 3000 Blanche + Chargeur + 4 Jeux (GTA Vice City Stories, NFS, Sims 2, PES 6)",
   "uid": "vinted:10988574417",
   "url": "https://www.vinted.fr/items/10988574417",
-  "verifiee": "2026-11-27T12:31:16+00:00"
+  "verifiee": "2026-11-27T14:31:30+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 42,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 13,
+   "marge_pct": 23,
+   "mediane": 99.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 212,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-27T14:31:24+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/01_0022b_S5NgaYe5DNuW4dyjvWp2rKRT/310x430/31ce255b.webp?s=afe07a05e2eb558de8d366be09bb766ba286714e",
+  "prix_total": 57.2,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "Psp 2000",
+  "uid": "vinted:10989905834",
+  "url": "https://www.vinted.fr/items/10989905834",
+  "verifiee": "2026-11-27T14:31:27+00:00"
  }
 ]

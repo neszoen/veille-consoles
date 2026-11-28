@@ -1199,7 +1199,7 @@
   "titre": "Sony Playstation Portable PSP-3000 White - Read description!",
   "uid": "vinted:10906420942",
   "url": "https://www.vinted.fr/items/10906420942",
-  "verifiee": "2026-11-28T06:01:10+00:00"
+  "verifiee": "2026-11-28T08:31:13+00:00"
  },
  {
   "analyse": {
@@ -3871,6 +3871,7 @@
   },
   "date_alerte": "2026-11-27T23:01:21+00:00",
   "etat": "inconnu",
+  "motif_vendue": "retiree",
   "photo": "https://images1.vinted.net/t/06_02229_37BCxNbFPm1qkg6gWg24X8p4/310x430/13baac94.webp?s=468aedf1f768a9469dfcd828196b593a8f22ce3e",
   "prix_total": 51.95,
   "recherche": "PS Vita",
@@ -3878,7 +3879,8 @@
   "titre": "PS vita",
   "uid": "vinted:10995672094",
   "url": "https://www.vinted.fr/items/10995672094",
-  "verifiee": "2026-11-28T06:31:09+00:00"
+  "vendue": "2026-11-28T08:31:15+00:00",
+  "verifiee": "2026-11-28T08:31:15+00:00"
  },
  {
   "analyse": {

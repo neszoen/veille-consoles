@@ -1199,7 +1199,7 @@
   "titre": "Sony Playstation Portable PSP-3000 White - Read description!",
   "uid": "vinted:10906420942",
   "url": "https://www.vinted.fr/items/10906420942",
-  "verifiee": "2026-11-28T08:31:13+00:00"
+  "verifiee": "2026-11-28T11:31:24+00:00"
  },
  {
   "analyse": {
@@ -3544,7 +3544,7 @@
   "titre": "Psp 3004",
   "uid": "vinted:10982911967",
   "url": "https://www.vinted.fr/items/10982911967",
-  "verifiee": "2026-11-28T09:01:11+00:00"
+  "verifiee": "2026-11-28T11:31:26+00:00"
  },
  {
   "analyse": {
@@ -3737,7 +3737,7 @@
   "titre": "psp 3000",
   "uid": "vinted:10990969333",
   "url": "https://www.vinted.fr/items/10990969333",
-  "verifiee": "2026-11-28T09:01:13+00:00"
+  "verifiee": "2026-11-28T11:31:29+00:00"
  },
  {
   "analyse": {
@@ -4010,13 +4010,16 @@
   },
   "date_alerte": "2026-11-28T11:01:22+00:00",
   "etat": "inconnu",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/01_0150a_zfMo5wf6ZF3w7vWnYzCn7C9C/310x430/22938052.webp?s=00a458d885ed9ac77714f52bcdea9f62c7e6b453",
   "prix_total": 88.7,
   "recherche": "PS Vita",
   "source": "vinted",
   "titre": "Sony PlayStation Vita",
   "uid": "vinted:10999626831",
-  "url": "https://www.vinted.fr/items/10999626831"
+  "url": "https://www.vinted.fr/items/10999626831",
+  "vendue": "2026-11-28T11:31:15+00:00",
+  "verifiee": "2026-11-28T11:31:15+00:00"
  },
  {
   "analyse": {
@@ -4036,13 +4039,16 @@
   },
   "date_alerte": "2026-11-28T11:01:24+00:00",
   "etat": "inconnu",
+  "motif_vendue": "retiree",
   "photo": "https://images1.vinted.net/t/06_00924_JyDF3ihEpgUVip2x7ZZfNsPL/310x430/3791ea14.webp?s=908f7d9a4464ce622cffbab4544dd66aebfc3774",
   "prix_total": 67.7,
   "recherche": "PSP 3000",
   "source": "vinted",
   "titre": "PSP 3004",
   "uid": "vinted:10999743246",
-  "url": "https://www.vinted.fr/items/10999743246"
+  "url": "https://www.vinted.fr/items/10999743246",
+  "vendue": "2026-11-28T11:31:17+00:00",
+  "verifiee": "2026-11-28T11:31:17+00:00"
  },
  {
   "analyse": {
@@ -4068,6 +4074,34 @@
   "source": "vinted",
   "titre": "PSP 3000 con 8 juegos",
   "uid": "vinted:10999641882",
-  "url": "https://www.vinted.fr/items/10999641882"
+  "url": "https://www.vinted.fr/items/10999641882",
+  "verifiee": "2026-11-28T11:31:19+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 41,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 21,
+   "marge_pct": 31,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 316,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-28T11:31:12+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/03_00d19_qu4uAkPVWDpaFDDeQUHfsCw5/310x430/4238d5cf.webp?s=81709705a7518f0eb5f0c141b5dc479895a11217",
+  "prix_total": 67.7,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Sony PSP 3004 Silver Funzionante + Custodia (senza batteria e cavo)",
+  "uid": "vinted:11000106694",
+  "url": "https://www.vinted.fr/items/11000106694",
+  "verifiee": "2026-11-28T11:31:21+00:00"
  }
 ]

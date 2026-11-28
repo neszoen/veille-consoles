@@ -3202,7 +3202,7 @@
   "titre": "Psp 1004 fat",
   "uid": "vinted:10970748036",
   "url": "https://www.vinted.fr/items/10970748036",
-  "verifiee": "2026-11-27T22:01:31+00:00"
+  "verifiee": "2026-11-28T00:31:15+00:00"
  },
  {
   "analyse": {
@@ -3372,7 +3372,7 @@
   "titre": "Sony PlayStation Portable Psp 3000",
   "uid": "vinted:10974013429",
   "url": "https://www.vinted.fr/items/10974013429",
-  "verifiee": "2026-11-27T22:01:28+00:00"
+  "verifiee": "2026-11-28T00:31:13+00:00"
  },
  {
   "analyse": {
@@ -3708,7 +3708,7 @@
   "titre": "Psp 2000",
   "uid": "vinted:10989905834",
   "url": "https://www.vinted.fr/items/10989905834",
-  "verifiee": "2026-11-27T22:01:23+00:00"
+  "verifiee": "2026-11-28T00:31:10+00:00"
  },
  {
   "analyse": {
@@ -3840,6 +3840,7 @@
   },
   "date_alerte": "2026-11-27T22:01:16+00:00",
   "etat": "inconnu",
+  "motif_vendue": "retiree",
   "photo": "https://images1.vinted.net/t/06_02229_37BCxNbFPm1qkg6gWg24X8p4/310x430/13baac94.webp?s=468aedf1f768a9469dfcd828196b593a8f22ce3e",
   "prix_total": 51.95,
   "recherche": "PS Vita",
@@ -3847,7 +3848,8 @@
   "titre": "PS vita",
   "uid": "vinted:10995077920",
   "url": "https://www.vinted.fr/items/10995077920",
-  "verifiee": "2026-11-27T22:01:19+00:00"
+  "vendue": "2026-11-28T00:31:08+00:00",
+  "verifiee": "2026-11-28T00:31:08+00:00"
  },
  {
   "analyse": {

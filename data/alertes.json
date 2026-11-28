@@ -3991,5 +3991,83 @@
   "uid": "vinted:10998620557",
   "url": "https://www.vinted.fr/items/10998620557",
   "verifiee": "2026-11-28T09:31:16+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 45,
+   "feu": true,
+   "frais": 13.0,
+   "marge_eur": 22,
+   "marge_pct": 25,
+   "mediane": 162.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 492,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-28T11:01:22+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/01_0150a_zfMo5wf6ZF3w7vWnYzCn7C9C/310x430/22938052.webp?s=00a458d885ed9ac77714f52bcdea9f62c7e6b453",
+  "prix_total": 88.7,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "Sony PlayStation Vita",
+  "uid": "vinted:10999626831",
+  "url": "https://www.vinted.fr/items/10999626831"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 41,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 21,
+   "marge_pct": 31,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 313,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-28T11:01:24+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/06_00924_JyDF3ihEpgUVip2x7ZZfNsPL/310x430/3791ea14.webp?s=908f7d9a4464ce622cffbab4544dd66aebfc3774",
+  "prix_total": 67.7,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "PSP 3004",
+  "uid": "vinted:10999743246",
+  "url": "https://www.vinted.fr/items/10999743246"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 41,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 21,
+   "marge_pct": 31,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 314,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-28T11:01:25+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/01_0242c_1bSP4PAyaPomD7Lh8iBQtgif/310x430/ba21bcee.webp?s=cb8cf79d53b0974c6e722621143b53401b589e75",
+  "prix_total": 67.7,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "PSP 3000 con 8 juegos",
+  "uid": "vinted:10999641882",
+  "url": "https://www.vinted.fr/items/10999641882"
  }
 ]

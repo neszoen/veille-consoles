@@ -3488,7 +3488,7 @@
   "titre": "Psp slim 3004 + chargeur + housse",
   "uid": "vinted:10979887284",
   "url": "https://www.vinted.fr/items/10979887284",
-  "verifiee": "2026-11-28T12:31:28+00:00"
+  "verifiee": "2026-11-28T16:01:34+00:00"
  },
  {
   "analyse": {
@@ -4153,6 +4153,7 @@
   },
   "date_alerte": "2026-11-28T13:31:10+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/06_01841_zgc96txos8QGLPAmjC5VkeDb/310x430/ecb92d15.webp?s=e4363d36975601cb129ef0e760408a6a81f36d33",
   "prix_total": 41.45,
   "recherche": "PSP 2000",
@@ -4160,7 +4161,8 @@
   "titre": "PSP 2000",
   "uid": "vinted:11001626070",
   "url": "https://www.vinted.fr/items/11001626070",
-  "verifiee": "2026-11-28T13:31:13+00:00"
+  "vendue": "2026-11-28T16:01:36+00:00",
+  "verifiee": "2026-11-28T16:01:36+00:00"
  },
  {
   "analyse": {
@@ -4261,12 +4263,69 @@
   },
   "date_alerte": "2026-11-28T15:31:24+00:00",
   "etat": "inconnu",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/05_00ea4_nHWywUxeXuWnn8o3TemZ6d7T/310x430/a863da6f.webp?s=1fac268c89a9f33b9f637a8f236450b3ed7b888f",
   "prix_total": 78.2,
   "recherche": "PS Vita",
   "source": "vinted",
   "titre": "Console Sony PlayStation Vita + caricabatterie",
   "uid": "vinted:11003605254",
-  "url": "https://www.vinted.fr/items/11003605254"
+  "url": "https://www.vinted.fr/items/11003605254",
+  "vendue": "2026-11-28T16:01:27+00:00",
+  "verifiee": "2026-11-28T16:01:27+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 40,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 21,
+   "marge_pct": 31,
+   "mediane": 112.33,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 324,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-28T16:01:23+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/05_00238_hbtdHHmH9xDuPSd2H64DAbQM/310x430/2ea42d05.webp?s=d8d92267683c6512320a7f8e0210b43576fc3700",
+  "prix_total": 67.7,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Sony Playstation Portable psp 3004",
+  "uid": "vinted:11003703879",
+  "url": "https://www.vinted.fr/items/11003703879",
+  "verifiee": "2026-11-28T16:01:29+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 39,
+   "feu": false,
+   "frais": 13.0,
+   "marge_eur": 12,
+   "marge_pct": 12,
+   "mediane": 162.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 492,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-28T16:01:24+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/01_00b6a_TzTo5psTxzkM571Kn5yQYvo3/310x430/c348cc3f.webp?s=2597e6edd89ef89a9ef8f7618b5729f8008c21d9",
+  "prix_total": 99.2,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "Consola Sony PS Vita Slim PCH-2000 Negra + Fuente Original",
+  "uid": "vinted:11003793030",
+  "url": "https://www.vinted.fr/items/11003793030",
+  "verifiee": "2026-11-28T16:01:31+00:00"
  }
 ]

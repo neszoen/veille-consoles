@@ -4242,5 +4242,31 @@
   "uid": "vinted:11002250131",
   "url": "https://www.vinted.fr/items/11002250131",
   "verifiee": "2026-11-28T14:31:20+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 52,
+   "feu": true,
+   "frais": 13.0,
+   "marge_eur": 33,
+   "marge_pct": 42,
+   "mediane": 162.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 492,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 130.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-28T15:31:24+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/05_00ea4_nHWywUxeXuWnn8o3TemZ6d7T/310x430/a863da6f.webp?s=1fac268c89a9f33b9f637a8f236450b3ed7b888f",
+  "prix_total": 78.2,
+  "recherche": "PS Vita",
+  "source": "vinted",
+  "titre": "Console Sony PlayStation Vita + caricabatterie",
+  "uid": "vinted:11003605254",
+  "url": "https://www.vinted.fr/items/11003605254"
  }
 ]

@@ -3542,7 +3542,7 @@
   "titre": "Psp 3004",
   "uid": "vinted:10982911967",
   "url": "https://www.vinted.fr/items/10982911967",
-  "verifiee": "2026-11-27T23:01:30+00:00"
+  "verifiee": "2026-11-28T01:31:16+00:00"
  },
  {
   "analyse": {
@@ -3735,7 +3735,7 @@
   "titre": "psp 3000",
   "uid": "vinted:10990969333",
   "url": "https://www.vinted.fr/items/10990969333",
-  "verifiee": "2026-11-27T23:01:32+00:00"
+  "verifiee": "2026-11-28T01:31:18+00:00"
  },
  {
   "analyse": {
@@ -3876,7 +3876,7 @@
   "titre": "PS vita",
   "uid": "vinted:10995672094",
   "url": "https://www.vinted.fr/items/10995672094",
-  "verifiee": "2026-11-27T23:01:25+00:00"
+  "verifiee": "2026-11-28T01:31:10+00:00"
  },
  {
   "analyse": {
@@ -3896,6 +3896,7 @@
   },
   "date_alerte": "2026-11-27T23:01:22+00:00",
   "etat": "fonctionnel",
+  "motif_vendue": "vendue",
   "photo": "https://images1.vinted.net/t/03_0112b_Yz38ahiWQ8h8t5pKkffhvHYZ/310x430/ed3d19e7.webp?s=a054cdd941cabd6a45d889f3f3659a5ee0e7dea0",
   "prix_total": 51.95,
   "recherche": "PSP 3000",
@@ -3903,6 +3904,7 @@
   "titre": "Sony PSP 3004 nera + gioco umd Pes 6",
   "uid": "vinted:10995583392",
   "url": "https://www.vinted.fr/items/10995583392",
-  "verifiee": "2026-11-27T23:01:27+00:00"
+  "vendue": "2026-11-28T01:31:13+00:00",
+  "verifiee": "2026-11-28T01:31:13+00:00"
  }
 ]

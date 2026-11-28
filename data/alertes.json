@@ -4161,5 +4161,57 @@
   "uid": "vinted:11001626070",
   "url": "https://www.vinted.fr/items/11001626070",
   "verifiee": "2026-11-28T13:31:13+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 55,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 26,
+   "marge_pct": 58,
+   "mediane": 99.19,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 239,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-28T14:01:27+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/01_01ac0_jRB3XTVKGAcXXr6MBqYdLDzg/310x430/49dcab37.webp?s=88cceaaf68e9ec8c1eaadc0417f2c9bb56fc7b64",
+  "prix_total": 44.6,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "Sony Psp 2004",
+  "uid": "vinted:11001902482",
+  "url": "https://www.vinted.fr/items/11001902482"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 48,
+   "feu": true,
+   "frais": 8.5,
+   "marge_eur": 19,
+   "marge_pct": 36,
+   "mediane": 99.19,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 238,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-28T14:01:29+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/05_024ca_LoFr87qd7fjk3xUjWCMXQniU/310x430/9fb5d510.webp?s=f987f1d06f244ecfdba61508022f738efd3e713c",
+  "prix_total": 51.94,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "psp 2004",
+  "uid": "vinted:11002168036",
+  "url": "https://www.vinted.fr/items/11002168036"
  }
 ]

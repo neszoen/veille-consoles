@@ -111,7 +111,7 @@
   "titre": "Ds lite menthe",
   "uid": "vinted:10854086719",
   "url": "https://www.vinted.fr/items/10854086719",
-  "verifiee": "2026-11-28T01:01:10+00:00"
+  "verifiee": "2026-11-28T03:01:26+00:00"
  },
  {
   "analyse": {
@@ -341,7 +341,7 @@
   "titre": "Psp e 1004 2a",
   "uid": "vinted:10862758171",
   "url": "https://www.vinted.fr/items/10862758171",
-  "verifiee": "2026-11-28T01:01:15+00:00"
+  "verifiee": "2026-11-28T03:01:31+00:00"
  },
  {
   "analyse": {
@@ -1887,7 +1887,7 @@
   "titre": "PSP 2004 Nera Funzionante con Memory Stick 4GB e Gioco",
   "uid": "vinted:10923257848",
   "url": "https://www.vinted.fr/items/10923257848",
-  "verifiee": "2026-11-28T01:01:13+00:00"
+  "verifiee": "2026-11-28T03:01:29+00:00"
  },
  {
   "analyse": {
@@ -3202,7 +3202,7 @@
   "titre": "Psp 1004 fat",
   "uid": "vinted:10970748036",
   "url": "https://www.vinted.fr/items/10970748036",
-  "verifiee": "2026-11-28T00:31:15+00:00"
+  "verifiee": "2026-11-28T03:01:24+00:00"
  },
  {
   "analyse": {
@@ -3365,6 +3365,7 @@
   },
   "date_alerte": "2026-11-26T03:01:23+00:00",
   "etat": "inconnu",
+  "motif_vendue": "retiree",
   "photo": "https://images1.vinted.net/t/05_01d9c_xMjuWTkDuxVLN2bt8J5hGgeN/310x430/e0d5c09d.webp?s=fd1b908dda5f8938845f85eebbe35021bbfeffd3",
   "prix_total": 78.19,
   "recherche": "PSP 3000",
@@ -3372,7 +3373,8 @@
   "titre": "Sony PlayStation Portable Psp 3000",
   "uid": "vinted:10974013429",
   "url": "https://www.vinted.fr/items/10974013429",
-  "verifiee": "2026-11-28T00:31:13+00:00"
+  "vendue": "2026-11-28T03:01:21+00:00",
+  "verifiee": "2026-11-28T03:01:21+00:00"
  },
  {
   "analyse": {
@@ -3933,5 +3935,32 @@
   "uid": "vinted:10996728868",
   "url": "https://www.vinted.fr/items/10996728868",
   "verifiee": "2026-11-28T02:31:14+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 32,
+   "feu": false,
+   "frais": 10.5,
+   "marge_eur": 10,
+   "marge_pct": 13,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 307,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-28T03:01:17+00:00",
+  "etat": "inconnu",
+  "photo": "https://images1.vinted.net/t/06_01edb_2ApCiFTrpSmQSC28bo12cJa1/310x430/7e5f4ed1.webp?s=3dea1ac70828ecb8bc753f247dc693b4428d43ea",
+  "prix_total": 78.2,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Psp 3000",
+  "uid": "vinted:10996942776",
+  "url": "https://www.vinted.fr/items/10996942776",
+  "verifiee": "2026-11-28T03:01:19+00:00"
  }
 ]

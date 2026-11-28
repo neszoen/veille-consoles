@@ -856,7 +856,7 @@
   "titre": "PSP-2000 read description",
   "uid": "vinted:10895068173",
   "url": "https://www.vinted.fr/items/10895068173",
-  "verifiee": "2026-11-28T12:01:45+00:00"
+  "verifiee": "2026-11-28T14:31:40+00:00"
  },
  {
   "analyse": {
@@ -1199,7 +1199,7 @@
   "titre": "Sony Playstation Portable PSP-3000 White - Read description!",
   "uid": "vinted:10906420942",
   "url": "https://www.vinted.fr/items/10906420942",
-  "verifiee": "2026-11-28T11:31:24+00:00"
+  "verifiee": "2026-11-28T14:31:27+00:00"
  },
  {
   "analyse": {
@@ -2751,7 +2751,7 @@
   "titre": "Lot psp 2004",
   "uid": "vinted:10955428340",
   "url": "https://www.vinted.fr/items/10955428340",
-  "verifiee": "2026-11-28T12:01:50+00:00"
+  "verifiee": "2026-11-28T14:31:45+00:00"
  },
  {
   "analyse": {
@@ -2978,7 +2978,7 @@
   "titre": "Psp 1004",
   "uid": "vinted:10962375561",
   "url": "https://www.vinted.fr/items/10962375561",
-  "verifiee": "2026-11-28T12:01:47+00:00"
+  "verifiee": "2026-11-28T14:31:42+00:00"
  },
  {
   "analyse": {
@@ -3119,7 +3119,7 @@
   "titre": "Psp 3004 negra leer",
   "uid": "vinted:10967102768",
   "url": "https://www.vinted.fr/items/10967102768",
-  "verifiee": "2026-11-28T12:01:52+00:00"
+  "verifiee": "2026-11-28T14:31:47+00:00"
  },
  {
   "analyse": {
@@ -3544,7 +3544,7 @@
   "titre": "Psp 3004",
   "uid": "vinted:10982911967",
   "url": "https://www.vinted.fr/items/10982911967",
-  "verifiee": "2026-11-28T11:31:26+00:00"
+  "verifiee": "2026-11-28T14:31:30+00:00"
  },
  {
   "analyse": {
@@ -3737,7 +3737,7 @@
   "titre": "psp 3000",
   "uid": "vinted:10990969333",
   "url": "https://www.vinted.fr/items/10990969333",
-  "verifiee": "2026-11-28T11:31:29+00:00"
+  "verifiee": "2026-11-28T14:31:32+00:00"
  },
  {
   "analyse": {
@@ -3938,7 +3938,7 @@
   "titre": "Sony playStation Portable Psp 3000",
   "uid": "vinted:10996728868",
   "url": "https://www.vinted.fr/items/10996728868",
-  "verifiee": "2026-11-28T12:01:42+00:00"
+  "verifiee": "2026-11-28T14:31:37+00:00"
  },
  {
   "analyse": {
@@ -4079,7 +4079,7 @@
   "titre": "PSP 3000 con 8 juegos",
   "uid": "vinted:10999641882",
   "url": "https://www.vinted.fr/items/10999641882",
-  "verifiee": "2026-11-28T11:31:19+00:00"
+  "verifiee": "2026-11-28T14:31:22+00:00"
  },
  {
   "analyse": {
@@ -4106,7 +4106,7 @@
   "titre": "Sony PSP 3004 Silver Funzionante + Custodia (senza batteria e cavo)",
   "uid": "vinted:11000106694",
   "url": "https://www.vinted.fr/items/11000106694",
-  "verifiee": "2026-11-28T11:31:21+00:00"
+  "verifiee": "2026-11-28T14:31:25+00:00"
  },
  {
   "analyse": {
@@ -4133,7 +4133,7 @@
   "titre": "Sony PSP 2004 Eu Brickata + accessori e gioco",
   "uid": "vinted:11000508061",
   "url": "https://www.vinted.fr/items/11000508061",
-  "verifiee": "2026-11-28T12:01:38+00:00"
+  "verifiee": "2026-11-28T14:31:35+00:00"
  },
  {
   "analyse": {
@@ -4186,7 +4186,8 @@
   "source": "vinted",
   "titre": "Sony Psp 2004",
   "uid": "vinted:11001902482",
-  "url": "https://www.vinted.fr/items/11001902482"
+  "url": "https://www.vinted.fr/items/11001902482",
+  "verifiee": "2026-11-28T14:31:15+00:00"
  },
  {
   "analyse": {
@@ -4212,6 +4213,34 @@
   "source": "vinted",
   "titre": "psp 2004",
   "uid": "vinted:11002168036",
-  "url": "https://www.vinted.fr/items/11002168036"
+  "url": "https://www.vinted.fr/items/11002168036",
+  "verifiee": "2026-11-28T14:31:17+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 46,
+   "feu": true,
+   "frais": 10.5,
+   "marge_eur": 26,
+   "marge_pct": 42,
+   "mediane": 114.95,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 321,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 105.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-28T14:31:12+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/05_021bd_xFmyaw6G7LBcjMezVs1xTSdx/310x430/3f935ed0.webp?s=40b5eee7e906295aa037cb3f9ff636fb2f28216f",
+  "prix_total": 62.45,
+  "recherche": "PSP 3000",
+  "source": "vinted",
+  "titre": "Sony Playstation Portable PSP-3000 Black",
+  "uid": "vinted:11002250131",
+  "url": "https://www.vinted.fr/items/11002250131",
+  "verifiee": "2026-11-28T14:31:20+00:00"
  }
 ]

@@ -856,7 +856,7 @@
   "titre": "PSP-2000 read description",
   "uid": "vinted:10895068173",
   "url": "https://www.vinted.fr/items/10895068173",
-  "verifiee": "2026-11-28T07:31:14+00:00"
+  "verifiee": "2026-11-28T09:31:21+00:00"
  },
  {
   "analyse": {
@@ -3936,7 +3936,7 @@
   "titre": "Sony playStation Portable Psp 3000",
   "uid": "vinted:10996728868",
   "url": "https://www.vinted.fr/items/10996728868",
-  "verifiee": "2026-11-28T07:31:11+00:00"
+  "verifiee": "2026-11-28T09:31:19+00:00"
  },
  {
   "analyse": {
@@ -3964,5 +3964,32 @@
   "uid": "vinted:10996942776",
   "url": "https://www.vinted.fr/items/10996942776",
   "verifiee": "2026-11-28T08:01:12+00:00"
+ },
+ {
+  "analyse": {
+   "ecart_pct": 37,
+   "feu": false,
+   "frais": 8.5,
+   "marge_eur": 8,
+   "marge_pct": 13,
+   "mediane": 99.2,
+   "montrer_marge": true,
+   "montrer_score": true,
+   "nb_historique": 232,
+   "pieces": 0,
+   "port_revente": 6,
+   "revente": 85.0,
+   "revente_origine": "watchlist"
+  },
+  "date_alerte": "2026-11-28T09:31:14+00:00",
+  "etat": "fonctionnel",
+  "photo": "https://images1.vinted.net/t/06_00c81_HXjxFgVLDA3mHPykcpPJNQ7y/310x430/46647cf6.webp?s=bbb72e7cdaff24186b1c911d2a7802b8a18711e2",
+  "prix_total": 62.45,
+  "recherche": "PSP 2000",
+  "source": "vinted",
+  "titre": "PSP 2004 silver",
+  "uid": "vinted:10998620557",
+  "url": "https://www.vinted.fr/items/10998620557",
+  "verifiee": "2026-11-28T09:31:16+00:00"
  }
 ]
